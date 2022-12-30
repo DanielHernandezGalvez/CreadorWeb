@@ -1,0 +1,15 @@
+.people{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--colorTextos);
+}

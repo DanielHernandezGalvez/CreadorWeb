@@ -1,0 +1,53 @@
+.hero {
+  height: 600px;
+  background-image: url("../1x/1x/Recurso\ 3.png");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor-textos{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.hero p{
+    font-weight:lighter;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.boton{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: var(--colorBotones);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    background-color: var(--colorFondo);
+}
+
+@media screen and (max-width:800px) {
+    .hero h1{
+     font-size: 38px;
+    }
+    .hero p{
+       font-size: 20px;
+    }
+   }

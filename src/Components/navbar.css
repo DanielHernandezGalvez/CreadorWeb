@@ -1,0 +1,40 @@
+/* navbar */
+
+.menu-navegacion {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.logo {
+  height: 70px;
+}
+
+.logo img {
+  display: inline;
+  height: 100%;
+}
+
+.enlaces li {
+  list-style: none;
+  display: inline-block;
+}
+
+.enlaces a {
+  color: var(--colorFondo);
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.enlaces a:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width:800px) {
+  .menu-navegacion{
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-evenly;
+  }
+ }

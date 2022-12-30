@@ -1,10 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Beneficios from "./Components/Beneficios";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+import Proyectos from "./Components/Proyectos";
+import Testimonios from "./Components/Testimonios";
+
 
 function App() {
   return (
-    <div className="App">
-    
+    <div>
+    <Navbar />
+    <Header />
+    <Beneficios />
+    <Proyectos />
+    <Testimonios />
+    <Footer />
     </div>
   );
 }

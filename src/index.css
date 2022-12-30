@@ -3,15 +3,34 @@
   padding: 0;
   box-sizing: border-box
 }
+html{
+  scroll-behavior: smooth;
+}
 
 :root{
-  --colorTextos: #e7e7e7;
+  --colorTextos: #7e7e7e;
   --colorBotones: #f69229;
   --colorFondo: #5d8a9f;
   --paddingSecciones: 60px 0;
-  --marginElementos: 40px:
+  --marginElementos: 40px;
 }
 
 body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:  sans-serif;
 }
+
+.contenedor{
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  /* overflow: hidden; */
+  padding: var(--paddingSecciones);
+}
+
+.copy{
+  text-align: center;
+  color: var(--colorTextos);
+  margin: 20px 0;
+}
+
+/* responsive */
