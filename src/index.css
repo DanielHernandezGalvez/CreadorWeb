@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+:root{
+  --colorTextos: #e7e7e7;
+  --colorBotones: #f69229;
+  --colorFondo: #5d8a9f;
+  --paddingSecciones: 60px 0;
+  --marginElementos: 40px:
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
