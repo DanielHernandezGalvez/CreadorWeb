@@ -7,7 +7,7 @@ const Beneficios = () => {
       <section id="inicio" className="contenedor">
         <h2 className="titulo-seccion">Bienvenido</h2>
         <p className="copy">
-          aqui va más texto sepa la bola para qué, pero puede ser algo util
+          breve descripción o reseña introductoria 
         </p>
         <div className="beneficios">
           <div className="beneficio">
