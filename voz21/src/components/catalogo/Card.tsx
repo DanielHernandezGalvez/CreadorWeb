@@ -1,25 +1,30 @@
+"use client";
 import React from "react";
 import styles from "./card.module.css";
 import data from "./data.json";
+import Link from "next/link";
 
 interface Voz {
   id: number;
   number: string;
   audio: string;
+  description: string;
 }
 
 const Card: React.FC = () => {
   return (
-    <div className={styles.card}>
+    <>
       {data.map((voz: Voz) => (
-        <div key={voz.id}>
+        <div className={styles.card} key={voz.id}>
           <h2>{voz.number}</h2>
-          <audio controls>
+          <p>{voz.description}</p>
+          <audio controls preload="none">
             <source src={voz.audio} />
           </audio>
+          <Link href={"/"}>Escuchar más</Link>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

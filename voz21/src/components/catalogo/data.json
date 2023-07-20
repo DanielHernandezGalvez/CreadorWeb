@@ -2,21 +2,25 @@
   {
     "id": 1,
     "number": "locutor 1",
+    "description": "Descripción breve de algo relacionado al locuttor",
     "audio": "./audios/inicio/audio1.mp3"
   },
   {
     "id": 2,
-    "number": "locutor 2",
+    "number": "locutora 2",
+    "description": "Descripción breve de algo relacionado al locuttor",
     "audio": "./audios/inicio/audio2.mp3"
   },
   {
     "id": 3,
     "number": "locutor 3",
+    "description": "Descripción breve de algo relacionado al locuttor",
     "audio": "./audios/inicio/audio3.mp3"
   },
   {
     "id": 4,
-    "number": "locutor 4",
+    "number": "locutora 4",
+    "description": "Descripción breve de algo relacionado al locuttor",
     "audio": "./audios/inicio/audio4.mp3"
   }
 ]

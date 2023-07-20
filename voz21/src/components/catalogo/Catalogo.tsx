@@ -5,7 +5,9 @@ export default function Catalogo() {
   return (
     <section className="section2">
       <h2 className="subtitulo">Catálogo</h2>
-      <Card />
+      <div className="card-container">
+        <Card />
+      </div>
     </section>
   );
 }
