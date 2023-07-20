@@ -11,7 +11,7 @@
     "number": "locutora 2",
     "description": "Descripción breve de algo relacionado al locuttor",
     "audio": "./audios/inicio/audio2.mp3",
-    "url": "/page2"
+    "url": "/pages/page2"
   },
   {
     "id": 3,
