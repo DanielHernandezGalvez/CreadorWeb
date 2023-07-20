@@ -71,6 +71,14 @@ a {
   align-items: center;
 }
 
+.whatsapp {
+  position: fixed;
+  z-index: 2;
+  bottom: 12px;
+  right: 12px;
+  border-radius: 50%;
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
