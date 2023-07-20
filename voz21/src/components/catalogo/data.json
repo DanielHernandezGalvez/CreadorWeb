@@ -4,7 +4,7 @@
     "number": "locutor 1",
     "description": "Descripción breve de algo relacionado al locuttor",
     "audio": "./audios/inicio/audio1.mp3",
-    "url": "/page2"
+    "url": "/pages/page2"
   },
   {
     "id": 2,
