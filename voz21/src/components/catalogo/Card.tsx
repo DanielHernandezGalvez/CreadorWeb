@@ -9,6 +9,7 @@ interface Voz {
   number: string;
   audio: string;
   description: string;
+  url: string;
 }
 
 const Card: React.FC = () => {
@@ -21,7 +22,7 @@ const Card: React.FC = () => {
           <audio controls preload="none">
             <source src={voz.audio} />
           </audio>
-          <Link href={"/"}>Escuchar más</Link>
+          <Link href={voz.url}>Escuchar más</Link>
         </div>
       ))}
     </>
