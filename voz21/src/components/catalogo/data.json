@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "number": "locutor 1",
+    "audio": "./audios/inicio/audio1.mp3"
+  },
+  {
+    "id": 2,
+    "number": "locutor 2",
+    "audio": "./audios/inicio/audio2.mp3"
+  },
+  {
+    "id": 3,
+    "number": "locutor 3",
+    "audio": "./audios/inicio/audio3.mp3"
+  },
+  {
+    "id": 4,
+    "number": "locutor 4",
+    "audio": "./audios/inicio/audio4.mp3"
+  }
+]
