@@ -19,10 +19,10 @@ const Navbar: React.FC = () => {
       </a>
 
       <div>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">News</a>
-        <a href="#">Contact</a>
+        <a href="/">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#contacto">Contacto</a>
 
         <button className={`${styles.icon} icon`} onClick={handleToggle}>
           {/* Utiliza el icono de hamburguesa o el icono de equis según el estado */}
