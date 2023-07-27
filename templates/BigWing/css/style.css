@@ -3,6 +3,10 @@
   --azul: #0046b0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -369,11 +373,15 @@ a:focus {
 .service_section .service_container .service_box {
   width: 30%;
   min-width: 300px;
-  margin: 35px 15px;
+  margin: 35px 20px;
+  border-radius: 18px;
+  background: #fff;
+  color: black;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
 }
 
 .service_section .service_container .service_box .img-box {
-  border-radius: 18px;
+  border-radius: 18px 18px 0 0;
   overflow: hidden;
 }
 
@@ -382,7 +390,7 @@ a:focus {
 }
 
 .service_section .service_container .service_box .detail-box {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .service_section .service_container .service_box .detail-box h4 {
@@ -756,3 +764,36 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+/* Adaptative */
+
+.btn {
+  background: var(--azul) !important;
+}
+
+.btn:hover {
+  color: "fff" !important;
+  background: var(--amarillo);
+}
+
+.desde {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.lista-servicios {
+  text-align: start;
+  font-size: 14px;
+}
+
+.title-h4 {
+  color: var(--azul);
+}
+
+.iconos {
+  transition: 0.4s;
+}
+
+.iconos:hover {
+  transform: scale(1.2) !important;
+}
