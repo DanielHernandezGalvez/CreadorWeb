@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <h1 className={styles.title}>
           Voz<span className={styles.logo21}>21</span>
         </h1>
-        <p>
+        <p className="my-3">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate
           earum iste repellendus quidem sequi autem doloremque aut ut voluptate
           quaerat quae quia officia, animi dolores facilis illum necessitatibus.
