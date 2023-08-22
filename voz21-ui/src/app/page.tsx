@@ -2,6 +2,7 @@ import Image from "next/image";
 import Head from "next/head";
 import Navigation from "../Components/Navigation/Navigation";
 import { Header } from "@/Components/Header/Header";
+import { About } from "@/Components/About/About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         </Head>
         <Navigation />
         <Header />
+        <About />
       </div>
     </>
   );

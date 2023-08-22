@@ -1,6 +1,5 @@
 "use client";
-import React, { useState } from "react";
-import { Fragment } from "react";
+import "./navigation.css";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavigationItem } from "@/interfaces/NavigationItem";
@@ -18,7 +17,7 @@ function classNames(...classes: (string | undefined)[]): string {
 
 const Navigation: React.FC = () => {
   return (
-    <Disclosure as="nav" className="bg-transparent ">
+    <Disclosure as="nav" className="navigation-color ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
