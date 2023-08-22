@@ -1,0 +1,15 @@
+.main-header {
+  width: 100vw;
+  height: 93vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("/images/main-header.jpg") center/cover no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-title {
+  font-size: 6rem;
+}
