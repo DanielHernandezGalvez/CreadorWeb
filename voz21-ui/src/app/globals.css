@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.main-header {
+  width: 100vw;
+  height: 100vh;
+  background: url("/public/images/main-header.jpg");
+}
