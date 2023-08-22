@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+}
