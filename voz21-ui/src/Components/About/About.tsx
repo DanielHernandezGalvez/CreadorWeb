@@ -5,8 +5,8 @@ import "./about.css";
 
 export const About: React.FC = () => {
   return (
-    <div className="h-screen about bg-gray-300 ">
-      <h1 className="text-5xl title font-bold my-20 mx-auto">
+    <div className="h-screen about bg-gray-200 ">
+      <h1 className="text-5xl text-black title font-bold my-20 mx-auto">
         ¿Quienes Somos?
       </h1>
       <div className="flex container items-center flex-wrap">
