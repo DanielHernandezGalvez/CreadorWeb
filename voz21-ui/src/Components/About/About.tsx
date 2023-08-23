@@ -6,11 +6,11 @@ import "./about.css";
 export const About: React.FC = () => {
   return (
     <div className="h-screen about bg-gray-200 ">
-      <h1 className="text-5xl text-black title font-bold my-20 mx-auto">
+      <h1 className="text-5xl text-gray-600 title font-bold my-20 mx-auto">
         ¿Quienes Somos?
       </h1>
       <div className="flex container items-center flex-wrap">
-        <h3 className="max-w-lg mx-auto mb-5 text-justify">
+        <h3 className="max-w-lg mx-auto mb-5 text-justify text-gray-600">
           Explicación de quienes somos Lorem, ipsum dolor sit amet consectetur
           adipisicing elit. Repudiandae sit magnam ducimus iste quia quaerat?
           Excepturi omnis dolor amet sit hic sint magni veritatis quia
