@@ -1,0 +1,13 @@
+/* Estilos del ítem de acordeón */
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden; /* Para ocultar el contenido al cerrar */
+  transition: all 0.3s ease !important; /* Transición en todas las propiedades con duración de 0.3 segundos */
+}
+
+/* Estilos para el contenido del ítem de acordeón */
+.accordion-content {
+  padding: 1rem;
+}

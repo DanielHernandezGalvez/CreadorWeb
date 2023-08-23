@@ -3,6 +3,7 @@ import Head from "next/head";
 import Navigation from "../Components/Navigation/Navigation";
 import { Header } from "@/Components/Header/Header";
 import { About } from "@/Components/About/About";
+import Catalogue from "@/Components/Catalogue/Catalogue";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Navigation />
         <Header />
         <About />
+        <Catalogue />
       </div>
     </>
   );
