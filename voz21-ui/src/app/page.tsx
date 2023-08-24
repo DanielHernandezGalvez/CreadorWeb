@@ -6,6 +6,8 @@ import { About } from "@/Components/About/About";
 import Catalogue from "@/Components/Catalogue/Catalogue";
 import Customers from "@/Components/Customers/Customers";
 import Contact from "@/Components/Contact/Contact";
+import Footer from "@/Components/Footer/Footer";
+import WhatsAppIcon from "@/Components/WhatsAppIcon/WhatsAppIcon";
 
 export default function Home() {
   return (
@@ -19,11 +21,13 @@ export default function Home() {
           />
         </Head>
         <Navigation />
+        <WhatsAppIcon />
         <Header />
         <About />
         <Catalogue />
         <Customers />
         <Contact />
+        <Footer />
       </div>
     </>
   );

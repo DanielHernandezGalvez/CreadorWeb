@@ -1,0 +1,25 @@
+#icons-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+  gap: 3rem;
+}
+
+.iconStyle {
+  width: 45px;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+
+.iconStyle:hover {
+  transform: scale(1.2);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
