@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
         href="./"
         className="inline-block px-6 py-3 bg-yellow-500 hover:bg-yellow-700 text-white font-semibold rounded-xl transition duration-300"
       >
-        Contáctanos
+        Ver Catálogo
       </Link>
     </div>
   );

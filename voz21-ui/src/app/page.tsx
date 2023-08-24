@@ -4,6 +4,7 @@ import Navigation from "../Components/Navigation/Navigation";
 import { Header } from "@/Components/Header/Header";
 import { About } from "@/Components/About/About";
 import Catalogue from "@/Components/Catalogue/Catalogue";
+import Customers from "@/Components/Customers/Customers";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Header />
         <About />
         <Catalogue />
+        <Customers />
       </div>
     </>
   );
