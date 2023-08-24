@@ -8,7 +8,7 @@ const Testimonials: React.FC = () => {
         <div className="card">
           <div className="layer"></div>
           <div className="content">
-            <p>
+            <p className="text-gray-700">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
@@ -20,7 +20,8 @@ const Testimonials: React.FC = () => {
               />
             </div>
             <div className="details">
-              <h2>Someone Famous</h2> <br /> <span>Web Designer</span>
+              <h2 className="text-gray-700">Someone Famous</h2> <br />{" "}
+              <span>Web Designer</span>
             </div>
           </div>
         </div>
@@ -28,7 +29,7 @@ const Testimonials: React.FC = () => {
         <div className="card">
           <div className="layer"></div>
           <div className="content">
-            <p>
+            <p className="text-gray-700">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
@@ -40,7 +41,8 @@ const Testimonials: React.FC = () => {
               />
             </div>
             <div className="details">
-              <h2>Someone Famous</h2> <br /> <span>Graphic Designer</span>
+              <h2 className="text-gray-700">Someone Famous</h2> <br />{" "}
+              <span>Graphic Designer</span>
             </div>
           </div>
         </div>
@@ -48,7 +50,7 @@ const Testimonials: React.FC = () => {
         <div className="card">
           <div className="layer"></div>
           <div className="content">
-            <p>
+            <p className="text-gray-700">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
@@ -60,7 +62,8 @@ const Testimonials: React.FC = () => {
               />
             </div>
             <div className="details">
-              <h2>Someone Famous</h2> <span>Product Designer</span>
+              <h2 className="text-gray-700">Someone Famous</h2>{" "}
+              <span>Product Designer</span>
             </div>
           </div>
         </div>
