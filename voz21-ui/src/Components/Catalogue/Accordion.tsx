@@ -7,9 +7,9 @@ const Accordion: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         <div>
           <AccordionItem
-            title="Pregunta 1"
-            content="Respuesta a la pregunta 1."
-            audioSrc="ruta/al/archivo1.mp3"
+            title="Alex Diablo"
+            content=""
+            audioSrc="/audios/AlexDiablo/ALEX(DIABLO)INSTITUCIONALFINAL.wav"
           />
         </div>
         <div>
