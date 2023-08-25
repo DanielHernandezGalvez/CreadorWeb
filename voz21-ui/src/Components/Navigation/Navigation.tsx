@@ -4,8 +4,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavigationItem } from "@/interfaces/NavigationItem";
 
 const navigation: NavigationItem[] = [
-  { name: "Inicio", href: "#", current: true },
-  { name: "Servicios", href: "#", current: false },
+  { name: "Inicio", href: "/", current: false },
+  { name: "Cursos", href: "/talleres", current: false },
   { name: "Nosotros", href: "#", current: false },
   { name: "Contacto", href: "#", current: false },
 ];

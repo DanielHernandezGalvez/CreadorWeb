@@ -22,7 +22,7 @@ export default function Home() {
         </Head>
         <Navigation />
         <WhatsAppIcon />
-        <Header />
+        <Header subtitle="Tu Voz" linkText="Ver Catálogo" linkUrl="./" />
         <About />
         <Catalogue />
         <Customers />
