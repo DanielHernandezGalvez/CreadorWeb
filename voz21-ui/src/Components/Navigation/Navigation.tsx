@@ -6,8 +6,8 @@ import { NavigationItem } from "@/interfaces/NavigationItem";
 const navigation: NavigationItem[] = [
   { name: "Inicio", href: "/", current: false },
   { name: "Cursos", href: "/talleres", current: false },
-  { name: "Nosotros", href: "#", current: false },
-  { name: "Contacto", href: "#", current: false },
+  { name: "Directora", href: "#", current: false },
+  { name: "Blog", href: "#", current: false },
 ];
 
 function classNames(...classes: (string | undefined)[]): string {
