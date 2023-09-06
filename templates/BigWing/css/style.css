@@ -797,3 +797,32 @@ a:focus {
 .iconos:hover {
   transform: scale(1.2) !important;
 }
+
+.web-types{
+  margin: -10px 10px 40px 10px;
+  min-height: 400px;
+}
+
+.card{
+  max-width: 300px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card a {
+  color: #0046b0;
+}
+.card a:hover {
+  color: #0b93b1;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px  0 0;
+  transition: .4s all;
+}
+
+.card img:hover{
+  transform: scale(1.1);
+}

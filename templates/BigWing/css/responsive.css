@@ -143,12 +143,15 @@
   .info_section .row > div {
     margin-bottom: 35px;
   }
+
 }
 
 @media (max-width: 576px) {
   .slider_section ol.carousel-indicators {
     right: 0;
   }
+
+
 }
 
 @media (max-width: 480px) {
