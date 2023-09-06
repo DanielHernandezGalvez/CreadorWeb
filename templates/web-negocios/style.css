@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 15pt;
   margin: 0;
@@ -350,4 +354,16 @@ textarea {
   .hero h1 {
     font-size: 35px;
   }
+}
+
+.footer-text{
+  margin: auto;
+  text-align: text-center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.cr{
+  display: flex;
+  justify-content: center;
 }

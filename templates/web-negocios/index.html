@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Agencia</title>
+    <title>Web de Negocios</title>
     <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -14,9 +14,9 @@
         <a href=""><h1>Logo</h1></a>
         <nav class="contenedor menu-nav">
           <a href="#">Inicio</a>
-          <a href="#">Acerca de</a>
-          <a href="#">Precios</a>
-          <a href="#">Contacto</a>
+          <a href="#about">Acerca de</a>
+          <a href="#precios">Precios</a>
+          <a href="#contacto">Contacto</a>
         </nav>
       </div>
       <div class="contenedor hero">
@@ -39,7 +39,7 @@
       </div>
     </header>
     <main>
-      <section class="contenedor seccion1">
+      <section id="about" class="contenedor seccion1">
         <h2 class="titulo-seccion">Sobre nosotros</h2>
         <div class="contenedor-sobre-nosotros">
           <img src="./img/icon.svg" alt="imagen" class="ilustracion" />
@@ -85,40 +85,40 @@
           </div>
         </div>
       </section>
-      <section class="contenedor">
+      <section id="precios" class="contenedor">
         <h2 class="titulo-seccion">Elige tu precio</h2>
         <section class="table-pricing">
           <div class="pricing">
-            <h3 class="name-pricing">basic</h3>
-            <p class="price">$37</p>
+            <h3 class="name-pricing">Basic</h3>
+            <p class="price">$2000</p>
             <h2 class="benefice">Beneficio</h2>
             <h2 class="benefice">Beneficio</h2>
             <h2 class="benefice">Beneficio</h2>
-            <a href="#" class="cta">Compra ya</a>
+            <a href="#contacto" class="cta">Compra ya</a>
           </div>
           <div class="pricing active">
             <h3 class="name-pricing">Ultimate</h3>
-            <p class="price">$37</p>
+            <p class="price">$3700</p>
             <h2 class="benefice">Beneficio</h2>
             <h2 class="benefice">Beneficio</h2>
             <h2 class="benefice">Beneficio</h2>
-            <a href="#" class="cta">Compra ya</a>
+            <a href="#contacto" class="cta">Compra ya</a>
           </div>
           <div class="pricing">
             <h3 class="name-pricing">Premium</h3>
-            <p class="price">$37</p>
+            <p class="price">$7000</p>
             <h2 class="benefice">Beneficio</h2>
             <h2 class="benefice">Beneficio</h2>
             <h2 class="benefice">Beneficio</h2>
-            <a href="#" class="cta">Compra ya</a>
+            <a href="#contacto" class="cta">Compra ya</a>
           </div>
         </section>
       </section>
     </main>
     <footer>
       <!-- aqui va el wave div con clase wave-->
-      <div class="contenedor">
-        <h2 class="titulo-seccion">Contactanos</h2>
+      <div id="contacto" class="contenedor">
+        <h2 class="titulo-seccion">Contáctanos</h2>
         <form action="" class="formulario">
           <input class="input" type="text" placeholder="Nombre" />
           <input class="input" type="email" placeholder="Email" />
@@ -126,6 +126,9 @@
           <input class="input submit" type="submit" value="Enviar" id="" />
         </form>
       </div>
+      <div class="cr">
+      <a href="https://creador-web.netlify.app/?fbclid=IwAR2gpf6b8p87jWOBxqo9iilwsre3X9bLizdT9MD8i_c6gU41Jnjz4h86PoM" class="footer-text">Copyright &copy CreadorWeb</a>
+    </div>
     </footer>
     <script src="main.js"></script>
   </body>
