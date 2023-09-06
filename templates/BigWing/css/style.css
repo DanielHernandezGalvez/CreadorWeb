@@ -826,3 +826,7 @@ a:focus {
 .card img:hover{
   transform: scale(1.1);
 }
+
+#contact{
+  margin-bottom: 100px;
+}

@@ -2,6 +2,9 @@
   .footer_bg {
     margin-top: 0;
   }
+  #contact{
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 992px) {
