@@ -8,6 +8,7 @@ import Customers from "@/Components/Customers/Customers";
 import Contact from "@/Components/Contact/Contact";
 import Footer from "@/Components/Footer/Footer";
 import WhatsAppIcon from "@/Components/WhatsAppIcon/WhatsAppIcon";
+import Gallery from "@/Components/Gallery/Gallery";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <WhatsAppIcon />
         <Header subtitle="Tu Voz" linkText="Ver Catálogo" linkUrl="./" />
         <About />
+        <Gallery />
         <Catalogue />
         <Customers />
         <Contact />
