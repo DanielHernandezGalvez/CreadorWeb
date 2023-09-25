@@ -41,13 +41,13 @@
     "name": "",
     "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/09-Jacob/Institucional_Jacob.wav",
-      "dinamica": "/audios/09-Jacob/Dinamica_Jacob.wav",
-      "documental": "/audios/09-Jacob/Documental_Jacob.wav",
-      "emotiva": "/audios/09-Jacob/Emotiva_Jacob.wav",
-      "informativa": "/audios/09-Jacob/Informativa_Jacob.wav",
-      "seductora": "/audios/09-Jacob/Seductora_Jacob.wav",
-      "actuada": "/audios/09-Jacob/Actuada_Jacob.wav",
+      "institucional": "/audios/09-jacob/Institucional_Jacob.wav",
+      "dinamica": "/audios/09-jacob/Dinamica_Jacob.wav",
+      "documental": "/audios/09-jacob/Documental_Jacob.wav",
+      "emotiva": "/audios/09-jacob/Emotiva_Jacob.wav",
+      "informativa": "/audios/09-jacob/Informativa_Jacob.wav",
+      "seductora": "/audios/09-jacob/Seductora_Jacob.wav",
+      "actuada": "/audios/09-jacob/Actuada_Jacob.wav",
       "ingles": "",
       "alAire": ""
     }
