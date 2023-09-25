@@ -11,21 +11,21 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                src="/gallery/0705.jpeg"
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                src="/gallery/0601.jpeg"
               />
             </div>
             <div className="w-full p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                src="/gallery/0501.jpeg"
               />
             </div>
           </div>
@@ -34,21 +34,21 @@ const Gallery = () => {
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                src="/gallery/0805.jpeg"
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                src="/gallery/1403.jpeg"
               />
             </div>
             <div className="w-1/2 p-1 md:p-2">
               <img
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
+                src="/gallery/1502.jpeg"
               />
             </div>
           </div>
