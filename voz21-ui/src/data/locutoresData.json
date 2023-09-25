@@ -74,5 +74,50 @@
       "ingles": "",
       "alAire": ""
     }
+  },
+  {
+    "numero": "Locutor 14",
+    "content": "",
+    "voz": {
+      "institucional": "/audios/14-vega/Institucional_Vega.wav",
+      "dinamica": "/audios/14-vega/Dinamica_Vega.wav",
+      "documental": "/audios/14-vega/Documental_Vega.wav",
+      "emotiva": "/audios/14-vega/Emotiva_Vega.wav",
+      "informativa": "/audios/14-vega/Informativa_Vega.wav",
+      "seductora": "/audios/14-vega/Seductora_Vega.wav",
+      "actuada": "/audios/14-vega/Actuada_Vega.wav",
+      "ingles": "/audios/14-vega/Ingles_Vega.wav",
+      "alAire": "/audios/14-vega/AlAire_Vega.wav"
+    }
+  },
+  {
+    "numero": "Locutor 17",
+    "content": "",
+    "voz": {
+      "institucional": "/audios/17-Abraham/Institucional_Abraham.wav",
+      "dinamica": "/audios/17-Abraham/Dinamica_Abraham.wav",
+      "documental": "/audios/17-Abraham/Documental_Abraham.wav",
+      "emotiva": "/audios/17-Abraham/Emotiva_Abraham.wav",
+      "informativa": "/audios/17-Abraham/Informativa_Abraham.wav",
+      "seductora": "/audios/17-Abraham/Seductora_Abraham.wav",
+      "actuada": "/audios/17-Abraham/Actuada_Abraham.wav",
+      "ingles": "",
+      "alAire": ""
+    }
+  },
+  {
+    "numero": "Locutor 20",
+    "content": "",
+    "voz": {
+      "institucional": "/audios/20-pablo/Institucional_JuanPablo.wav",
+      "dinamica": "/audios/20-pablo/Dinamica_JuanPablo.wav",
+      "documental": "/audios/20-pablo/Documental_JuanPablo.wav",
+      "emotiva": "/audios/20-pablo/Emotiva_JuanPablo.wav",
+      "informativa": "/audios/20-pablo/Informativa_JuanPablo.wav",
+      "seductora": "/audios/20-pablo/Seductora_JuanPablo.wav",
+      "actuada": "/audios/20-pablo/Actuada_JuanPablo.wav",
+      "ingles": "",
+      "alAire": ""
+    }
   }
 ]
