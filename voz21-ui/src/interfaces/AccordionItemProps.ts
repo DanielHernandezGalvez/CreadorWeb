@@ -1,5 +1,13 @@
 export interface AccordionItemProps {
-  title: string;
+  numero: string;
   content: string;
-  audioSrc: string;
+  institucional?: string;
+  dinamica?: string;
+  documental?: string;
+  emotiva?: string;
+  informativa?: string;
+  seductora?: string;
+  actuada?: string;
+  ingles?: string;
+  alAire?: string;
 }

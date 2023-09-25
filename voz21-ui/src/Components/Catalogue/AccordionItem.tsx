@@ -4,9 +4,17 @@ import "./catalogue.css";
 import { AccordionItemProps } from "@/interfaces/AccordionItemProps";
 
 const AccordionItem: React.FC<AccordionItemProps> = ({
-  title,
+  numero,
   content,
-  audioSrc,
+  institucional,
+  dinamica,
+  documental,
+  emotiva,
+  informativa,
+  seductora,
+  actuada,
+  ingles,
+  alAire,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,7 +28,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         className="flex justify-between items-center p-3 cursor-pointer"
         onClick={toggleAccordion}
       >
-        <h3 className="text-lg font-bold  text-gray-600">{title}</h3>
+        <h3 className="text-lg font-bold  text-gray-600">{numero}</h3>
         <span className="text-gray-600">
           {isOpen ? "Cerrar" : "Escuchar más"}
         </span>
@@ -32,7 +40,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         className="my-3 mx-auto flex justify-center items-center"
       >
         <audio controls preload="none">
-          <source src={audioSrc} type="audio/mpeg" />
+          <source src={institucional} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </div>
@@ -42,20 +50,6 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           <p>{content}</p>
 
           <div>
-            <h4 className="text-gray-600">Voz Emotiva</h4>
-            <audio
-              preload="none"
-              className="my-3 mx-auto flex justify-center items-center"
-              controls
-            >
-              <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)EMOTIVAFINAL.wav"
-                type="audio/mpeg"
-              />
-              Your browser does not support the audio element.
-            </audio>
-          </div>
-          <div>
             <h4 className="text-gray-600">Voz Dinámica</h4>
             <audio
               preload="none"
@@ -63,35 +57,32 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
               controls
             >
               <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav"
+                src={dinamica}
                 type="audio/mpeg"
               />
               Your browser does not support the audio element.
             </audio>
           </div>
           <div>
-            <h4 className="text-gray-600">Voz de Doblaje</h4>
+            <h4 className="text-gray-600">Voz Documental</h4>
             <audio
               preload="none"
               className="my-3 mx-auto flex justify-center items-center"
               controls
             >
-              <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)ACTUADAFINAL.wav"
-                type="audio/mpeg"
-              />
+              <source src={documental} type="audio/mpeg" />
               Your browser does not support the audio element.
             </audio>
           </div>
           <div>
-            <h4 className="text-gray-600">Voz Seductora</h4>
+            <h4 className="text-gray-600">Voz de Emotiva</h4>
             <audio
               preload="none"
               className="my-3 mx-auto flex justify-center items-center"
               controls
             >
               <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)SEDUCTORAFINAL.wav"
+                src={emotiva}
                 type="audio/mpeg"
               />
               Your browser does not support the audio element.
@@ -105,40 +96,68 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
               controls
             >
               <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)INFORMATIVAFINAL.wav"
+                src={informativa}
                 type="audio/mpeg"
               />
               Your browser does not support the audio element.
             </audio>
           </div>
           <div>
-            <h4 className="text-gray-600">Voz Inglés</h4>
+            <h4 className="text-gray-600">Voz Seductora</h4>
             <audio
               preload="none"
               className="my-3 mx-auto flex justify-center items-center"
               controls
             >
               <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)INGLESFINAL.wav"
+                src={seductora}
                 type="audio/mpeg"
               />
               Your browser does not support the audio element.
             </audio>
           </div>
           <div>
-            <h4 className="text-gray-600">Voz Documental</h4>
+            <h4 className="text-gray-600">Voz Actuada</h4>
             <audio
               preload="none"
               className="my-3 mx-auto flex justify-center items-center"
               controls
             >
               <source
-                src="/audios/AlexDiablo/ALEX(DIABLO)DOCUMENTAL.wav"
+                src={actuada}
                 type="audio/mpeg"
               />
               Your browser does not support the audio element.
             </audio>
           </div>
+
+          {ingles && (
+            <div>
+              <h4 className="text-gray-600">Voz en Inglés</h4>
+              <audio
+                preload="none"
+                className="my-3 mx-auto flex justify-center items-center"
+                controls
+              >
+                <source src={ingles} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
+
+          {alAire && (
+            <div>
+              <h4 className="text-gray-600">Voz Al Aire</h4>
+              <audio
+                preload="none"
+                className="my-3 mx-auto flex justify-center items-center"
+                controls
+              >
+                <source src={alAire} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
         </div>
       )}
     </div>
