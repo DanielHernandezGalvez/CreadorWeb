@@ -6,7 +6,7 @@ import { NavigationItem } from "@/interfaces/NavigationItem";
 const navigation: NavigationItem[] = [
   { name: "Inicio", href: "/", current: false },
   { name: "Cursos", href: "/talleres", current: false },
-  { name: "Directora", href: "#", current: false },
+  { name: "Directora", href: "/directora", current: false },
   { name: "Blog", href: "#", current: false },
 ];
 

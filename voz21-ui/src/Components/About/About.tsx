@@ -2,10 +2,11 @@ import Image from "next/image";
 import React from "react";
 import Us from "/public/images/about.jpg";
 import "./about.css";
+import Gallery from "../Gallery/Gallery";
 
 export const About: React.FC = () => {
   return (
-    <div className="h-screen about bg-gray-200 ">
+    <div className="about bg-gray-200 ">
       <h1 className="text-5xl text-gray-600 title font-bold my-20 mx-auto">
         ¿Quienes Somos?
       </h1>
@@ -16,14 +17,15 @@ export const About: React.FC = () => {
           Excepturi omnis dolor amet sit hic sint magni veritatis quia
           aspernatur itaque! Nisi, non architecto.
         </h3>
-        <div className="max-w-lg mx-auto mt-5">
+        {/* <div className="max-w-lg mx-auto mt-5">
           <Image
             src={Us}
             width={400}
             alt="Equipo de locutores"
             objectFit="true"
           />
-        </div>
+        </div> */}
+        <Gallery />
       </div>
     </div>
   );

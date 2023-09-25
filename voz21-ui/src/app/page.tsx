@@ -25,7 +25,7 @@ export default function Home() {
         <WhatsAppIcon />
         <Header subtitle="Tu Voz" linkText="Ver Catálogo" linkUrl="#catalogue" />
         <About />
-        <Gallery />
+        {/* <Gallery /> */}
         <Catalogue />
         <Customers />
         <Contact />
