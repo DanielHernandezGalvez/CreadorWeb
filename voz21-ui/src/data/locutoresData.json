@@ -1,38 +1,9 @@
 [
   {
-    "numero": "Locutor 19",
-    "content": "",
-    "voz": {
-        "institucional": "/audios/AlexDiablo/ALEX(DIABLO)INSTITUCIONALFINAL.wav",
-        "dinamica": "/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav",
-        "documental": "/audios/AlexDiablo/ALEX(DIABLO)DOCUMENTAL.wav",
-        "emotiva": "/audios/AlexDiablo/ALEX(DIABLO)EMOTIVAFINAL.wav",
-        "informativa": "/audios/AlexDiablo/ALEX(DIABLO)INFORMATIVAFINAL.wav",
-        "seductora": "/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav",
-        "actuada": "/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav",
-        "ingles": "/audios/AlexDiablo/ALEX(DIABLO)INGLESFINAL.wav",
-        "alAire": ""
-      },
-    "image": "/images/"
-  },
-  {
-    "numero": "Locutor 7",
-    "content": "",
-    "voz": {
-      "institucional": "/audios/07-daniel/Institucional_Daniel.wav",
-      "dinamica": "/audios/07-daniel/Actuada_Daniel.wav",
-      "documental": "/audios/07-daniel/Documental_Daniel.wav",
-      "emotiva": "/audios/07-daniel/Emotiva_Daniel.wav",
-      "informativa": "/audios/07-daniel/Informativa_Daniel.wav",
-      "seductora": "/audios/07-daniel/Seductora_Daniel.wav",
-      "actuada": "/audios/07-daniel/Actuada_Daniel.wav",
-      "ingles": "",
-      "alAire": ""
-    }
-  },
-  {
     "numero": "Locutor 2",
     "content": "",
+    "name": "",
+    "sexo": "hombre",
     "voz": {
       "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
       "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
@@ -45,9 +16,30 @@
       "alAire": ""
     }
   },
+
+  {
+    "numero": "Locutor 7",
+    "content": "",
+    "name": "",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/07-daniel/Institucional_Daniel.wav",
+      "dinamica": "/audios/07-daniel/Actuada_Daniel.wav",
+      "documental": "/audios/07-daniel/Documental_Daniel.wav",
+      "emotiva": "/audios/07-daniel/Emotiva_Daniel.wav",
+      "informativa": "/audios/07-daniel/Informativa_Daniel.wav",
+      "seductora": "/audios/07-daniel/Seductora_Daniel.wav",
+      "actuada": "/audios/07-daniel/Actuada_Daniel.wav",
+      "ingles": "",
+      "alAire": ""
+    }
+  },
+
   {
     "numero": "Locutor 9",
     "content": "",
+    "name": "",
+    "sexo": "hombre",
     "voz": {
       "institucional": "/audios/09-Jacob/Institucional_Jacob.wav",
       "dinamica": "/audios/09-Jacob/Dinamica_Jacob.wav",
@@ -63,6 +55,8 @@
   {
     "numero": "Locutora 11",
     "content": "",
+    "name": "",
+    "sexo": "mujer",
     "voz": {
       "institucional": "/audios/11-juno/Institucional_Juno.wav",
       "dinamica": "/audios/11-juno/Dinamica_Juno.wav",
@@ -78,6 +72,8 @@
   {
     "numero": "Locutor 14",
     "content": "",
+    "name": "",
+    "sexo": "hombre",
     "voz": {
       "institucional": "/audios/14-vega/Institucional_Vega.wav",
       "dinamica": "/audios/14-vega/Dinamica_Vega.wav",
@@ -93,6 +89,8 @@
   {
     "numero": "Locutor 17",
     "content": "",
+    "name": "",
+    "sexo": "hombre",
     "voz": {
       "institucional": "/audios/17-Abraham/Institucional_Abraham.wav",
       "dinamica": "/audios/17-Abraham/Dinamica_Abraham.wav",
@@ -106,8 +104,28 @@
     }
   },
   {
+    "numero": "Locutor 19",
+    "content": "",
+    "name": "",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/AlexDiablo/ALEX(DIABLO)INSTITUCIONALFINAL.wav",
+      "dinamica": "/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav",
+      "documental": "/audios/AlexDiablo/ALEX(DIABLO)DOCUMENTAL.wav",
+      "emotiva": "/audios/AlexDiablo/ALEX(DIABLO)EMOTIVAFINAL.wav",
+      "informativa": "/audios/AlexDiablo/ALEX(DIABLO)INFORMATIVAFINAL.wav",
+      "seductora": "/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav",
+      "actuada": "/audios/AlexDiablo/ALEX(DIABLO)DINAMICAFINAL.wav",
+      "ingles": "/audios/AlexDiablo/ALEX(DIABLO)INGLESFINAL.wav",
+      "alAire": ""
+    },
+    "image": "/images/"
+  },
+  {
     "numero": "Locutor 20",
     "content": "",
+    "name": "",
+    "sexo": "hombre",
     "voz": {
       "institucional": "/audios/20-pablo/Institucional_JuanPablo.wav",
       "dinamica": "/audios/20-pablo/Dinamica_JuanPablo.wav",
