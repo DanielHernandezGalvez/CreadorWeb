@@ -51,7 +51,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/0501.jpeg"
   },
   {
     "numero": "Locutora 6",
@@ -69,7 +69,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/0601.jpeg"
   },
 
   {
@@ -107,7 +107,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/0902.jpeg"
   },
   {
     "numero": "Locutor 10",
@@ -125,7 +125,7 @@
       "ingles": "/audios/10-octavio/OCTAVIO INGLES FINAL.wav",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/1003.jpeg"
   },
   {
     "numero": "Locutora 11",
@@ -143,7 +143,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/1104.jpeg"
   },
   {
     "numero": "Locutora 12",
@@ -161,7 +161,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/1202.jpeg"
   },
   {
     "numero": "Locutor 14",
@@ -179,7 +179,7 @@
       "ingles": "/audios/14-vega/Ingles_Vega.wav",
       "alAire": "/audios/14-vega/AlAire_Vega.wav"
     },
-    "img": ""
+    "img": "/gallery/1404.jpeg"
   },
   {
     "numero": "Locutor 17",
@@ -197,7 +197,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": ""
+    "img": "/gallery/1703.jpeg"
   },
   {
     "numero": "Locutor 19",
