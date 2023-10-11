@@ -2,6 +2,7 @@
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavigationItem } from "@/interfaces/NavigationItem";
+import Image from "next/image";
 
 const navigation: NavigationItem[] = [
   { name: "Inicio", href: "/", current: false },
@@ -35,10 +36,12 @@ const Navigation: React.FC = () => {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
+                  <Image
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src="/images/logo.png"
                     alt="Your Company"
+                    width={80}
+                    height={30}
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
