@@ -1,111 +1,36 @@
-import React from "react";
+"use client";
+import "./gallery.css";
+import Image from "next/image"; // Importa el componente Image de Next.js
 
-const Gallery = () => {
+const Gallery: React.FC = () => {
+  const images = [
+    { src: "/gallery/0501.jpeg", alt: "Image 1" },
+    { src: "/gallery/0601.jpeg", alt: "Image 2" },
+    { src: "/gallery/0705.jpeg", alt: "Image 3" },
+    { src: "/gallery/0805.jpeg", alt: "Image 3" },
+    { src: "/gallery/1404.jpeg", alt: "Image 3" },
+    { src: "/gallery/1502.jpeg", alt: "Image 3" },
+    { src: "/gallery/1601.jpeg", alt: "Image 3" },
+    { src: "/gallery/1703.jpeg", alt: "Image 3" },
+    { src: "/gallery/1801.jpeg", alt: "Image 3" },
+    // Agrega más imágenes si es necesario
+  ];
+
   return (
-    <div>
- 
-      <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-        <div className="-m-1 flex flex-wrap md:-m-2">
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center img-with-title"
-                src="/gallery/0705.jpeg"
-                title="Daniel Hernández"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/0601.jpeg"
-              />
-            </div>
-            <div className="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/0501.jpeg"
-              />
-            </div>
-          </div>
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/0805.jpeg"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1403.jpeg"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1502.jpeg"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="-m-1 flex flex-wrap md:-m-2">
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/2003.jpeg"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1902.jpeg"
-              />
-            </div>
-            <div className="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1801.jpeg"
-              />
-            </div>
-          </div>
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1703.jpeg"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1602.jpeg"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="/gallery/1502.jpeg"
-              />
-            </div>
-          </div>
-        </div>
-
+    <>
+      <div className="container flex justify-center py-5 gap-10 flex-wrap">
+        {images.map((image, index) => (
+          <Image
+            key={index}
+            src={image.src}
+            alt={image.alt}
+            width={250}
+            height={250}
+            className="rounded-lg transition-transform transform scale-100 hover:scale-110"
+          />
+        ))}
       </div>
-    </div>
+    </>
   );
 };
 

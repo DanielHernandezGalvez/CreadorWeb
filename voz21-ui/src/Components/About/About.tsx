@@ -6,7 +6,7 @@ import Gallery from "../Gallery/Gallery";
 
 export const About: React.FC = () => {
   return (
-    <div className="about bg-gray-200 ">
+    <div className="about bg-gray-200 pb-10">
       <h1 className="text-5xl text-gray-600 title font-bold my-20 mx-auto">
         ¿Quienes Somos?
       </h1>
