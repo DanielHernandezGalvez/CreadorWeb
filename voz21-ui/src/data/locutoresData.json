@@ -2,7 +2,7 @@
   {
     "numero": "Locutor 2",
     "content": "",
-    "name": "",
+    "name": "Eddy",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
@@ -15,13 +15,67 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0705.jpeg"
+    "img": "/gallery/2003.jpeg"
+  },
+  {
+    "numero": "Locutor 4",
+    "content": "",
+    "name": "Kevin",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/04-kevin/Institucional_Kevin.wav",
+      "dinamica": "/audios/04-kevin/Dinámica_Kevin.wav",
+      "documental": "/audios/04-kevin/Documental_Kevin.wav",
+      "emotiva": "/audios/04-kevin/Emotiva_Kevin.wav",
+      "informativa": "",
+      "seductora": "/audios/04-kevin/Seductora_Kevin.wav",
+      "actuada": "",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/"
+  },
+  {
+    "numero": "Locutor 5",
+    "content": "",
+    "name": "Lalo",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/05-lalo/LALO INSTITUCIONAL FINAL.wav",
+      "dinamica": "/audios/05-lalo/LALO DINAMICA FINAL.wav",
+      "documental": "/audios/05-lalo/LALO DOCUMENTAL FINAL.wav",
+      "emotiva": "/audios/05-lalo/LALO EMOTICA FINAL.wav",
+      "informativa": "/audios/05-lalo/LALO INFORMATICA FINAL.wav",
+      "seductora": "/audios/05-lalo/LALO SEDUCTORA FINAL.wav",
+      "actuada": "/audios/05-lalo/LALO ACTUADA FINAL.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/"
+  },
+  {
+    "numero": "Locutora 6",
+    "content": "",
+    "name": "Mariana",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/06-mariana/MARIANA INSTITUCIONAL FINAL.wav",
+      "dinamica": "/audios/06-mariana/MARIANA DINAMICA FINAL.wav",
+      "documental": "/audios/06-mariana/MARIANA DOCUMENTAL FINAL.wav",
+      "emotiva": "/audios/06-mariana/MARIANA EMOTIVA FINAL.wav",
+      "informativa": "/audios/06-mariana/MARIANA INFORMATIVA FINAL.wav.wav",
+      "seductora": "/audios/06-mariana/MARIANA SEDUCTORA FINAL.wav",
+      "actuada": "/audios/06-mariana/MARIANA ACTUADA FINAL.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/"
   },
 
   {
     "numero": "Locutor 7",
     "content": "",
-    "name": "",
+    "name": "Daniel",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/07-daniel/Institucional_Daniel.wav",
@@ -40,7 +94,7 @@
   {
     "numero": "Locutor 9",
     "content": "",
-    "name": "",
+    "name": "Jacob",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/09-jacob/Institucional_Jacob.wav",
@@ -52,12 +106,31 @@
       "actuada": "/audios/09-jacob/Actuada_Jacob.wav",
       "ingles": "",
       "alAire": ""
-    }
+    },
+    "img": "/gallery/"
+  },
+  {
+    "numero": "Locutor 10",
+    "content": "",
+    "name": "Octavio",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/10-octavio/OCTAVIO INSTITUCIONAL FINAL.wav",
+      "dinamica": "/audios/10-octavio/OCTAVIO DINAMICA FINAL.wav",
+      "documental": "/audios/10-octavio/OCTAVIO DOCUMENTAL FINAL.wav",
+      "emotiva": "/audios/10-octavio/OCTAVIO EMOTIVA FINAL.wav",
+      "informativa": "/audios/10-octavio/OCTAVIO INFORMATIVA FINAL.wav",
+      "seductora": "/audios/10-octavio/OCTAVIO SEDUCTORA FINAL.wav",
+      "actuada": "/audios/10-octavio/OCTAVIO ACTUADA FINAL.wav",
+      "ingles": "/audios/10-octavio/OCTAVIO INGLES FINAL.wav",
+      "alAire": ""
+    },
+    "img": "/gallery/"
   },
   {
     "numero": "Locutora 11",
     "content": "",
-    "name": "",
+    "name": "Juno",
     "sexo": "mujer",
     "voz": {
       "institucional": "/audios/11-juno/Institucional_Juno.wav",
@@ -69,12 +142,31 @@
       "actuada": "/audios/11-juno/Actuada_Juno.wav",
       "ingles": "",
       "alAire": ""
-    }
+    },
+    "img": "/gallery/"
+  },
+  {
+    "numero": "Locutora 12",
+    "content": "",
+    "name": "Gigi",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/11-juno/Institucional_Juno.wav",
+      "dinamica": "/audios/11-juno/Dinamica_Juno.wav",
+      "documental": "/audios/11-juno/Documental_Juno.wav",
+      "emotiva": "/audios/11-juno/Emotiva_Juno.wav",
+      "informativa": "/audios/11-juno/Informativa_Juno.wav",
+      "seductora": "/audios/11-juno/Seductora_Juno.wav",
+      "actuada": "/audios/11-juno/Actuada_Juno.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/"
   },
   {
     "numero": "Locutor 14",
     "content": "",
-    "name": "",
+    "name": "Vega",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/14-vega/Institucional_Vega.wav",
@@ -86,12 +178,13 @@
       "actuada": "/audios/14-vega/Actuada_Vega.wav",
       "ingles": "/audios/14-vega/Ingles_Vega.wav",
       "alAire": "/audios/14-vega/AlAire_Vega.wav"
-    }
+    },
+    "img": ""
   },
   {
     "numero": "Locutor 17",
     "content": "",
-    "name": "",
+    "name": "Abraham",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/17-Abraham/Institucional_Abraham.wav",
@@ -103,12 +196,13 @@
       "actuada": "/audios/17-Abraham/Actuada_Abraham.wav",
       "ingles": "",
       "alAire": ""
-    }
+    },
+    "img": ""
   },
   {
     "numero": "Locutor 19",
     "content": "",
-    "name": "",
+    "name": "Alex",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/AlexDiablo/ALEX(DIABLO)INSTITUCIONALFINAL.wav",
@@ -121,12 +215,12 @@
       "ingles": "/audios/AlexDiablo/ALEX(DIABLO)INGLESFINAL.wav",
       "alAire": ""
     },
-    "image": "/images/"
+    "img": "/gallery/1902.jpeg"
   },
   {
     "numero": "Locutor 20",
     "content": "",
-    "name": "",
+    "name": "Juan Pa",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/20-pablo/Institucional_JuanPablo.wav",
@@ -138,6 +232,7 @@
       "actuada": "/audios/20-pablo/Actuada_JuanPablo.wav",
       "ingles": "",
       "alAire": ""
-    }
+    },
+    "img": ""
   }
 ]
