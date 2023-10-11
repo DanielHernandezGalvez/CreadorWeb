@@ -56,9 +56,9 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
       </div>
 
       {isModalOpen && selectedLocutor && (
-        <div className="fixed inset-0 flex items-center justify-center z-50">
+        <div className="fixed  inset-0 flex items-center justify-center z-50">
           <div className="modal z-50">
-            <div className="modal-content p-4 bg-white rounded shadow-lg">
+            <div className="modal-content p-10 w-screen bg-white rounded shadow-lg">
               <button onClick={closeModal}>Cerrar</button>
               <h1>{selectedLocutor.name}</h1>
               <p>{selectedLocutor.numero}</p>
