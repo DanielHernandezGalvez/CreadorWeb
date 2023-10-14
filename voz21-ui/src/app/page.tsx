@@ -11,6 +11,7 @@ import Footer from "@/Components/Footer/Footer";
 import WhatsAppIcon from "@/Components/WhatsAppIcon/WhatsAppIcon";
 import Gallery from "@/Components/Gallery/Gallery";
 import FirstLayout from "@/Components/FirstLayout/FirstLayout";
+import Presentation from "@/Components/Nora/Presentation";
 
 type Section = "inicio" | "servicios" | "catalogo" | "locutores" | "directora";
 
@@ -56,6 +57,7 @@ export default function Home() {
         <Navigation  />
         <WhatsAppIcon />
         <Header subtitle="Tu Voz" linkText="Ver Catálogo" linkUrl="#catalogue" />
+        <Presentation />
         <FirstLayout />
         <About />
         <Catalogue />
