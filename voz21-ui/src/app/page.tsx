@@ -10,6 +10,7 @@ import Contact from "@/Components/Contact/Contact";
 import Footer from "@/Components/Footer/Footer";
 import WhatsAppIcon from "@/Components/WhatsAppIcon/WhatsAppIcon";
 import Gallery from "@/Components/Gallery/Gallery";
+import FirstLayout from "@/Components/FirstLayout/FirstLayout";
 
 type Section = "inicio" | "servicios" | "catalogo" | "locutores" | "directora";
 
@@ -55,11 +56,12 @@ export default function Home() {
         <Navigation  />
         <WhatsAppIcon />
         <Header subtitle="Tu Voz" linkText="Ver Catálogo" linkUrl="#catalogue" />
+        <FirstLayout />
         <About />
         <Catalogue />
          <Customers />
          <Contact />
-        <Gallery />
+        {/* <Gallery /> */}
          <Footer />
         <Customers />
         <Contact />
