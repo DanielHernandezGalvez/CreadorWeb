@@ -24,6 +24,9 @@ Esto marcó un error
 html {
   scroll-behavior: smooth;
 }
+.svg-inline--fa{
+  height: auto;
+}
 l
 body {
   color: rgb(var(--foreground-rgb));

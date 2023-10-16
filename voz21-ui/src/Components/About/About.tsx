@@ -12,10 +12,9 @@ export const About: React.FC = () => {
       </h1>
       <div className="flex container items-center flex-wrap">
         <h3 className="max-w-lg mx-auto mb-5 text-justify text-gray-600">
-          Explicación de quienes somos Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Repudiandae sit magnam ducimus iste quia quaerat?
-          Excepturi omnis dolor amet sit hic sint magni veritatis quia
-          aspernatur itaque! Nisi, non architecto.
+          Somos un estudio de Grabación donde puedes contratar diferentes voces para tus proyectos,
+          usar una cabina y estudio para grabar tus ideas, así como
+          tomar clases de formación en locución y doblaje
         </h3>
         {/* <div className="max-w-lg mx-auto mt-5">
           <Image

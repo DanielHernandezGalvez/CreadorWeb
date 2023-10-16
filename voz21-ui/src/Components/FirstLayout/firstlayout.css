@@ -1,0 +1,7 @@
+#img-about{
+    transition: .4s ease all;
+}
+
+#img-about:hover{
+    transform: scale(1.03);
+}

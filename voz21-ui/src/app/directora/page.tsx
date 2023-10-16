@@ -7,19 +7,15 @@ import Head from "next/head";
 const page = () => {
   return (
     <div>
-          <Head>
-          <title>Voz 21</title>
-          <meta
-            name="description"
-            content="Agencia de voces para locución y comerciales"
-          />
-        </Head>
-        <Navigation />
-      <Header
-        subtitle="Directora"
-        linkText="Nora García"
-        linkUrl="#nora"
-      />
+      <Head>
+        <title>Voz 21</title>
+        <meta
+          name="description"
+          content="Agencia de voces para locución y comerciales"
+        />
+      </Head>
+      <Navigation />
+      <Header subtitle="Directora" linkText="Nora García" linkUrl="#nora" />
       <Presentation />
     </div>
   );

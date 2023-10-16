@@ -56,8 +56,8 @@ export default function Home() {
         </Head>
         <Navigation  />
         <WhatsAppIcon />
-        <Header subtitle="Tu Voz" linkText="Ver Catálogo" linkUrl="#catalogue" />
-        <Presentation />
+        <Header subtitle="Tu Voz" linkText="Conócenos" linkUrl="#bienvenido" />
+   
         <FirstLayout />
         <About />
         <Catalogue />
