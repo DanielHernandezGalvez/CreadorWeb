@@ -61,12 +61,12 @@ export default function Home() {
    
         <FirstLayout />
         <Services />
-        <About />
+        {/* <About /> */}
         <Catalogue />
-         <Customers />
-         <Contact />
+         {/* <Customers /> */}
+         {/* <Contact /> */}
         {/* <Gallery /> */}
-         <Footer />
+         {/* <Footer /> */}
         <Customers />
         <Contact />
         <Footer />
