@@ -1,0 +1,59 @@
+.service-box {
+  width: 300px;
+  height: 320px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  background-color: var(--yellow);
+  border-radius: 15px;
+  transition: .3s ease-in-out all;
+}
+
+.service-box:hover{
+    transform: scale(1.03);
+    background-color: var(--gray);
+}
+.service-box:hover h4{
+    color: white;
+}
+.service-box:hover p{
+    color: white;
+}
+.service-box:hover div a{
+    color: white;
+}
+
+.service-box h4 {
+  color: var(--gray);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.service-box p {
+  color: var(--gray);
+
+  text-align: center;
+  padding: 20px;
+}
+.service-box div a {
+  color: var(--gray);
+
+  text-align: center;
+  padding: 20px;
+}
+
+.cta-div{
+margin-top: 20px;
+}
+
+.cta-services{
+    font-weight: bold;
+    transition: .3s ease-in-out all;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cta-services:hover{
+    background-color: var(--yellow);
+    padding: 10px;
+    border-radius: 14px;
+    color: var(--gray);
+}

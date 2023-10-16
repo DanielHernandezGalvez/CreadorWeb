@@ -13,3 +13,16 @@
 .main-header-title {
   font-size: 6rem;
 }
+
+.text-yellow{
+  color: var(--yellow);
+}
+
+.bg-yellow{
+  background-color: var(--yellow);
+  color: var(--gray);
+}
+.bg-yellow:hover{
+  background-color: var(--gray);
+  color: var(--yellow);
+}

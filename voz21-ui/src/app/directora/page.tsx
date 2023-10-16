@@ -3,6 +3,9 @@ import Navigation from "@/Components/Navigation/Navigation";
 import Presentation from "@/Components/Nora/Presentation";
 import React from "react";
 import Head from "next/head";
+import Contact from "@/Components/Contact/Contact";
+import Footer from "@/Components/Footer/Footer";
+import WhatsAppIcon from "@/Components/WhatsAppIcon/WhatsAppIcon";
 
 const page = () => {
   return (
@@ -15,8 +18,11 @@ const page = () => {
         />
       </Head>
       <Navigation />
+      <WhatsAppIcon />
       <Header subtitle="Directora" linkText="Nora García" linkUrl="#nora" />
       <Presentation />
+      <Contact />
+      <Footer />
     </div>
   );
 };

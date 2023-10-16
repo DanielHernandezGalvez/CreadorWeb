@@ -36,44 +36,7 @@ const FirstLayout = () => {
         </div>
       </div>
 
-      <div className=" flex items-center h-auto">
-        <div className="flex flex-col items-center h-auto">
-          <Image
-            className="mx-auto rounded-xl"
-            src={estudio}
-            width={200}
-            height={50}
-            alt="voz21"
-          />
-          <h3>Mira nuestro catálogo de voces y conoce a nuestros locutores</h3>
-        </div>
-        <div className="flex flex-col items-center h-auto">
-        <Image
-            className="mx-auto rounded-xl"
-            src={estudio}
-            width={200}
-            height={50}
-            alt="voz21"
-          />
-          <h3>
-            ¿Quieres formate en el área de locucion y doblaje? aquí tienes todos
-            nuestros cursos
-          </h3>
-        </div>{" "}
-        <div className="flex flex-col items-center h-auto">
-        <Image
-            className="mx-auto rounded-xl"
-            src={estudio}
-            width={200}
-            height={50}
-            alt="voz21"
-          />
-          <h3>
-            ¿Necesitas un lugar para grabar audio o video? Contáctanos para
-            tener acceso a Voz 21 Estudio
-          </h3>
-        </div>
-      </div>
+    
     </div>
   );
 };

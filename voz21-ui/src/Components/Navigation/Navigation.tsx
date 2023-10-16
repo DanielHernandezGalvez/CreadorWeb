@@ -8,8 +8,9 @@ import Link from "next/link";
 const navigation: NavigationItem[] = [
   { name: "Inicio", href: "/", current: false },
   { name: "Cursos", href: "/talleres", current: false },
+  { name: "Catálogo de Voces", href: "catalogo", current: false },
+  { name: "Galería", href: "galeria", current: false },
   { name: "Directora", href: "/directora", current: false },
-  { name: "Blog", href: "#", current: false },
 ];
 
 function classNames(...classes: (string | undefined)[]): string {
@@ -78,7 +79,7 @@ const Navigation: React.FC = () => {
                   className={classNames(
                     item.current
                       ? "bg-gray-200 text-white"
-                      : "text-gray-700 hover:bg-gray-500 hover:text-gray-800",
+                      : "text-white hover:bg-gray-500 hover:text-gray-800",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

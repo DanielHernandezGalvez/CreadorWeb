@@ -5,3 +5,16 @@
   .slides-container::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
   }
+
+  .btn-modal{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 67, 67);
+    color: white;
+    text-align: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .btn-modal:hover{
+    background-color: brown;
+  }
