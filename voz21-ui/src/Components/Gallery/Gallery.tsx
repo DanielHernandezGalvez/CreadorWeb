@@ -40,7 +40,7 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
 
   return (
     <>
-    <div className="about bg-gray-200">
+    <div className="gallery-flexbox bg-gray-200">
       <h1 className="text-5xl text-gray-600 title font-bold my-20 mx-auto">
           Galería de Locutores
         </h1>

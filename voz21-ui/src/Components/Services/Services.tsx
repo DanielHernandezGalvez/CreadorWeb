@@ -4,8 +4,8 @@ import Link from "next/link";
 const Services = () => {
   return (
     <>
-      <div className="about  pb-10">
-        <h1 className="text-5xl text-gray-600 title font-bold my-10 mx-auto">
+      <div className="about pb-10">
+        <h1 className="text-5xl text-gray-600 title font-bold my-10 mx-auto ">
           Servicios
         </h1>
         <div className="p-10 my-10 mx-auto flex gap-10 flex-wrap justify-center">
