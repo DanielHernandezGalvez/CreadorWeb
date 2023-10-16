@@ -8,6 +8,7 @@ import {
   faTiktok,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 
 const Contact: React.FC = () => {
   return (
@@ -24,31 +25,39 @@ const Contact: React.FC = () => {
           <p className="text-gray-500">Telefono</p>
         </div>
         <div className="icons">
-          <FontAwesomeIcon
-            className="text-yellow-500 iconStyle"
-            icon={faEnvelope}
-          />
+          <Link href="mailto:voz21alaire@gmail.com">
+            <FontAwesomeIcon
+              className="text-yellow-500 iconStyle"
+              icon={faEnvelope}
+            />
+          </Link>
           <p className="text-gray-500">correo</p>
         </div>
         <div className="icons">
-          <FontAwesomeIcon
-            className="text-yellow-500 iconStyle"
-            icon={faFacebook}
-          />
+          <Link href="https://www.facebook.com/detonadorRadio">
+            <FontAwesomeIcon
+              className="text-yellow-500 iconStyle"
+              icon={faFacebook}
+            />
+          </Link>
           <p className="text-gray-500">Facebook</p>
         </div>
         <div className="icons">
-          <FontAwesomeIcon
-            className="text-yellow-500 iconStyle"
-            icon={faInstagram}
-          />
+          <Link href="https://www.instagram.com/voz21_/">
+            <FontAwesomeIcon
+              className="text-yellow-500 iconStyle"
+              icon={faInstagram}
+            />
+          </Link>
           <p className="text-gray-500">Instagram</p>
         </div>
         <div className="icons">
-          <FontAwesomeIcon
-            className="text-yellow-500 iconStyle"
-            icon={faTiktok}
-          />
+          <Link href="https://www.tiktok.com/@voz.21">
+            <FontAwesomeIcon
+              className="text-yellow-500 iconStyle"
+              icon={faTiktok}
+            />
+          </Link>
           <p className="text-gray-500">Tik tok</p>
         </div>
         <div className="icons">

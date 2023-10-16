@@ -4,10 +4,10 @@ import CourseCard from "./CourseCard";
 
 const Courses: React.FC = () => {
   return (
-    <div id="cursos" className="bg-gray-200 min-h-screen p-8">
+    <div id="cursos" className="bg-gray-200  p-8">
       <div className="container mx-auto mt-8">
-        <h1 className="text-5xl text-gray-600 title font-bold  text-center">Cursos y Talleres</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap">
+        <h1 className="text-5xl text-gray-600 title font-bold  text-center my-10">Cursos y Talleres</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap pt-10 pb-10">
           <CourseCard
             title="Locucion comercial"
             description="Fechas"
