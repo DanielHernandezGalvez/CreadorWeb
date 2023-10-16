@@ -3,6 +3,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavigationItem } from "@/interfaces/NavigationItem";
 import Image from "next/image";
+import Link from "next/link";
 
 const navigation: NavigationItem[] = [
   { name: "Inicio", href: "/", current: false },
@@ -47,7 +48,7 @@ const Navigation: React.FC = () => {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className={classNames(
@@ -59,7 +60,7 @@ const Navigation: React.FC = () => {
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

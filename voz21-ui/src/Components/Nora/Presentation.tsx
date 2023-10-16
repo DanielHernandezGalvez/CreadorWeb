@@ -11,7 +11,7 @@ const Presentation: React.FC = () => {
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
 
     </head>
-    <div className="h-screen">
+    <div className="">
       <h2 className="text-5xl text-gray-600 title font-bold my-20 mx-auto text-center">
         ¿Quien es Nora?
       </h2>
