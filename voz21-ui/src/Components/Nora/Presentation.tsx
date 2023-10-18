@@ -86,7 +86,7 @@ const Presentation: React.FC = () => {
           </div>
         </div>
         <div className="container">
-          <h4 className="text-3xl font-bold text-gray-600 text-center pt-10">
+          <h4 className="text-3xl font-bold text-gray-600 text-center pt-10 ">
             En voz 21 nos orgullecemos de tenerla como directora de esta su casa
             donde además de dirigir y coordinar todas las áreas de voz 21 forma
             parte de nuestros Maestros Docentes.
