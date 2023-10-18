@@ -30,7 +30,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         onClick={toggleAccordion}
       >
         <h3 className="text-lg font-bold  text-gray-600">{numero}</h3>
-        <span className="text-yellow-600 font-bold  p-1 rounded-md shadow-sm hover:bg-gray-300">
+        <span className="text-yellow-500 font-bold  p-1 rounded-md shadow-sm hover:bg-gray-200">
           {isOpen ? <p className="text-red-600 font-bold">Cerrar</p> : "Escuchar más"}
         </span>
       </div>
