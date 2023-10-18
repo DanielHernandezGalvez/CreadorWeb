@@ -2,6 +2,8 @@ import React from "react";
 import "./header.css";
 import Link from "next/link";
 import { HeaderProps } from "@/interfaces/HeaderProps";
+import Image from "next/image";
+import logo from "/public/images/logo.png"
 
 export const Header: React.FC<HeaderProps> = ({
   subtitle,
@@ -10,6 +12,7 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <div className="main-header ">
+
       <h1 className="main-header-title font-bold text-center text-white">
         Voz <span className="text-yellow">21</span>
       </h1>

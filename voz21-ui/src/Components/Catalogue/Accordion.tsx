@@ -2,11 +2,29 @@
 
 import AccordionItem from "./AccordionItem";
 import locutoresData from "../../data/locutoresData.json"
-const Accordion: React.FC = () => {
+
+interface AccordionProps {
+  selectedOption: string;
+}
+
+const Accordion: React.FC<AccordionProps> = ({ selectedOption }) => {
   return (
     <div className="container mx-auto p-4">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {locutoresData.map((item, index) => (
+      {locutoresData
+          .filter((item) => {
+            if (selectedOption === "All") {
+              return true; // Mostrar todos los elementos
+            } else if (selectedOption === "Women" && item.sexo === "mujer") {
+              return true; // Mostrar solo voces de mujer
+            } else if (selectedOption === "Men" && item.sexo === "hombre") {
+              return true; // Mostrar solo voces de hombre
+            } else if (selectedOption === "English" && item.voz.ingles !== "") {
+              return true; // Mostrar solo voces en inglés
+            }
+            return false;
+          })
+          .map((item, index) => (
         <div key={index}>
           <AccordionItem
             numero={item.numero}
