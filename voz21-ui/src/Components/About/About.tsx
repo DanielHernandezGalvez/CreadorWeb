@@ -12,9 +12,9 @@ export const About: React.FC = () => {
       </h1>
       <div className="flex container items-center flex-wrap">
         <h3 className="max-w-lg mx-auto mb-5 text-justify text-gray-600">
-          Somos un estudio de Grabación donde puedes contratar diferentes voces para tus proyectos,
-          usar una cabina y estudio para grabar tus ideas, así como
-          tomar clases de formación en locución y doblaje
+          Somos un estudio de Grabación donde puedes contratar diferentes voces
+          para tus proyectos, usar una cabina y estudio para grabar tus ideas,
+          así como tomar clases de formación en locución y doblaje
         </h3>
         {/* <div className="max-w-lg mx-auto mt-5">
           <Image
