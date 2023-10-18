@@ -47,7 +47,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
 
       {isOpen && (
         <div className="p-3">
-          <p>{content}</p>
+          {/* <p>{content}</p> */}
 
           <div>
             <h4 className="text-gray-600">Voz Dinámica</h4>

@@ -1,7 +1,29 @@
 [
   {
+    "numero": "Locutor 1",
+    "content": "",
+    "name": "Yisus",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
+      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
+      "documental": "/audios/02-eddy/Documental_Eddy.wav",
+      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
+      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
+      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
+      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/0101.jpeg",
+    "img2": "/gallery/0102.jpeg",
+    "img3": "/gallery/0103.jpeg",
+    "img4": "/gallery/0104.jpeg",
+    "img5": "/gallery/0105.jpeg"
+  },
+  {
     "numero": "Locutor 2",
-    "content": "Descripción o breve historia",
+    "content": "",
     "name": "Eddy",
     "sexo": "hombre",
     "voz": {
@@ -15,7 +37,33 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/2003.jpeg"
+    "img": "/gallery/0201.jpeg",
+    "img2": "/gallery/0202.jpeg",
+    "img3": "/gallery/0203.jpeg",
+    "img4": "/gallery/0204.jpeg",
+    "img5": "/gallery/0205.jpeg"
+  },
+  {
+    "numero": "Locutor 3",
+    "content": "",
+    "name": "Santiago",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
+      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
+      "documental": "/audios/02-eddy/Documental_Eddy.wav",
+      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
+      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
+      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
+      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/0301.jpeg",
+    "img2": "/gallery/0302.jpeg",
+    "img3": "/gallery/0303.jpeg",
+    "img4": "/gallery/0304.jpeg",
+    "img5": "/gallery/0305.jpeg"
   },
   {
     "numero": "Locutor 4",
@@ -33,7 +81,11 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/"
+    "img": "/gallery/0401.jpeg",
+    "img2": "/gallery/0402.jpeg",
+    "img3": "/gallery/0403.jpeg",
+    "img4": "/gallery/0404.jpeg",
+    "img5": "/gallery/0405.jpeg"
   },
   {
     "numero": "Locutor 5",
@@ -51,7 +103,11 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0501.jpeg"
+    "img": "/gallery/0501.jpeg",
+    "img2": "/gallery/0502.jpeg",
+    "img3": "/gallery/0503.jpeg",
+    "img4": "/gallery/0504.jpeg",
+    "img5": "/gallery/0505.jpeg"
   },
   {
     "numero": "Locutora 6",
@@ -69,7 +125,11 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0601.jpeg"
+    "img": "/gallery/0601.jpeg",
+    "img2": "/gallery/0602.jpeg",
+    "img3": "/gallery/0603.jpeg",
+    "img4": "/gallery/0604.jpeg",
+    "img5": "/gallery/0605.jpeg"
   },
 
   {
@@ -88,9 +148,35 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0705.jpeg"
+    "img": "/gallery/0705.jpeg",
+    "img2": "/gallery/0702.jpeg",
+    "img3": "/gallery/0703.jpeg",
+    "img4": "/gallery/0704.jpeg",
+    "img5": "/gallery/0705.jpeg"
   },
 
+  {
+    "numero": "Locutora 8",
+    "content": "",
+    "name": "Delia",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/07-daniel/Institucional_Daniel.wav",
+      "dinamica": "/audios/07-daniel/Actuada_Daniel.wav",
+      "documental": "/audios/07-daniel/Documental_Daniel.wav",
+      "emotiva": "/audios/07-daniel/Emotiva_Daniel.wav",
+      "informativa": "/audios/07-daniel/Informativa_Daniel.wav",
+      "seductora": "/audios/07-daniel/Seductora_Daniel.wav",
+      "actuada": "/audios/07-daniel/Actuada_Daniel.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/0805.jpeg",
+    "img2": "/gallery/0802.jpeg",
+    "img3": "/gallery/0803.jpeg",
+    "img4": "/gallery/0804.jpeg",
+    "img5": "/gallery/0805.jpeg"
+  },
   {
     "numero": "Locutor 9",
     "content": "",
@@ -107,7 +193,11 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0902.jpeg"
+    "img": "/gallery/0902.jpeg",
+    "img2": "/gallery/0902.jpeg",
+    "img3": "/gallery/0903.jpeg",
+    "img4": "/gallery/0904.jpeg",
+    "img5": "/gallery/0905.jpeg"
   },
   {
     "numero": "Locutor 10",
@@ -125,7 +215,11 @@
       "ingles": "/audios/10-octavio/OCTAVIO INGLES FINAL.wav",
       "alAire": ""
     },
-    "img": "/gallery/1003.jpeg"
+    "img": "/gallery/1003.jpeg",
+    "img2": "/gallery/1002.jpeg",
+    "img3": "/gallery/1003.jpeg",
+    "img4": "/gallery/1004.jpeg",
+    "img5": "/gallery/1005.jpeg"
   },
   {
     "numero": "Locutora 11",
@@ -143,7 +237,11 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/1104.jpeg"
+    "img": "/gallery/1104.jpeg",
+    "img2": "/gallery/1102.jpeg",
+    "img3": "/gallery/1103.jpeg",
+    "img4": "/gallery/1104.jpeg",
+    "img5": "/gallery/1105.jpeg"
   },
   {
     "numero": "Locutora 12",
@@ -161,7 +259,33 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/1202.jpeg"
+    "img": "/gallery/1202.jpeg",
+    "img2": "/gallery/1202.jpeg",
+    "img3": "/gallery/1203.jpeg",
+    "img4": "/gallery/1204.jpeg",
+    "img5": "/gallery/1205.jpeg"
+  },
+  {
+    "numero": "Locutor 13",
+    "content": "",
+    "name": "Charly ",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/11-juno/Institucional_Juno.wav",
+      "dinamica": "/audios/11-juno/Dinamica_Juno.wav",
+      "documental": "/audios/11-juno/Documental_Juno.wav",
+      "emotiva": "/audios/11-juno/Emotiva_Juno.wav",
+      "informativa": "/audios/11-juno/Informativa_Juno.wav",
+      "seductora": "/audios/11-juno/Seductora_Juno.wav",
+      "actuada": "/audios/11-juno/Actuada_Juno.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/1302.jpeg",
+    "img2": "/gallery/1302.jpeg",
+    "img3": "/gallery/1303.jpeg",
+    "img4": "/gallery/1304.jpeg",
+    "img5": "/gallery/1305.jpeg"
   },
   {
     "numero": "Locutor 14",
@@ -179,7 +303,55 @@
       "ingles": "/audios/14-vega/Ingles_Vega.wav",
       "alAire": "/audios/14-vega/AlAire_Vega.wav"
     },
-    "img": "/gallery/1404.jpeg"
+    "img": "/gallery/1404.jpeg",
+    "img2": "/gallery/1402.jpeg",
+    "img3": "/gallery/1403.jpeg",
+    "img4": "/gallery/1404.jpeg",
+    "img5": "/gallery/1405.jpeg"
+  },
+  {
+    "numero": "Locutor 15",
+    "content": "",
+    "name": "Brenda ",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/14-vega/Institucional_Vega.wav",
+      "dinamica": "/audios/14-vega/Dinamica_Vega.wav",
+      "documental": "/audios/14-vega/Documental_Vega.wav",
+      "emotiva": "/audios/14-vega/Emotiva_Vega.wav",
+      "informativa": "/audios/14-vega/Informativa_Vega.wav",
+      "seductora": "/audios/14-vega/Seductora_Vega.wav",
+      "actuada": "/audios/14-vega/Actuada_Vega.wav",
+      "ingles": "/audios/14-vega/Ingles_Vega.wav",
+      "alAire": "/audios/14-vega/AlAire_Vega.wav"
+    },
+    "img": "/gallery/1504.jpeg",
+    "img2": "/gallery/1502.jpeg",
+    "img3": "/gallery/1503.jpeg",
+    "img4": "/gallery/1504.jpeg",
+    "img5": "/gallery/1505.jpeg"
+  },
+  {
+    "numero": "Locutor 16",
+    "content": "",
+    "name": "Nat ",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/14-vega/Institucional_Vega.wav",
+      "dinamica": "/audios/14-vega/Dinamica_Vega.wav",
+      "documental": "/audios/14-vega/Documental_Vega.wav",
+      "emotiva": "/audios/14-vega/Emotiva_Vega.wav",
+      "informativa": "/audios/14-vega/Informativa_Vega.wav",
+      "seductora": "/audios/14-vega/Seductora_Vega.wav",
+      "actuada": "/audios/14-vega/Actuada_Vega.wav",
+      "ingles": "/audios/14-vega/Ingles_Vega.wav",
+      "alAire": "/audios/14-vega/AlAire_Vega.wav"
+    },
+    "img": "/gallery/1604.jpeg",
+    "img2": "/gallery/1602.jpeg",
+    "img3": "/gallery/1603.jpeg",
+    "img4": "/gallery/1604.jpeg",
+    "img5": "/gallery/1605.jpeg"
   },
   {
     "numero": "Locutor 17",
@@ -197,7 +369,33 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/1703.jpeg"
+    "img": "/gallery/1703.jpeg",
+    "img2": "/gallery/1702.jpeg",
+    "img3": "/gallery/1703.jpeg",
+    "img4": "/gallery/1704.jpeg",
+    "img5": "/gallery/1705.jpeg"
+  },
+  {
+    "numero": "Locutor 18",
+    "content": "",
+    "name": "Kenya",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/17-Abraham/Institucional_Abraham.wav",
+      "dinamica": "/audios/17-Abraham/Dinamica_Abraham.wav",
+      "documental": "/audios/17-Abraham/Documental_Abraham.wav",
+      "emotiva": "/audios/17-Abraham/Emotiva_Abraham.wav",
+      "informativa": "/audios/17-Abraham/Informativa_Abraham.wav",
+      "seductora": "/audios/17-Abraham/Seductora_Abraham.wav",
+      "actuada": "/audios/17-Abraham/Actuada_Abraham.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/1803.jpeg",
+    "img2": "/gallery/1802.jpeg",
+    "img3": "/gallery/1803.jpeg",
+    "img4": "/gallery/1804.jpeg",
+    "img5": "/gallery/1805.jpeg"
   },
   {
     "numero": "Locutor 19",
@@ -215,7 +413,11 @@
       "ingles": "/audios/AlexDiablo/ALEX(DIABLO)INGLESFINAL.wav",
       "alAire": ""
     },
-    "img": "/gallery/1902.jpeg"
+    "img": "/gallery/1902.jpeg",
+    "img2": "/gallery/1902.jpeg",
+    "img3": "/gallery/1903.jpeg",
+    "img4": "/gallery/1904.jpeg",
+    "img5": "/gallery/1905.jpeg"
   },
   {
     "numero": "Locutor 20",
@@ -233,6 +435,10 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": ""
+    "img": "/gallery/2001.jpeg",
+    "img2": "/gallery/2002.jpeg",
+    "img3": "/gallery/2003.jpeg",
+    "img4": "/gallery/2004.jpeg",
+    "img5": "/gallery/2005.jpeg"
   }
 ]

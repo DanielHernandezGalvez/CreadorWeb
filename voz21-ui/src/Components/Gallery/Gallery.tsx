@@ -21,7 +21,11 @@ interface Locutor {
     ingles: string;
     alAire: string;
   };
-  img: string;
+  img?: string;
+  img2?: string;
+  img3?: string;
+  img4?: string;
+  img5?: string;
 }
 
 const Gallery: React.FC<GalleryProps> = ({ img }) => {
@@ -66,41 +70,51 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
               <h1 className="text-5xl font-bold text-gray-600 mb-5">{selectedLocutor.name}</h1>
               <p className="text-4xl font-bold text-gray-600">{selectedLocutor.numero}</p>
               <div className="flex flex-wrap gap-5 my-10 justify-center">
-              <Image
-              src={selectedLocutor.img}
-              alt="img"
-              width={150}
-              height={150}
-              className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-            />
-              <Image
-              src={selectedLocutor.img}
-              alt="img"
-              width={150}
-              height={150}
-              className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-            />
-              <Image
-              src={selectedLocutor.img}
-              alt="img"
-              width={150}
-              height={150}
-              className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-            />
-              <Image
-              src={selectedLocutor.img}
-              alt="img"
-              width={150}
-              height={150}
-              className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-            />
-              <Image
-              src={selectedLocutor.img}
-              alt="img"
-              width={150}
-              height={150}
-              className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-            />
+              {selectedLocutor.img && (
+                    <Image
+                      src={selectedLocutor.img}
+                      alt="img"
+                      width={150}
+                      height={150}
+                      className="rounded-lg transition-transform transform scale-100 hover:scale-110"
+                    />
+                  )}
+                  {selectedLocutor.img2 && (
+                    <Image
+                      src={selectedLocutor.img2}
+                      alt="img"
+                      width={150}
+                      height={150}
+                      className="rounded-lg transition-transform transform scale-100 hover:scale-110"
+                    />
+                  )}
+                  {selectedLocutor.img3 && (
+                    <Image
+                      src={selectedLocutor.img3}
+                      alt="img"
+                      width={150}
+                      height={150}
+                      className="rounded-lg transition-transform transform scale-100 hover:scale-110"
+                    />
+                  )}
+                  {selectedLocutor.img4 && (
+                    <Image
+                      src={selectedLocutor.img4}
+                      alt="img"
+                      width={150}
+                      height={150}
+                      className="rounded-lg transition-transform transform scale-100 hover:scale-110"
+                    />
+                  )}
+                  {selectedLocutor.img5 && (
+                    <Image
+                      src={selectedLocutor.img5}
+                      alt="img"
+                      width={150}
+                      height={150}
+                      className="rounded-lg transition-transform transform scale-100 hover:scale-110"
+                    />
+                  )}
             </div>
             <p className="text-3xl text-gray-600 font-bold">{selectedLocutor.content}</p>
               <button className="btn-modal" onClick={closeModal}>Cerrar</button>
