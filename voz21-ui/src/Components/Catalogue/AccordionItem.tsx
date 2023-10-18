@@ -23,14 +23,15 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   };
 
   return (
-    <div className="border rounded-md mb-2">
+    <div className="border rounded-md mb-2 shadow-md transition-transform transform scale-100 
+    hover:scale-105">
       <div
-        className="flex justify-between items-center p-3 cursor-pointer"
+        className="flex justify-between items-center p-3 cursor-pointer "
         onClick={toggleAccordion}
       >
         <h3 className="text-lg font-bold  text-gray-600">{numero}</h3>
-        <span className="text-gray-600">
-          {isOpen ? "Cerrar" : "Escuchar más"}
+        <span className="text-yellow-600 font-bold  p-1 rounded-md shadow-sm hover:bg-gray-300">
+          {isOpen ? <p className="text-red-600 font-bold">Cerrar</p> : "Escuchar más"}
         </span>
       </div>
       <h4 className="text-gray-600 ms-3">Voz institucional</h4>

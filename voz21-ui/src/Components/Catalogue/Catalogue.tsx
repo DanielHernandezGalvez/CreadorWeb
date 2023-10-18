@@ -20,14 +20,14 @@ const Catalogue: React.FC = () => {
       </h2>
       <span className="text-gray-600 m-2">¿Qué voz quieres escuchar?</span>
       <select
-        className="select pe-5 border rounded text-gray-600"
+        className="select p-2 py-2  pe-5 border rounded font-bold text-gray-600"
         value={selectedOption}
         onChange={handleSelectChange}
       >
-        <option value="All">Todas</option>
-        <option value="Women">Mujer</option>
-        <option value="Men">Hombre</option>
-        <option value="English">Inglés</option>
+        <option className="text-gray-600 font-bold" value="All">Todas</option>
+        <option className="text-gray-600 font-bold" value="Women">Mujer</option>
+        <option className="text-gray-600 font-bold" value="Men">Hombre</option>
+        <option className="text-gray-600 font-bold" value="English">Inglés</option>
       </select>
       <Accordion selectedOption={selectedOption} />
     </div>
