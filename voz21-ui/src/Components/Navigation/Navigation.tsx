@@ -6,11 +6,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navigation: NavigationItem[] = [
-  { name: "Inicio", href: "/", current: false },
-  { name: "Cursos", href: "/talleres", current: false },
+  // { name: "", href: "/", current: false },
+  { name: "Cursos y Diplomados", href: "/talleres", current: false },
   { name: "Catálogo de Voces", href: "catalogo", current: false },
+  { name: "Servicios", href: "galeria", current: false },
+  { name: "Testimonios", href: "galeria", current: false },
   { name: "Galería", href: "galeria", current: false },
-  { name: "Directora", href: "/directora", current: false },
+  { name: "Nora García", href: "/directora", current: false },
 ];
 
 function classNames(...classes: (string | undefined)[]): string {
@@ -38,6 +40,7 @@ const Navigation: React.FC = () => {
               </div>
               <div className="flex flex-1 items-center  justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center ">
+                  <Link href="/">
                   <Image
                     className="h-8 w-auto"
                     src="/images/logo.png"
@@ -45,6 +48,7 @@ const Navigation: React.FC = () => {
                     width={80}
                     height={30}
                   />
+                  </Link>
                 </div>
                 <div className="hidden  sm:ml-6 sm:block">
                   <div className="flex  space-x-4">
