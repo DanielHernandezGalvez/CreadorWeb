@@ -10,43 +10,43 @@ const Courses: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap pt-10 pb-10">
           <CourseCard
             title="Locucion comercial"
-            description="Fechas"
+            description="Próximamente"
             imageUrl="https://cdn.pixabay.com/photo/2016/11/29/03/42/mic-1867121_640.jpg"
           />
           <CourseCard
             title="Hablar en publico"
-            description="Fechas y horarios"
-            imageUrl="https://cdn.pixabay.com/photo/2016/11/23/18/05/concert-1854113_640.jpg"
+            description="Próximamente"
+            imageUrl="/hero/hablarenpublico.jpg"
           />
           <CourseCard
             title="Doblaje"
-            description="Fechas y horarios"
+            description="Próximamente"
             imageUrl="https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_640.jpg"
           />
           <CourseCard
             title="Doblaje avanzado"
-            description="Fechas y horarios"
-            imageUrl="https://cdn.pixabay.com/photo/2016/11/29/03/42/mic-1867121_640.jpg"
+            description="Próximamente"
+            imageUrl="/hero/bg1.jpg"
           />
           <CourseCard
             title="Produccion de radio"
-            description="Fechas y horarios"
+            description="Próximamente"
             imageUrl="https://cdn.pixabay.com/photo/2016/11/23/18/05/concert-1854113_640.jpg"
           />
           <CourseCard
             title="Loucion y produccion de podcast"
-            description="Fechas y horarios"
-            imageUrl="https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_640.jpg"
+            description="Próximamente"
+            imageUrl="/hero/bg2.jpg"
           />
           <CourseCard
-            title="Conduccion de television"
-            description="Fechas y horarios"
-            imageUrl="https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_640.jpg"
+            title="Conduccion de televisión"
+            description="Próximamente"
+            imageUrl="/hero/bg6.jpg"
           />
           <CourseCard
             title="Manejo de camara para redes sociales"
-            description="Fechas y horarios"
-            imageUrl="https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_640.jpg"
+            description="Próximamente"
+            imageUrl="/hero/bg7.jpg"
           />
 
           {/* Puedes agregar más tarjetas aquí según sea necesario */}

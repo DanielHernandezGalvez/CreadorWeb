@@ -20,10 +20,12 @@ const CourseCard: React.FC<CoursesProps> = ({
         hover:scale-110 "
       style={cardStyle}
     >
-      <div className="bg-opacity-75 rounded-t-lg p-4">
-        <div className="md:py-5 md:my-5 lg:py-20 lg:my-20 space-y-5 sm:py-20"></div>
-        <h2 className="text-xl font-semibold text-white">{title}</h2>
-        <p className="text-gray-200">{description}</p>
+      <div className="bg-opacity-75 rounded-t-lg  p-4">
+        <div className=" ">
+          <div className="md:py-5 md:my-5 lg:py-20 lg:my-20 space-y-5 sm:py-20"></div>
+          <h2 className="text-xl font-semibold text-white ">{title}</h2>
+          <p className="text-gray-200 ">{description}</p>
+        </div>
       </div>
     </div>
   );

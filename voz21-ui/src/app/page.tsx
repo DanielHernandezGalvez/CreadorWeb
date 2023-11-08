@@ -57,7 +57,7 @@ export default function Home() {
         </Head>
         <Navigation  />
         <WhatsAppIcon />
-        <Header subtitle="Tu Voz" linkText="Conócenos" linkUrl="#bienvenido" />
+        <Header subtitle="Tu Voz" linkText="Conócenos" linkUrl="#bienvenido" backgroundImage="/hero/bg1.jpg" />
    
         <FirstLayout />
         <Services />

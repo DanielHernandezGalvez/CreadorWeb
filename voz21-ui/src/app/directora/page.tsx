@@ -19,7 +19,7 @@ const page = () => {
       </Head>
       <Navigation />
       <WhatsAppIcon />
-      <Header subtitle="Directora" linkText="Nora García" linkUrl="#nora" />
+      <Header subtitle="Directora" linkText="Nora García" linkUrl="#nora" backgroundImage="/hero/bg6.JPG" />
       <Presentation />
       <Contact />
       <Footer />

@@ -7,12 +7,12 @@ import Link from "next/link";
 
 const navigation: NavigationItem[] = [
   // { name: "", href: "/", current: false },
-  { name: "Cursos y Diplomados", href: "/talleres", current: false },
+  { name: "Cursos", href: "talleres", current: false },
   { name: "Catálogo de Voces", href: "catalogo", current: false },
   // { name: "Servicios", href: "galeria", current: false },
   // { name: "Testimonios", href: "galeria", current: false },
   { name: "Galería", href: "galeria", current: false },
-  { name: "Nora García", href: "/directora", current: false },
+  { name: "Nora García", href: "directora", current: false },
 ];
 
 function classNames(...classes: (string | undefined)[]): string {

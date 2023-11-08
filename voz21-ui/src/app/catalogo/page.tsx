@@ -15,15 +15,20 @@ const page = () => {
         <Head>
           <title>Voz 21</title>
           <meta
-            name="description"
+            name="Catálogo de voces"
             content="Agencia de voces para locución y comerciales"
           />
         </Head>
         <Navigation />
         <WhatsAppIcon />
-        <Header subtitle="Catálogo de Voces" linkText="Contáctanos" linkUrl="#contact" />
+        <Header
+          subtitle="Catálogo de Voces"
+          linkText="Contáctanos"
+          linkUrl="#contact"
+          backgroundImage="/hero/bg7.JPG"
+        />
 
-        <Catalogue  />
+        <Catalogue />
 
         <Contact />
         <Footer />
