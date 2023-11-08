@@ -9,12 +9,12 @@ export const Header: React.FC<HeaderProps> = ({
   subtitle,
   linkText,
   linkUrl,
-  backgroundImage,
+  backgroundImageProps,
 }) => {
   return (
     <div
       className="main-header "
-      style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("${backgroundImage}")` }}
+      style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("${backgroundImageProps}")` }}
     >
       <h1 className="main-header-title font-bold text-center text-white">
         Voz <span className="text-yellow">21</span>

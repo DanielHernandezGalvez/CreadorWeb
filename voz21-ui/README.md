@@ -32,3 +32,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+json
+
+{
+    "numero": "Locutor 13",
+    "content": "",
+    "name": "Charly ",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/11-juno/Institucional_Juno.wav",
+      "dinamica": "/audios/11-juno/Dinamica_Juno.wav",
+      "documental": "/audios/11-juno/Documental_Juno.wav",
+      "emotiva": "/audios/11-juno/Emotiva_Juno.wav",
+      "informativa": "/audios/11-juno/Informativa_Juno.wav",
+      "seductora": "/audios/11-juno/Seductora_Juno.wav",
+      "actuada": "/audios/11-juno/Actuada_Juno.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/1302.jpeg",
+    "img2": "/gallery/1302.jpeg",
+    "img3": "/gallery/1303.jpeg",
+    "img4": "/gallery/1304.jpeg",
+    "img5": "/gallery/1305.jpeg"
+  },

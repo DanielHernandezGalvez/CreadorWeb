@@ -19,6 +19,8 @@ const Accordion: React.FC<AccordionProps> = ({ selectedOption }) => {
               return true; // Mostrar solo voces de mujer
             } else if (selectedOption === "Men" && item.sexo === "hombre") {
               return true; // Mostrar solo voces de hombre
+            } else if (selectedOption === "Jingle" && item.jingle ) {
+              return true;
             } else if (selectedOption === "English" && item.voz.ingles !== "") {
               return true; // Mostrar solo voces en inglés
             }
@@ -38,6 +40,7 @@ const Accordion: React.FC<AccordionProps> = ({ selectedOption }) => {
             actuada={item.voz.actuada}
             ingles={item.voz.ingles}
             alAire={item.voz.alAire}
+            jingle={item.voz.jingle}
           />
         </div>
       ))}

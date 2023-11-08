@@ -20,9 +20,14 @@ const page = () => {
         </Head>
         <Navigation />
         <WhatsAppIcon />
-        <Header subtitle="Galería" linkText="Contáctanos" linkUrl="#contact" backgroundImage="/hero/bg2.JPG" />
+        <Header
+          subtitle="Galería"
+          linkText="Contáctanos"
+          linkUrl="#contact"
+          backgroundImageProps="/hero/bg2.JPG"
+        />
 
-        <Gallery  />
+        <Gallery />
 
         <Contact />
         <Footer />

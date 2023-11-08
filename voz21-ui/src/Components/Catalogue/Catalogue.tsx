@@ -28,6 +28,7 @@ const Catalogue: React.FC = () => {
         <option className="text-gray-600 font-bold" value="Women">Mujer</option>
         <option className="text-gray-600 font-bold" value="Men">Hombre</option>
         <option className="text-gray-600 font-bold" value="English">Inglés</option>
+        <option className="text-gray-600 font-bold" value="Jingle">Jingle</option>
       </select>
       <Accordion selectedOption={selectedOption} />
     </div>

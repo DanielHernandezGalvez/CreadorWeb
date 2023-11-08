@@ -22,7 +22,7 @@ const page = () => {
         subtitle="Cursos y Talleres"
         linkText="Ver Cursos"
         linkUrl="#cursos"
-        backgroundImage="/hero/bg5.JPG"
+        backgroundImageProps="/hero/bg5.JPG"
       />
       <WhatsAppIcon />
   

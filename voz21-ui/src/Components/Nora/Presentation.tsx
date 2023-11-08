@@ -9,7 +9,7 @@ const Presentation: React.FC = () => {
   return (
     <>
       <div className="about">
-        <h2 className="text-5xl text-gray-600 title font-bold my-20 mx-auto text-center">
+        <h2 id="Nora" className="text-5xl text-gray-600 title font-bold my-20 mx-auto text-center">
           Lic. Nora Garcia Directora de voz 21
         </h2>
 

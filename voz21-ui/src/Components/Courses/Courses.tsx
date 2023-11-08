@@ -36,17 +36,17 @@ const Courses: React.FC = () => {
           <CourseCard
             title="Loucion y produccion de podcast"
             description="Próximamente"
-            imageUrl="/hero/bg2.jpg"
+            imageUrl="/hero/bg2.JPG"
           />
           <CourseCard
             title="Conduccion de televisión"
             description="Próximamente"
-            imageUrl="/hero/bg6.jpg"
+            imageUrl="/hero/bg6.JPG"
           />
           <CourseCard
             title="Manejo de camara para redes sociales"
             description="Próximamente"
-            imageUrl="/hero/bg7.jpg"
+            imageUrl="/hero/bg7.JPG"
           />
 
           {/* Puedes agregar más tarjetas aquí según sea necesario */}

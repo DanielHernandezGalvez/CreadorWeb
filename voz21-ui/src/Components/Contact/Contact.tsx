@@ -17,13 +17,13 @@ const Contact: React.FC = () => {
         Contáctanos
       </h1>
       <div id="icons-container">
-        <div className="icons ">
+        {/* <div className="icons ">
           <FontAwesomeIcon
             className="text-yellow-500 iconStyle"
             icon={faPhone}
           />
           <p className="text-gray-500">Telefono</p>
-        </div>
+        </div> */}
         <div className="icons">
           <Link href="mailto:voz21alaire@gmail.com">
             <FontAwesomeIcon
@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
           <p className="text-gray-500">correo</p>
         </div>
         <div className="icons">
-          <Link href="https://www.facebook.com/detonadorRadio">
+          <Link href="https://www.facebook.com/detonadorRadio" >
             <FontAwesomeIcon
               className="text-yellow-500 iconStyle"
               icon={faFacebook}
@@ -61,10 +61,12 @@ const Contact: React.FC = () => {
           <p className="text-gray-500">Tik tok</p>
         </div>
         <div className="icons">
+          <Link href="https://wa.me/5213335577482">
           <FontAwesomeIcon
             className="text-yellow-500 iconStyle"
             icon={faWhatsapp}
           />
+          </Link>
           <p className="text-gray-500">whatsapp</p>
         </div>
       </div>

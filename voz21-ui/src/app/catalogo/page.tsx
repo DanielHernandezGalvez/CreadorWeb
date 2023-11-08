@@ -25,7 +25,7 @@ const page = () => {
           subtitle="Catálogo de Voces"
           linkText="Contáctanos"
           linkUrl="#contact"
-          backgroundImage="/hero/bg7.JPG"
+          backgroundImageProps="/hero/bg7.JPG"
         />
 
         <Catalogue />

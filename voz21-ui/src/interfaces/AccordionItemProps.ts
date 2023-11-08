@@ -10,4 +10,5 @@ export interface AccordionItemProps {
   actuada?: string;
   ingles?: string;
   alAire?: string;
+  jingle?: string;
 }

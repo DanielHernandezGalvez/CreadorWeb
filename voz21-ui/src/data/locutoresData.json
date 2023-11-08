@@ -2,16 +2,16 @@
   {
     "numero": "Locutor 1",
     "content": "",
-    "name": "Yisus",
+    "name": "Abraham Pacheco",
     "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
-      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
-      "documental": "/audios/02-eddy/Documental_Eddy.wav",
-      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
-      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
-      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
-      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
+      "institucional": "/audios/01-yisus/ABRAHAM (YIZUS) INSTITUCIONAL.wav",
+      "dinamica": "/audios/01-yisus/ABRAHAM DINAMICA FINAL.wav",
+      "documental": "/audios/01-yisus/ABRAHAM (YIZUS) DOCUMENTAL FINAL.wav",
+      "emotiva": "/audios/01-yisus/ABRAHAM (YIZUS) EMOTIVA FINAL.wav",
+      "informativa": "/audios/01-yisus/ABRAHAM (YIZUS) INFORMATIVA FINAL.wav",
+      "seductora": "/audios/01-yisus/ABRAHAM (YIZUS) SEDUCTORA FINAL.wav",
+      "actuada": "/audios/01-yisus/ABRAHAM (YIZUS) ACTUADA FINAL.wav",
       "ingles": "",
       "alAire": ""
     },
@@ -46,17 +46,17 @@
   {
     "numero": "Locutor 3",
     "content": "",
-    "name": "Santiago",
+    "name": "Santiago Sánchez",
     "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
-      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
-      "documental": "/audios/02-eddy/Documental_Eddy.wav",
-      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
-      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
-      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
-      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
-      "ingles": "",
+      "institucional": "/audios/03-santiago/Institucional_Santiago.wav",
+      "dinamica": "/audios/03-santiago/Dinamica_Santiago.wav",
+      "documental": "/audios/03-santiago/Documental_Santiago.wav",
+      "emotiva": "/audios/03-santiago/Emotiva_Santiago.wav",
+      "informativa": "/audios/03-santiago/Informativa_Santiago.wav",
+      "seductora": "/audios/03-santiago/Seductora_Santiago.wav",
+      "actuada": "/audios/03-santiago/Actuada_Santiago.wav",
+      "ingles": "/audios/03-santiago/Ingles_Santiago.wav",
       "alAire": ""
     },
     "img": "/gallery/0301.jpeg",
@@ -68,7 +68,7 @@
   {
     "numero": "Locutor 4",
     "content": "",
-    "name": "Kevin",
+    "name": "Kevin Medina",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/04-kevin/Institucional_Kevin.wav",
@@ -81,16 +81,16 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0401.jpeg",
+    "img": "/gallery/0404.jpeg",
     "img2": "/gallery/0402.jpeg",
     "img3": "/gallery/0403.jpeg",
-    "img4": "/gallery/0404.jpeg",
+    "img4": "/gallery/0401.jpeg",
     "img5": "/gallery/0405.jpeg"
   },
   {
     "numero": "Locutor 5",
     "content": "",
-    "name": "Lalo",
+    "name": "Eduardo Ortega",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/05-lalo/LALO INSTITUCIONAL FINAL.wav",
@@ -112,7 +112,7 @@
   {
     "numero": "Locutora 6",
     "content": "",
-    "name": "Mariana",
+    "name": "Mariana Hernández",
     "sexo": "mujer",
     "voz": {
       "institucional": "/audios/06-mariana/MARIANA INSTITUCIONAL FINAL.wav",
@@ -135,11 +135,11 @@
   {
     "numero": "Locutor 7",
     "content": "",
-    "name": "Daniel",
+    "name": "Daniel Gálvez",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/07-daniel/Institucional_Daniel.wav",
-      "dinamica": "/audios/07-daniel/Actuada_Daniel.wav",
+      "dinamica": "/audios/07-daniel/Dinamica_Daniel.wav",
       "documental": "/audios/07-daniel/Documental_Daniel.wav",
       "emotiva": "/audios/07-daniel/Emotiva_Daniel.wav",
       "informativa": "/audios/07-daniel/Informativa_Daniel.wav",
@@ -148,31 +148,31 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0705.jpeg",
+    "img": "/gallery/0704.jpeg",
     "img2": "/gallery/0702.jpeg",
     "img3": "/gallery/0703.jpeg",
-    "img4": "/gallery/0704.jpeg",
+    "img4": "/gallery/0701.jpeg",
     "img5": "/gallery/0705.jpeg"
   },
 
   {
     "numero": "Locutora 8",
     "content": "",
-    "name": "Delia",
+    "name": "Delia Chávez",
     "sexo": "mujer",
     "voz": {
-      "institucional": "/audios/07-daniel/Institucional_Daniel.wav",
-      "dinamica": "/audios/07-daniel/Actuada_Daniel.wav",
-      "documental": "/audios/07-daniel/Documental_Daniel.wav",
-      "emotiva": "/audios/07-daniel/Emotiva_Daniel.wav",
-      "informativa": "/audios/07-daniel/Informativa_Daniel.wav",
-      "seductora": "/audios/07-daniel/Seductora_Daniel.wav",
-      "actuada": "/audios/07-daniel/Actuada_Daniel.wav",
-      "ingles": "",
+      "institucional": "/audios/08-delia/Institucional_Delia.wav",
+      "dinamica": "/audios/08-delia/Dinamica_Delia.wav",
+      "documental": "/audios/08-delia/Documental_Delia.wav",
+      "emotiva": "/audios/08-delia/Emotiva_Delia.wav",
+      "informativa": "/audios/08-delia/Informativa_Delia.wav",
+      "seductora": "/audios/08-delia/Seductora_Delia.wav",
+      "actuada": "/audios/08-delia/Actuada_Delia.wav",
+      "ingles": "/audios/08-delia/Ingles_Delia.wav",
       "alAire": ""
     },
-    "img": "/gallery/0805.jpeg",
-    "img2": "/gallery/0802.jpeg",
+    "img": "/gallery/0802.jpeg",
+    "img2": "/gallery/0801.jpeg",
     "img3": "/gallery/0803.jpeg",
     "img4": "/gallery/0804.jpeg",
     "img5": "/gallery/0805.jpeg"
@@ -180,7 +180,7 @@
   {
     "numero": "Locutor 9",
     "content": "",
-    "name": "Jacob",
+    "name": "Jacob Bernal",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/09-jacob/Institucional_Jacob.wav",
@@ -193,7 +193,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0902.jpeg",
+    "img": "/gallery/0901.jpeg",
     "img2": "/gallery/0902.jpeg",
     "img3": "/gallery/0903.jpeg",
     "img4": "/gallery/0904.jpeg",
@@ -202,7 +202,7 @@
   {
     "numero": "Locutor 10",
     "content": "",
-    "name": "Octavio",
+    "name": "Octavio Ríos",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/10-octavio/OCTAVIO INSTITUCIONAL FINAL.wav",
@@ -215,8 +215,8 @@
       "ingles": "/audios/10-octavio/OCTAVIO INGLES FINAL.wav",
       "alAire": ""
     },
-    "img": "/gallery/1003.jpeg",
-    "img2": "/gallery/1002.jpeg",
+    "img": "/gallery/1002.jpeg",
+    "img2": "/gallery/1001.jpeg",
     "img3": "/gallery/1003.jpeg",
     "img4": "/gallery/1004.jpeg",
     "img5": "/gallery/1005.jpeg"
@@ -224,7 +224,7 @@
   {
     "numero": "Locutora 11",
     "content": "",
-    "name": "Juno",
+    "name": "Juno Pasadena",
     "sexo": "mujer",
     "voz": {
       "institucional": "/audios/11-juno/Institucional_Juno.wav",
@@ -237,7 +237,7 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/1104.jpeg",
+    "img": "/gallery/1101.jpeg",
     "img2": "/gallery/1102.jpeg",
     "img3": "/gallery/1103.jpeg",
     "img4": "/gallery/1104.jpeg",
@@ -246,7 +246,7 @@
   {
     "numero": "Locutora 12",
     "content": "",
-    "name": "Gigi",
+    "name": "Geraldine Gómez",
     "sexo": "mujer",
     "voz": {
       "institucional": "/audios/11-juno/Institucional_Juno.wav",
@@ -259,38 +259,17 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/1202.jpeg",
+    "img": "/gallery/1201.jpeg",
     "img2": "/gallery/1202.jpeg",
     "img3": "/gallery/1203.jpeg",
     "img4": "/gallery/1204.jpeg",
     "img5": "/gallery/1205.jpeg"
   },
-  {
-    "numero": "Locutor 13",
-    "content": "",
-    "name": "Charly ",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/11-juno/Institucional_Juno.wav",
-      "dinamica": "/audios/11-juno/Dinamica_Juno.wav",
-      "documental": "/audios/11-juno/Documental_Juno.wav",
-      "emotiva": "/audios/11-juno/Emotiva_Juno.wav",
-      "informativa": "/audios/11-juno/Informativa_Juno.wav",
-      "seductora": "/audios/11-juno/Seductora_Juno.wav",
-      "actuada": "/audios/11-juno/Actuada_Juno.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/1302.jpeg",
-    "img2": "/gallery/1302.jpeg",
-    "img3": "/gallery/1303.jpeg",
-    "img4": "/gallery/1304.jpeg",
-    "img5": "/gallery/1305.jpeg"
-  },
+  
   {
     "numero": "Locutor 14",
     "content": "",
-    "name": "Vega",
+    "name": "Juan Carlos de la Vega",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/14-vega/Institucional_Vega.wav",
@@ -303,7 +282,7 @@
       "ingles": "/audios/14-vega/Ingles_Vega.wav",
       "alAire": "/audios/14-vega/AlAire_Vega.wav"
     },
-    "img": "/gallery/1404.jpeg",
+    "img": "/gallery/1401.jpeg",
     "img2": "/gallery/1402.jpeg",
     "img3": "/gallery/1403.jpeg",
     "img4": "/gallery/1404.jpeg",
@@ -312,42 +291,43 @@
   {
     "numero": "Locutora 15",
     "content": "",
-    "name": "Brenda ",
+    "name": "Brenda Tapia",
     "sexo": "mujer",
+    "jingle": true,
     "voz": {
-      "institucional": "/audios/14-vega/Institucional_Vega.wav",
-      "dinamica": "/audios/14-vega/Dinamica_Vega.wav",
-      "documental": "/audios/14-vega/Documental_Vega.wav",
-      "emotiva": "/audios/14-vega/Emotiva_Vega.wav",
-      "informativa": "/audios/14-vega/Informativa_Vega.wav",
-      "seductora": "/audios/14-vega/Seductora_Vega.wav",
-      "actuada": "/audios/14-vega/Actuada_Vega.wav",
-      "ingles": "/audios/14-vega/Ingles_Vega.wav",
-      "alAire": "/audios/14-vega/AlAire_Vega.wav"
+      "institucional": "/audios/15-brenda/Institucional_Brenda.wav",
+      "dinamica": "/audios/15-brenda/Dinamica_Brenda.wav",
+      "documental": "/audios/15-brenda/Documental_Brenda.wav",
+      "emotiva": "/audios/15-brenda/Emotiva_Brenda.wav",
+      "informativa": "/audios/15-brenda/Informativa_Brenda.wav",
+      "seductora": "/audios/15-brenda/Seductora_Brenda.wav",
+      "actuada": "/audios/15-brenda/Actuada_Brenda.wav",
+      "ingles": "",
+      "jingle": "/audios/15-brenda/Jingle_Brenda-Sin copyright.wav"
     },
     "img": "/gallery/1504.jpeg",
     "img2": "/gallery/1502.jpeg",
     "img3": "/gallery/1503.jpeg",
-    "img4": "/gallery/1504.jpeg",
+    "img4": "/gallery/1501.jpeg",
     "img5": "/gallery/1505.jpeg"
   },
   {
     "numero": "Locutora 16",
     "content": "",
-    "name": "Nat ",
+    "name": "Natyeli Flores",
     "sexo": "mujer",
     "voz": {
-      "institucional": "/audios/14-vega/Institucional_Vega.wav",
-      "dinamica": "/audios/14-vega/Dinamica_Vega.wav",
-      "documental": "/audios/14-vega/Documental_Vega.wav",
-      "emotiva": "/audios/14-vega/Emotiva_Vega.wav",
-      "informativa": "/audios/14-vega/Informativa_Vega.wav",
-      "seductora": "/audios/14-vega/Seductora_Vega.wav",
-      "actuada": "/audios/14-vega/Actuada_Vega.wav",
-      "ingles": "/audios/14-vega/Ingles_Vega.wav",
-      "alAire": "/audios/14-vega/AlAire_Vega.wav"
+      "institucional": "/audios/16-nat/Institucional_Natyeli.wav",
+      "dinamica": "/audios/16-nat/Dinamica_Natyeli.wav",
+      "documental": "/audios/16-nat/Documental_Natyeli.wav",
+      "emotiva": "/audios/16-nat/Emotiva_Natyeli.wav",
+      "informativa": "/audios/16-nat/Informativa_Natyeli.wav",
+      "seductora": "/audios/16-nat/Seductora_Natyeli.wav",
+      "actuada": "/audios/16-nat/Actuada_Natyeli.wav",
+      "ingles": "",
+      "alAire": ""
     },
-    "img": "/gallery/1604.jpeg",
+    "img": "/gallery/1601.jpeg",
     "img2": "/gallery/1602.jpeg",
     "img3": "/gallery/1603.jpeg",
     "img4": "/gallery/1604.jpeg",
@@ -356,7 +336,7 @@
   {
     "numero": "Locutor 17",
     "content": "",
-    "name": "Abraham",
+    "name": "Abraham Aceves",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/17-Abraham/Institucional_Abraham.wav",
@@ -378,18 +358,20 @@
   {
     "numero": "Locutora 18",
     "content": "",
-    "name": "Kenya",
+    "name": "Kenya Vázquez",
     "sexo": "mujer",
+    "jingle": true,
     "voz": {
-      "institucional": "/audios/17-Abraham/Institucional_Abraham.wav",
-      "dinamica": "/audios/17-Abraham/Dinamica_Abraham.wav",
-      "documental": "/audios/17-Abraham/Documental_Abraham.wav",
-      "emotiva": "/audios/17-Abraham/Emotiva_Abraham.wav",
-      "informativa": "/audios/17-Abraham/Informativa_Abraham.wav",
-      "seductora": "/audios/17-Abraham/Seductora_Abraham.wav",
-      "actuada": "/audios/17-Abraham/Actuada_Abraham.wav",
+      "institucional": "/audios/18-kenia/Institucional_Kenia.wav",
+      "dinamica": "/audios/18-kenia/Dinamica_Kenia.wav",
+      "documental": "/audios/18-kenia/Documental_kenia.wav",
+      "emotiva": "",
+      "informativa": "/audios/18-kenia/Informativo_Kenia.wav",
+      "seductora": "/audios/18-kenia/Seductora_Kenia.wav",
+      "actuada": "",
       "ingles": "",
-      "alAire": ""
+      "alAire": "",
+      "jingle": "/audios/18-kenia/Jingle_Kenia.wav"
     },
     "img": "/gallery/1803.jpeg",
     "img2": "/gallery/1802.jpeg",
@@ -422,7 +404,7 @@
   {
     "numero": "Locutor 20",
     "content": "",
-    "name": "Juan Pa",
+    "name": "Juan Pablo Ridan",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/20-pablo/Institucional_JuanPablo.wav",
@@ -440,5 +422,27 @@
     "img3": "/gallery/2003.jpeg",
     "img4": "/gallery/2004.jpeg",
     "img5": "/gallery/2005.jpeg"
+  },
+  {
+    "numero": "Locutora 21",
+    "content": "",
+    "name": "Nora García",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/21-nora/Institucional_Nora.wav",
+      "dinamica": "/audios/21-nora/Dinamica_Nora.wav",
+      "documental": "/audios/21-nora/Documental_Nora.wav",
+      "emotiva": "/audios/21-nora/Emotiva_Nora.wav",
+      "informativa": "/audios/21-nora/Informativa_Nora.wav",
+      "seductora": "/audios/21-nora/Seductora_Nora.wav",
+      "actuada": "/audios/21-nora/Actuada_Nora.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/2101.jpg",
+    "img2": "/gallery/2102.jpg",
+    "img3": "/gallery/2103.jpg",
+    "img4": "/gallery/2104.jpg",
+    "img5": "/gallery/2105.jpg"
   }
 ]

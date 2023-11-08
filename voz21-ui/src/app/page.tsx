@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Head from "next/head";
 import Navigation from "../Components/Navigation/Navigation";
@@ -13,36 +13,30 @@ import Gallery from "@/Components/Gallery/Gallery";
 import FirstLayout from "@/Components/FirstLayout/FirstLayout";
 import Presentation from "@/Components/Nora/Presentation";
 import Services from "@/Components/Services/Services";
+import Courses from "@/Components/Courses/Courses";
+import logo from "/images/logo.png";
+import Image from "next/image";
 
-type Section = "inicio" | "servicios" | "catalogo" | "locutores" | "directora";
+// type Section = "inicio" | "servicios" | "catalogo" | "locutores" | "directora";
 
 export default function Home() {
   const [inicio, setInicio] = useState(true);
   const [servicios, setServicios] = useState(false);
   const [catalogo, setCatalogo] = useState(false);
-  const [locutores, setLocutores] = useState(false);
+  const [galeria, setGaleria] = useState(false);
   const [directora, setDirectora] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleSectionChange = (section: Section) => {
-    // Resetea todos los estados a false
+  const toggleState = (
+    stateSetter: React.Dispatch<React.SetStateAction<boolean>>
+  ) => {
     setInicio(false);
     setServicios(false);
     setCatalogo(false);
-    setLocutores(false);
+    setGaleria(false);
     setDirectora(false);
-
-    // Establece el estado correspondiente en función de la sección
-    if (section === "inicio") {
-      setInicio(true);
-    } else if (section === "servicios") {
-      setServicios(true);
-    } else if (section === "catalogo") {
-      setCatalogo(true);
-    } else if (section === "locutores") {
-      setLocutores(true);
-    } else if (section === "directora") {
-      setDirectora(true);
-    }
+    stateSetter(true);
+    setMenuOpen((prevMenuOpen) => !prevMenuOpen); // Invierte el estado del menú
   };
 
   return (
@@ -55,19 +49,120 @@ export default function Home() {
             content="Agencia de voces para locución y comerciales"
           />
         </Head>
-        <Navigation  />
+        <nav
+          className={`absolute z-50 flex justify-between nav-color items-center text-white pt-5 w-full ${
+            menuOpen ? "show" : ""
+          }`}
+        >
+          <div className="flex items-center w-full">
+            <Image
+              className="h-8 w-auto mx-10"
+              src="/images/logo.png"
+              alt="Your Company"
+              width={80}
+              height={30}
+            />
+            <div className="hidden md:flex">
+              <button className="me-5" onClick={() => toggleState(setInicio)}>Inicio</button>
+              <button className="me-5" onClick={() => toggleState(setServicios)}>Cursos</button>
+              <button className="me-5" onClick={() => toggleState(setCatalogo)}>Catálogo</button>
+              <button className="me-5" onClick={() => toggleState(setGaleria)}>Locutores</button>
+              <button className="me-5" onClick={() => toggleState(setDirectora)}>
+                Nora García
+              </button>
+            </div>
+          </div>
+
+          <div
+            className="burger-button  justify-end md:hidden"
+            onClick={(e) => {
+              e.stopPropagation();
+              setMenuOpen(!menuOpen);
+            }}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div className={`md:hidden flex-col ${menuOpen ? "flex" : "hidden"}`}>
+            <button className="my-1" onClick={() => toggleState(setInicio)}>Inicio</button>
+            <button className="my-1" onClick={() => toggleState(setServicios)}>Cursos</button>
+            <button className="my-1" onClick={() => toggleState(setCatalogo)}>Catálogo</button>
+            <button className="my-1" onClick={() => toggleState(setGaleria)}>Locutores</button>
+            <button className="my-1" onClick={() => toggleState(setDirectora)}>
+              Nora García
+            </button>
+          </div>
+        </nav>
+        {/* <Navigation /> */}
         <WhatsAppIcon />
-        <Header subtitle="Tu Voz" linkText="Conócenos" linkUrl="#bienvenido" backgroundImage="/hero/bg1.jpg" />
-   
-        <FirstLayout />
-        <Services />
-        {/* <About /> */}
-        <Catalogue />
-         {/* <Customers /> */}
-         {/* <Contact /> */}
-        {/* <Gallery /> */}
-         {/* <Footer /> */}
-        <Customers />
+
+        {inicio && (
+          <>
+            <Header
+              subtitle="Somos tu Voz"
+              linkText="Conócenos"
+              linkUrl="#bienvenido"
+              backgroundImageProps="/hero/bg2.JPG"
+            />
+            <FirstLayout />
+            <Services />
+            <Catalogue />
+
+            <Customers />
+          </>
+        )}
+
+        {servicios && (
+          <>
+            <Header
+              subtitle="Cursos y Diplomados"
+              linkText="Ver Oferta"
+              linkUrl="#cursos"
+              backgroundImageProps="/hero/bg1.jpg"
+            />
+            <Courses />
+          </>
+        )}
+
+        {catalogo && (
+          <>
+            <Header
+              subtitle="Catálogo de Locutores"
+              linkText="Escuchar voces"
+              linkUrl="#catalogue"
+              backgroundImageProps="/hero/bg6.JPG"
+            />
+
+            <Catalogue />
+          </>
+        )}
+
+        {galeria && (
+          <>
+            <Header
+              subtitle="Nuestros Locutores"
+              linkText="Conócenos"
+              linkUrl="#gallery"
+              backgroundImageProps="/hero/bg7.JPG"
+            />
+            <Gallery />
+          </>
+        )}
+
+        {directora && (
+          <>
+            <Header
+              subtitle="Nora García"
+              linkText="Conócela"
+              linkUrl="#Nora"
+              backgroundImageProps="/hero/bg5.JPG"
+            />
+            <Presentation />
+          </>
+        )}
+
         <Contact />
         <Footer />
       </div>
