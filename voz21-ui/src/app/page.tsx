@@ -109,7 +109,7 @@ export default function Home() {
             <FirstLayout />
             <Services />
             <Catalogue />
-
+            <Courses />
             <Customers />
           </>
         )}

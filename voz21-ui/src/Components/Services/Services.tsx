@@ -16,7 +16,7 @@ const Services = () => {
               grabar tu voz como para tus videos y multimedia
             </p>
             <div className="text-center cta-div ">
-              <Link className="cta-services" href="/talleres">
+              <Link className="cta-services" href="#contact">
                 Contratar
               </Link>
             </div>
@@ -28,7 +28,7 @@ const Services = () => {
               locución
             </p>
             <div className="text-center cta-div">
-              <Link className="cta-services" href="/talleres">
+              <Link className="cta-services" href="#catalogue">
                 Contratar
               </Link>
             </div>
@@ -40,7 +40,7 @@ const Services = () => {
               en el botón de abajo
             </p>
             <div className="text-center cta-div">
-              <Link className="cta-services" href="/talleres">
+              <Link className="cta-services" href="#cursos">
                 Contratar
               </Link>
             </div>
