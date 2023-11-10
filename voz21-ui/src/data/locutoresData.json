@@ -1,7 +1,7 @@
 [
   {
     "numero": "Locutor 1",
-    "content": "",
+    "content": "Voz 1",
     "name": "Abraham Pacheco",
     "sexo": "hombre",
     "voz": {
@@ -23,8 +23,8 @@
   },
   {
     "numero": "Locutor 2",
-    "content": "",
-    "name": "Eddy",
+    "content": "Voz 2",
+    "name": "Eduardo Pérez",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
@@ -45,7 +45,7 @@
   },
   {
     "numero": "Locutor 3",
-    "content": "",
+    "content": "Voz 3",
     "name": "Santiago Sánchez",
     "sexo": "hombre",
     "voz": {
@@ -67,7 +67,7 @@
   },
   {
     "numero": "Locutor 4",
-    "content": "",
+    "content": "Voz 4",
     "name": "Kevin Medina",
     "sexo": "hombre",
     "voz": {
@@ -89,7 +89,7 @@
   },
   {
     "numero": "Locutor 5",
-    "content": "",
+    "content": "Voz 5",
     "name": "Eduardo Ortega",
     "sexo": "hombre",
     "voz": {
@@ -111,7 +111,7 @@
   },
   {
     "numero": "Locutora 6",
-    "content": "",
+    "content": "Voz 6",
     "name": "Mariana Hernández",
     "sexo": "mujer",
     "voz": {
@@ -134,7 +134,7 @@
 
   {
     "numero": "Locutor 7",
-    "content": "",
+    "content": "Voz 7",
     "name": "Daniel Gálvez",
     "sexo": "hombre",
     "voz": {
@@ -157,7 +157,7 @@
 
   {
     "numero": "Locutora 8",
-    "content": "",
+    "content": "Voz 8",
     "name": "Delia Chávez",
     "sexo": "mujer",
     "voz": {
@@ -179,7 +179,7 @@
   },
   {
     "numero": "Locutor 9",
-    "content": "",
+    "content": "Voz 9",
     "name": "Jacob Bernal",
     "sexo": "hombre",
     "voz": {
@@ -201,7 +201,7 @@
   },
   {
     "numero": "Locutor 10",
-    "content": "",
+    "content": "Voz 10",
     "name": "Octavio Ríos",
     "sexo": "hombre",
     "voz": {
@@ -223,7 +223,7 @@
   },
   {
     "numero": "Locutora 11",
-    "content": "",
+    "content": "Voz 11",
     "name": "Juno Pasadena",
     "sexo": "mujer",
     "voz": {
@@ -245,7 +245,7 @@
   },
   {
     "numero": "Locutora 12",
-    "content": "",
+    "content": "Voz 12",
     "name": "Geraldine Gómez",
     "sexo": "mujer",
     "voz": {
@@ -268,7 +268,7 @@
   
   {
     "numero": "Locutor 14",
-    "content": "",
+    "content": "Voz 14",
     "name": "Juan Carlos de la Vega",
     "sexo": "hombre",
     "voz": {
@@ -290,7 +290,7 @@
   },
   {
     "numero": "Locutora 15",
-    "content": "",
+    "content": "Voz 15",
     "name": "Brenda Tapia",
     "sexo": "mujer",
     "jingle": true,
@@ -313,7 +313,7 @@
   },
   {
     "numero": "Locutora 16",
-    "content": "",
+    "content": "Voz 16",
     "name": "Natyeli Flores",
     "sexo": "mujer",
     "voz": {
@@ -335,7 +335,7 @@
   },
   {
     "numero": "Locutor 17",
-    "content": "",
+    "content": "Voz 17",
     "name": "Abraham Aceves",
     "sexo": "hombre",
     "voz": {
@@ -357,7 +357,7 @@
   },
   {
     "numero": "Locutora 18",
-    "content": "",
+    "content": "Voz 18",
     "name": "Kenya Vázquez",
     "sexo": "mujer",
     "jingle": true,
@@ -381,8 +381,8 @@
   },
   {
     "numero": "Locutor 19",
-    "content": "",
-    "name": "Alex",
+    "content": "Voz 19",
+    "name": "Alejandro Rojas",
     "sexo": "hombre",
     "voz": {
       "institucional": "/audios/AlexDiablo/ALEX(DIABLO)INSTITUCIONALFINAL.wav",
@@ -403,7 +403,7 @@
   },
   {
     "numero": "Locutor 20",
-    "content": "",
+    "content": "Voz 20",
     "name": "Juan Pablo Ridan",
     "sexo": "hombre",
     "voz": {
@@ -425,7 +425,7 @@
   },
   {
     "numero": "Locutora 21",
-    "content": "",
+    "content": "Voz 21",
     "name": "Nora García",
     "sexo": "mujer",
     "voz": {

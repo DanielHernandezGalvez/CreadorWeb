@@ -101,7 +101,7 @@ export default function Home() {
         {inicio && (
           <>
             <Header
-              subtitle="Somos tu Voz"
+              subtitle="Tu Voz"
               linkText="Conócenos"
               linkUrl="#bienvenido"
               backgroundImageProps="/hero/bg2.JPG"

@@ -25,7 +25,7 @@ const Testimonials: React.FC = () => {
           </div>
         </div>
 
-        <div className="card">
+      {/*  <div className="card">
           <div className="layer"></div>
           <div className="content">
             <h2 className="text-gray-700 font-bold  text-3xl">Pepe Nuño</h2>{" "}
@@ -34,11 +34,11 @@ const Testimonials: React.FC = () => {
               <source src="/videos/pepenuno.mp4" type="video/mp4" />
               Tu navegador no soporta la reproducción de video.
             </video>
-            {/* <div className="details">
+             <div className="details">
               <span>Graphic Designer</span>
-            </div> */}
+            </div> 
           </div>
-        </div>
+        </div>*/}
 
         <div className="card">
           <div className="layer"></div>
