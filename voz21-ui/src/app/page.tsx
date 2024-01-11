@@ -57,7 +57,7 @@ export default function Home() {
           <div className="flex items-center w-full">
             <Image
               className="h-8 w-auto mx-10"
-              src="/images/logo.png"
+              src="/images/logo-white.png"
               alt="Your Company"
               width={80}
               height={30}

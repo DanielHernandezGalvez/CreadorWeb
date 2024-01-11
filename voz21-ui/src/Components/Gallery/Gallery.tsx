@@ -54,8 +54,8 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
           {locutoresData.map((locutor, index) => (
             <div key={index} onClick={() => openModal(locutor)}>
               <div className="text-center flex flex-col justify-center m-10 transition-transform transform scale-100 hover:scale-110">
-                <h4 className="text-2xl title font-bold text-gray-600 text-center my-5">{locutor.numero}</h4>
-                <p className="text-gray-600 font-bold">{locutor.content}</p>
+                <h4 className="text-2xl title font-bold text-gray-600 text-center my-5">{locutor.content}</h4>
+                {/* <p className="text-gray-600 font-bold">{locutor.content}</p> */}
                 <Image
                   key={index}
                   src={locutor.img}

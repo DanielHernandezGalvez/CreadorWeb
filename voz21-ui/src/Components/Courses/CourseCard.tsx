@@ -1,6 +1,7 @@
 // components/Card.js
-import React from "react";
+import React, {useState} from "react";
 import { CoursesProps } from "@/interfaces/CoursesProps";
+import CourseModal from "./CourseModal";
 
 const CourseCard: React.FC<CoursesProps> = ({
   title,
@@ -8,11 +9,15 @@ const CourseCard: React.FC<CoursesProps> = ({
   imageUrl,
 }) => {
   const cardStyle = {
-    backgroundImage: `url(${imageUrl})`,
+    backgroundImage: `linear-gradient(to right, #0000008b, #0000008b 40%), url(${imageUrl}) `,
     backgroundSize: "cover",
     backgroundPosition: "center",
+
   };
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
+    <>
     <div
       className="bg-white rounded-lg shadow-md p-4 
         ${window.innerWidth > 1200 ? 'w-80 h-80' : 'w-40 h-40'}` 
@@ -22,12 +27,22 @@ const CourseCard: React.FC<CoursesProps> = ({
     >
       <div className="bg-opacity-75 rounded-t-lg  p-4">
         <div className=" ">
-          <div className="md:py-5 md:my-5 lg:py-20 lg:my-20 space-y-5 sm:py-20"></div>
+          <div className="md:py-5 md:my-5 lg:py-20 lg:my-20 space-y-5 sm:py-20 "></div>
           <h2 className="text-xl font-semibold text-white ">{title}</h2>
           <p className="text-gray-200 ">{description}</p>
+          <button className="text-yellow-500 decoration-underline" onClick={() => setIsModalOpen(!isModalOpen)}>Ver más</button>
         </div>
       </div>
     </div>
+       {isModalOpen && (
+        <CourseModal
+          title={title}
+          description={description}
+          imageUrl={imageUrl}
+          closeModal={() => setIsModalOpen(false)}
+        />
+      )}
+      </>
   );
 };
 

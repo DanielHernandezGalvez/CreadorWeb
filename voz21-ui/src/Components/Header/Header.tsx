@@ -3,7 +3,7 @@ import "./header.css";
 import Link from "next/link";
 import { HeaderProps } from "@/interfaces/HeaderProps";
 import Image from "next/image";
-import logo from "/public/images/logo.png";
+import logo from "/public/images/logo-grande-blanco.png";
 
 export const Header: React.FC<HeaderProps> = ({
   subtitle,
@@ -16,6 +16,7 @@ export const Header: React.FC<HeaderProps> = ({
       className="main-header "
       style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("${backgroundImageProps}")` }}
     >
+      {/* <Image width={100%}  src={logo} alt="voz21" /> */}
       <h1 className="main-header-title font-bold text-center text-white">
         Voz <span className="text-yellow">21</span>
       </h1>
