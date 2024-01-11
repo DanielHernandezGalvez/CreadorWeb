@@ -36,9 +36,7 @@ const Courses: React.FC = () => {
           />
           <CourseCard
             title="Produccion de radio"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio 
-            voluptates cumque culpa magnam ad autem repellendus, deleniti dolor dignissimos 
-            totam ratione debitis inventore at iure ipsam ut maiores nesciunt eos."
+            description=""
             imageUrl="https://cdn.pixabay.com/photo/2016/11/23/18/05/concert-1854113_640.jpg"
             date="Próximamente"
           />

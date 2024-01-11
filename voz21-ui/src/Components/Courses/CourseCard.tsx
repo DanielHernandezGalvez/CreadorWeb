@@ -1,4 +1,5 @@
 // components/Card.js
+"use client"
 import React, { useState } from "react";
 import { CoursesProps } from "@/interfaces/CoursesProps";
 import CourseModal from "./CourseModal";
