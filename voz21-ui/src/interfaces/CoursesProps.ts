@@ -4,4 +4,5 @@ export interface CoursesProps {
   imageUrl: string;
   date?: string;
   link?: string
+  plan?: string;
 }

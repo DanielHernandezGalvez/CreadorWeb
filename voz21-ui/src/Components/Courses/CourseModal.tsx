@@ -7,15 +7,17 @@ interface CourseModalProps {
   description: string;
   imageUrl: string;
   date?: string;
-  link?: string;
+
   closeModal: () => void;
 }
 
 const CourseModal: React.FC<CourseModalProps> = ({
   title,
   description,
+  date,
   imageUrl,
   closeModal,
+
 }) => {
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
     // Verifica si el clic se realizó en el fondo del modal y cierra el modal
@@ -44,7 +46,8 @@ const CourseModal: React.FC<CourseModalProps> = ({
             />
           </div>
           <h2 className="text-2xl font-semibold text-gray-700 my-5">{title}</h2>
-          <p className="text-gray-600 my-5 px-2 text-justify text-pretty">
+          <p className="text-gray-200 ">{date}</p>
+          <p className="text-gray-600 mt-5 px-2 text-justify text-pretty">
             {description}
           </p>
           <Link

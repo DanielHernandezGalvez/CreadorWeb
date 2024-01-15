@@ -10,11 +10,35 @@ const Courses: React.FC = () => {
           Cursos y Talleres
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap pt-10 pb-10">
+        <CourseCard
+            title="Modelaje Profesional"
+            description="Master Class impartida por Aned Rámirez, Top model expert. Chapultepec 140 Col. Americana el 17/01/2024 de 17:00 a 19:00 Hrs."
+            imageUrl="/courses/modelaje.jpg"
+            date="17/01/2024 de 17:00 a 19:00 Hrs."
+          />
           <CourseCard
-            title="Locucion comercial"
-            description="Próximamente"
-            imageUrl="https://cdn.pixabay.com/photo/2016/11/29/03/42/mic-1867121_640.jpg"
+            title="Taller Producción de Radio"
+            description="Aprende a diseñar escaletas, guiones radiofónicos, redacción en ritmo auditivo, uso de mezcladora e interfaces de sonido y tipos de software para grabación. Todas las clases son en estudio profesional. Crea y comercializa tu propio programa de radio."
+            imageUrl="/courses/produccion-radio.jpg"
             date="Próximamente"
+          />
+          <CourseCard
+            title="Taller de Locución Profesional"
+            description="Lleva tu potencial al siguiente nivel con el taller de locución profesional impartido por Nora García, locutora profesional con diversos programas radiofónicos exitosos en diversas frecuencias de FM. Viernes de 6 a 8 pm del 12/01/2024 al 23/02/2024."
+            imageUrl="/courses/locucion-profesional.jpg"
+            date="12/01/2024 de 18:00 a 20:00 Hrs."
+          />
+          <CourseCard
+            title="Locucion y producción de Podcast"
+            description="¿Quieres aprender todo sobre cómo iniciar y crear un pódcast de calidad profesional? Este taller es para ti. Incluye grabación profesional de tu primer episodio. Comienza el jueves 11 de enero al 22 de febrero."
+            imageUrl="/courses/podcast.jpg"
+            date="11/01/2024"
+          />
+          <CourseCard
+            title="Taller de ventas y manejo de voz"
+            description="Aprende las mejores estrategias para vender. Conoce todas las herramientas para causar impacto con el buen uso y manejo de tu voz para obtener éxito en el mundo de las ventas. Iniciamos el 06/01/2024 de 9:00 a 11:00 Hrs."
+            imageUrl="/courses/ventas.jpg"
+            date="11/01/2024"
           />
           <CourseCard
             title="Hablar en publico"
@@ -32,24 +56,6 @@ const Courses: React.FC = () => {
             title="Doblaje avanzado"
             description="Próximamente"
             imageUrl="/hero/bg1.jpg"
-            date="Próximamente"
-          />
-          <CourseCard
-            title="Produccion de radio"
-            description=""
-            imageUrl="https://cdn.pixabay.com/photo/2016/11/23/18/05/concert-1854113_640.jpg"
-            date="Próximamente"
-          />
-          <CourseCard
-            title="Loucion y produccion de podcast"
-            description="Próximamente"
-            imageUrl="/hero/bg2.JPG"
-            date="Próximamente"
-          />
-          <CourseCard
-            title="Conduccion de televisión"
-            description="Próximamente"
-            imageUrl="/hero/bg6.JPG"
             date="Próximamente"
           />
           <CourseCard
