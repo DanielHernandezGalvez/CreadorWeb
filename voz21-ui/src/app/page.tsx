@@ -16,6 +16,7 @@ import Services from "@/Components/Services/Services";
 import Courses from "@/Components/Courses/Courses";
 import logo from "/images/logo.png";
 import Image from "next/image";
+import PhotoStudio from "@/Components/PhotoStudio/PhotoStudio";
 
 // type Section = "inicio" | "servicios" | "catalogo" | "locutores" | "directora";
 
@@ -63,11 +64,25 @@ export default function Home() {
               height={30}
             />
             <div className="hidden md:flex">
-              <button className="me-5" onClick={() => toggleState(setInicio)}>Inicio</button>
-              <button className="me-5" onClick={() => toggleState(setServicios)}>Cursos</button>
-              <button className="me-5" onClick={() => toggleState(setCatalogo)}>Catálogo</button>
-              <button className="me-5" onClick={() => toggleState(setGaleria)}>Locutores</button>
-              <button className="me-5" onClick={() => toggleState(setDirectora)}>
+              <button className="me-5" onClick={() => toggleState(setInicio)}>
+                Inicio
+              </button>
+              <button
+                className="me-5"
+                onClick={() => toggleState(setServicios)}
+              >
+                Cursos
+              </button>
+              <button className="me-5" onClick={() => toggleState(setCatalogo)}>
+                Catálogo
+              </button>
+              <button className="me-5" onClick={() => toggleState(setGaleria)}>
+                Locutores
+              </button>
+              <button
+                className="me-5"
+                onClick={() => toggleState(setDirectora)}
+              >
                 Nora García
               </button>
             </div>
@@ -86,10 +101,18 @@ export default function Home() {
           </div>
 
           <div className={`md:hidden flex-col ${menuOpen ? "flex" : "hidden"}`}>
-            <button className="my-1" onClick={() => toggleState(setInicio)}>Inicio</button>
-            <button className="my-1" onClick={() => toggleState(setServicios)}>Cursos</button>
-            <button className="my-1" onClick={() => toggleState(setCatalogo)}>Catálogo</button>
-            <button className="my-1" onClick={() => toggleState(setGaleria)}>Locutores</button>
+            <button className="my-1" onClick={() => toggleState(setInicio)}>
+              Inicio
+            </button>
+            <button className="my-1" onClick={() => toggleState(setServicios)}>
+              Cursos
+            </button>
+            <button className="my-1" onClick={() => toggleState(setCatalogo)}>
+              Catálogo
+            </button>
+            <button className="my-1" onClick={() => toggleState(setGaleria)}>
+              Locutores
+            </button>
             <button className="my-1" onClick={() => toggleState(setDirectora)}>
               Nora García
             </button>
@@ -108,6 +131,9 @@ export default function Home() {
             />
             <FirstLayout />
             <Services />
+            {/* agregados */}
+            <PhotoStudio />
+            {/* agregados */}
             <Catalogue />
             <Courses />
             <Customers />
