@@ -12,9 +12,10 @@ export const About: React.FC = () => {
       </h1>
       <div className="flex container items-center flex-wrap">
         <h3 className="max-w-lg mx-auto mb-5 text-justify text-gray-600">
-          Somos un estudio de Grabación donde puedes contratar diferentes voces
-          para tus proyectos, usar una cabina y estudio para grabar tus ideas,
-          así como tomar clases de formación en locución y doblaje
+        Somos una Agencia y Catalogo de Voces Publicitarias tenemos las 21 mejores voces profesionales de México.
+Contamos con la Academia más Especializada de Locución Profesional y Doblaje en Guadalajara, además de tener diversos, diplomados y talleres Garantizándote una gran experiencia de aprendizaje y práctica profesional. 
+Tenemos Estudio profesional de Grabación de audio y video. El espacio perfecto para que grabes tus podcasts, y videos. También te ofrecemos un servicio de Fotografía para eventos Sociales y Set de Fotografía.
+Reunimos un gran equipo de expertos en la capacitación Empresarial con Amplia Trayectoria.
         </h3>
         {/* <div className="max-w-lg mx-auto mt-5">
           <Image

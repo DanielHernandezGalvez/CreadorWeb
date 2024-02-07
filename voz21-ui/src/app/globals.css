@@ -73,6 +73,12 @@ nav {
   flex-direction: row;
 }
 
+.modal-content {
+  max-height: 100vh; /* Limita la altura del contenido del modal al 80% de la altura de la ventana */
+  overflow-y: auto; /* Agrega desplazamiento vertical cuando el contenido excede la altura máxima */
+  padding: 10vh 0 0 0;
+}
+
 @media (max-width: 768px) {
   .burger-button {
     display: flex;

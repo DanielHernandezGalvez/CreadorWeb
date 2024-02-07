@@ -77,7 +77,7 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                   alt="img"
                   width={250}
                   height={250}
-                  className="rounded-lg "
+                  className="rounded-lg mx-auto"
                 />
                 <p className=" title font-bold text-gray-600 text-center my-5">
                   {locutor.name}

@@ -18,11 +18,17 @@ const FirstLayout = () => {
       </h2>
 
       <div className="container mx-auto my-10 px-auto flex flex-col sm:flex-row items-center">
-        <h3 className="w-full font-bold sm:w-1/2 mb-5 p-10 text-justify text-gray-600">
-          Somos una agencia donde puedes contratar diferentes voces para tus
-          proyectos, usar una cabina y estudio de grabación profesional para
-          hacer tus ideas realidad, así como tomar clases de formación en
-          locución y doblaje.
+        <h3 className="w-full font-bold sm:w-1/2 mb-5 p-10 text-justify text-pretty text-gray-600">
+          Somos una Agencia y Catálogo de Voces Publicitarias; tenemos las 21
+          mejores voces profesionales de México. Contamos con la Academia más
+          especializada de Locución Profesional y Doblaje en Guadalajara, además
+          de tener diversos, diplomados y talleres, garantizándote una gran
+          experiencia de aprendizaje y práctica profesional. Tenemos Estudio
+          profesional de Grabación de audio y video. El espacio perfecto para
+          que grabes tus pódcast, y videos. También te ofrecemos un servicio de
+          Fotografía para eventos Sociales y Set de Fotografía. Reunimos un gran
+          equipo de expertos en la capacitación Empresarial con
+          Amplia Trayectoria.
         </h3>
         <div className="w-full sm:w-1/2 flex items-center ">
           <Image
@@ -35,8 +41,6 @@ const FirstLayout = () => {
           />
         </div>
       </div>
-
-    
     </div>
   );
 };
