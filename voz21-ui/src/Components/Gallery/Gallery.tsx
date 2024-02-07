@@ -31,8 +31,6 @@ interface Locutor {
   img5?: string;
 }
 
-
-
 const Gallery: React.FC<GalleryProps> = ({ img }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedLocutor, setSelectedLocutor] = useState<Locutor | null>(null);
@@ -107,8 +105,11 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                       width={150}
                       height={150}
                       className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-                      onClick={() => openSecondModal(selectedLocutor.img)}
-                      />
+                      onClick={() =>
+                        selectedLocutor.img &&
+                        openSecondModal(selectedLocutor.img)
+                      }
+                    />
                   )}
                   {selectedLocutor.img2 && (
                     <Image
@@ -117,8 +118,10 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                       width={150}
                       height={150}
                       className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-                      onClick={() => openSecondModal(selectedLocutor.img2)}
-
+                      onClick={() =>
+                        selectedLocutor.img2 &&
+                        openSecondModal(selectedLocutor.img2)
+                      }
                     />
                   )}
                   {selectedLocutor.img3 && (
@@ -128,8 +131,10 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                       width={150}
                       height={150}
                       className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-                      onClick={() => openSecondModal(selectedLocutor.img3)}
-
+                      onClick={() =>
+                        selectedLocutor.img3 &&
+                        openSecondModal(selectedLocutor.img3)
+                      }
                     />
                   )}
                   {selectedLocutor.img4 && (
@@ -139,8 +144,10 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                       width={150}
                       height={150}
                       className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-                      onClick={() => openSecondModal(selectedLocutor.img4)}
-
+                      onClick={() =>
+                        selectedLocutor.img4 &&
+                        openSecondModal(selectedLocutor.img4)
+                      }
                     />
                   )}
                   {selectedLocutor.img5 && (
@@ -150,8 +157,10 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                       width={150}
                       height={150}
                       className="rounded-lg transition-transform transform scale-100 hover:scale-110"
-                      onClick={() => openSecondModal(selectedLocutor.img5)}
-
+                      onClick={() =>
+                        selectedLocutor.img5 &&
+                        openSecondModal(selectedLocutor.img5)
+                      }
                     />
                   )}
                 </div>
