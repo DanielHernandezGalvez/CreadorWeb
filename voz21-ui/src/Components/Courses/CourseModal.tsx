@@ -27,7 +27,7 @@ const CourseModal: React.FC<CourseModalProps> = ({
   };
 
   return (
-    <div className="fixed z-50 inset-0 overflow-y-auto">
+    <div className="fixed z-50 inset-0 overflow-y-auto mt-12 mx-6">
       {/* Fondo del modal */}
       <div
         className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
@@ -38,7 +38,7 @@ const CourseModal: React.FC<CourseModalProps> = ({
       <div className="relative mx-auto p-4 bg-gray-100 rounded-lg shadow-xl transition-all transform">
         {/* Contenido del modal */}
         <div className="flex flex-col justify-center items-center">
-          <div className="w-96 max-h-64 overflow-hidden rounded-xl">
+          <div className="w-96 max-h-64 overflow-hidden rounded-xl mt-20">
             <img
               src={imageUrl}
               alt={title}
@@ -59,7 +59,7 @@ const CourseModal: React.FC<CourseModalProps> = ({
             INSCRIBIRSE
           </Link>
         </div>
-        <button onClick={closeModal} className="absolute top-2  ">
+        <button onClick={closeModal} className="absolute top-2 p-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-chevrons-left ps-2"
