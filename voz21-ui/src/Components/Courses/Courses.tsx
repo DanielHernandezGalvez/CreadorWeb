@@ -15,6 +15,7 @@ const Courses: React.FC = () => {
             description="Aprende doblaje y actuación de voz con Nora García, locutora profesional con diversos programas radiofónicos exitosos en diversas frecuencias de FM. Sábados de 1 a 3 pm del 17/03/2024 al 30/03/2024."
             imageUrl="https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_640.jpg"
             date="17/03/2024 de 13:00 a 15:00 Hrs."
+            video="/videos/curso-locucion.mp4"
           />
         <CourseCard
             title="Modelaje Profesional"

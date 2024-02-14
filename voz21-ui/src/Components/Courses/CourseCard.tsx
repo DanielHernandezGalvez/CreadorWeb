@@ -10,6 +10,7 @@ const CourseCard: React.FC<CoursesProps> = ({
   imageUrl,
   date,
   link,
+  video,
 }) => {
   const cardStyle = {
     backgroundImage: `linear-gradient(to right, #0000008b, #0000008b 40%), url(${imageUrl}) `,
@@ -48,6 +49,7 @@ const CourseCard: React.FC<CoursesProps> = ({
           description={description}
           imageUrl={imageUrl}
           closeModal={() => setIsModalOpen(false)}
+          video={video}
         />
       )}
     </>

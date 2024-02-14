@@ -5,4 +5,5 @@ export interface CoursesProps {
   date?: string;
   link?: string
   plan?: string;
+  video?:string;
 }

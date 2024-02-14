@@ -7,6 +7,7 @@ interface CourseModalProps {
   description: string;
   imageUrl: string;
   date?: string;
+  video?: string;
 
   closeModal: () => void;
 }
@@ -17,7 +18,7 @@ const CourseModal: React.FC<CourseModalProps> = ({
   date,
   imageUrl,
   closeModal,
-
+  video,
 }) => {
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
     // Verifica si el clic se realizó en el fondo del modal y cierra el modal
@@ -40,6 +41,7 @@ const CourseModal: React.FC<CourseModalProps> = ({
         <div className="flex flex-col justify-center items-center">
           <div className="w-96 max-h-64 overflow-hidden rounded-xl mt-20">
             <img
+            id="image-course-modal"
               src={imageUrl}
               alt={title}
               className="w-96 h-72 object-cover "
@@ -50,6 +52,17 @@ const CourseModal: React.FC<CourseModalProps> = ({
           <p className="text-gray-600 mt-5 px-2 text-justify text-pretty">
             {description}
           </p>
+
+          {video && (
+            <>
+              {" "}
+              <video controls preload="true">
+                <source src={video} type="video/mp4" />
+                Tu navegador no soporta la reproducción de video.
+              </video>
+            </>
+          )}
+
           <Link
             href="https://wa.me/5213335577482"
             className="bg-yellow-500 text-white font-bold p-2 rounded-lg transition
