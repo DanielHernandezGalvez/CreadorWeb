@@ -39,9 +39,8 @@ const CourseModal: React.FC<CourseModalProps> = ({
       <div className="relative mx-auto p-4 bg-gray-100 rounded-lg shadow-xl transition-all transform">
         {/* Contenido del modal */}
         <div className="flex flex-col justify-center items-center">
-          <div className="w-96 max-h-64 overflow-hidden rounded-xl mt-20">
+          <div  id="image-course-modal" className="w-96 max-h-64 overflow-hidden rounded-xl mt-20">
             <img
-            id="image-course-modal"
               src={imageUrl}
               alt={title}
               className="w-96 h-72 object-cover "
@@ -56,7 +55,7 @@ const CourseModal: React.FC<CourseModalProps> = ({
           {video && (
             <>
               {" "}
-              <video controls preload="true">
+              <video className="mt-6 mb-6" controls preload="true">
                 <source src={video} type="video/mp4" />
                 Tu navegador no soporta la reproducción de video.
               </video>
