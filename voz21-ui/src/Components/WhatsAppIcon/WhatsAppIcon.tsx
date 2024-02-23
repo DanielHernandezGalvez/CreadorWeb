@@ -11,8 +11,12 @@ const WhatsAppIcon: React.FC = () => {
       className="whatsapp-icon  text-green-700"
       target="_blank"
     >
-      <FontAwesomeIcon icon={faWhatsapp} />
-    </Link>
+  <img
+      width="40"
+      height="40"
+        src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+        alt=""
+      />    </Link>
   );
 };
 
