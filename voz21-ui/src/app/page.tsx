@@ -27,6 +27,7 @@ export default function Home() {
   const [galeria, setGaleria] = useState(false);
   const [directora, setDirectora] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [serviciosDropdownOpen, setServiciosDropdownOpen] = useState(false);
 
   const toggleState = (
     stateSetter: React.Dispatch<React.SetStateAction<boolean>>
@@ -117,6 +118,36 @@ export default function Home() {
               Nora García
             </button>
           </div>
+          {/* servicios */}
+          {/* <div className={`md:hidden flex-col ${menuOpen ? "flex" : "hidden"}`}> */}
+
+          <button
+            className="lg:me-5 md:me-5 sm:me-5 xs:me-5"
+            onClick={() => {
+              setServiciosDropdownOpen(!serviciosDropdownOpen);
+            }}
+          >
+            Servicios
+          </button>
+          {serviciosDropdownOpen && (
+            <div className="dropdown-menu nav-color-drop lg:absolute md:absolute lg:right-0 md:right-0 lg:top-16 md:top-16 sm:relative sm:right-auto xs:relative xs:right-auto bg-white opacity-96 mt-2 w-96 rounded-md shadow-md z-40">
+              <button
+                // href="/servicios/opcion-1"
+                className="block px-4 w-100 py-2 text-white font-bold hover:bg-gray-400"
+              >
+                capacitación empresarial
+              </button>
+              <a
+                href="/servicios/opcion-2"
+                className="block px-4 py-2 text-white font-bold hover:bg-gray-400"
+              >
+                Opción 2
+              </a>
+            </div>
+          )}
+          {/* </div> */}
+
+          {/* servicios */}
         </nav>
         {/* <Navigation /> */}
         <WhatsAppIcon />

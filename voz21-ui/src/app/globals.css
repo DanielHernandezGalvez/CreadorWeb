@@ -64,6 +64,11 @@ body {
   padding-bottom: 18px;
 }
 
+.nav-color-drop {
+  background-color: #ffffff2d;
+
+}
+
 .burger-button {
   display: none;
   flex-direction: column;
