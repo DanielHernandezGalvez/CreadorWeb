@@ -20,18 +20,16 @@ Esto marcó un error
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-
   }
 }
 
 html {
   scroll-behavior: smooth;
 }
-.svg-inline--fa{
+.svg-inline--fa {
   height: auto;
 }
-l
-body {
+l body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -46,34 +44,42 @@ body {
     font-size: 2rem;
   }
 
-  #image-course-modal{
+  #image-course-modal {
     width: 90%;
+  }
+  .main-header h1 {
+    font-size: 5rem !important;
+  }
+  .main-header h2 {
+    font-size: 1.5rem !important;
   }
 }
 
+@media screen and (max-width: 512px) {
+  nav {
+    background-color: #131313c2 !important;
+  }
+}
 
-*{
-    /* outline: 1px solid red; */
-
+* {
+  /* outline: 1px solid red; */
 }
 
 /* NAv */
 
-.nav-color{
+.nav-color {
   background-color: #ffffff2d;
   padding-bottom: 18px;
 }
 
 .nav-color-drop {
   background-color: #ffffff2d;
-
 }
 
 .burger-button {
   display: none;
   flex-direction: column;
   cursor: pointer;
-
 }
 
 .burger-button span {
@@ -126,7 +132,7 @@ nav {
   border-radius: 20px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   #foto-studio {
     flex-direction: column;
     flex-wrap: wrap;
