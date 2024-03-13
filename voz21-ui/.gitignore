@@ -6,6 +6,8 @@
 .pnp.js
 /public/audios
 /public/gallery
+/public/videos
+/public/courses
 
 # testing
 /coverage
@@ -38,3 +40,4 @@ next-env.d.ts
 
 .mp4
 .mp3
+.jpg

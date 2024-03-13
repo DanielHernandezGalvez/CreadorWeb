@@ -30,7 +30,7 @@ const FirstLayout = () => {
           equipo de expertos en la capacitación Empresarial con
           Amplia Trayectoria.
         </h3>
-        <div className="w-full sm:w-1/2 flex items-center ">
+        <div className="w-full sm:w-1/2 flex items-center">
           <Image
             id="img-about"
             className="mx-auto rounded-xl"

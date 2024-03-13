@@ -10,18 +10,26 @@ const Courses: React.FC = () => {
           Cursos y Talleres
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap pt-10 pb-10">
-        <CourseCard
+          <CourseCard
+            title="Locucion y producción de Podcast"
+            description="¿Quieres aprender todo sobre cómo iniciar y crear un pódcast de calidad profesional? Este taller es para ti. Incluye grabación profesional de tu primer episodio. Comienza el viernes 5 de abril al 17 de mayo de 6:30 a 8:30 pm."
+            imageUrl="/courses/podcast-abril.jpg"
+            date="05/04/2024 de 18:30 a 20:30"
+            video="/videos/podcast-abril.mp4"
+          />
+          <CourseCard
+            title="Modelaje Profesional"
+            description="Master Class impartida por Aned Rámirez, Top model expert. Chapultepec 140 Col. Americana el martes 2 de abril de 6:30 a 8:30 pm."
+            imageUrl="/courses/modelaje-abril.jpg"
+            date="02/04/2024 de 18:30 a 20:30 Hrs."
+            video="/videos/modelaje-abril.mp4"
+          />
+          <CourseCard
             title="Doblaje de voz"
             description="Aprende doblaje y actuación de voz con Nora García, locutora profesional con diversos programas radiofónicos exitosos en diversas frecuencias de FM. Sábados de 1 a 3 pm del 17/03/2024 al 30/03/2024."
             imageUrl="https://cdn.pixabay.com/photo/2023/05/08/13/24/laptop-7978588_640.jpg"
             date="17/03/2024 de 13:00 a 15:00 Hrs."
             video="/videos/curso-locucion.mp4"
-          />
-        <CourseCard
-            title="Modelaje Profesional"
-            description="Master Class impartida por Aned Rámirez, Top model expert. Chapultepec 140 Col. Americana el 17/01/2024 de 17:00 a 19:00 Hrs."
-            imageUrl="/courses/modelaje.jpg"
-            date="17/01/2024 de 17:00 a 19:00 Hrs."
           />
           <CourseCard
             title="Taller Producción de Radio"
@@ -35,12 +43,7 @@ const Courses: React.FC = () => {
             imageUrl="/courses/locucion-profesional.jpg"
             date="12/01/2024 de 18:00 a 20:00 Hrs."
           />
-          <CourseCard
-            title="Locucion y producción de Podcast"
-            description="¿Quieres aprender todo sobre cómo iniciar y crear un pódcast de calidad profesional? Este taller es para ti. Incluye grabación profesional de tu primer episodio. Comienza el jueves 11 de enero al 22 de febrero."
-            imageUrl="/courses/podcast.jpg"
-            date="11/01/2024"
-          />
+
           <CourseCard
             title="Taller de ventas y manejo de voz"
             description="Aprende las mejores estrategias para vender. Conoce todas las herramientas para causar impacto con el buen uso y manejo de tu voz para obtener éxito en el mundo de las ventas. Iniciamos el 06/01/2024 de 9:00 a 11:00 Hrs."
