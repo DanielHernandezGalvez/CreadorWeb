@@ -24,6 +24,7 @@ const Courses: React.FC = () => {
             date="07/05/2024 de 18:30 a 21:00 Hrs."
             video="" 
           />*/}
+
           <CourseCard
             title="Taller de Podcast"
             description="Hacer podcast es fácil, hacerlo bien requiere conocimiento. Conoce todos los elementos para generar contenidos creativos, interesantes y de calidad, utilizando tus mejores recursos técnicos y vocales. Inversión $3000 Cupo limitado"
@@ -31,6 +32,7 @@ const Courses: React.FC = () => {
             date="04/06/2024 de 18:30 a 20:30 Hrs."
             video=""
           />
+          
           {/* <CourseCard
             title="Taller Producción de Radio"
             description="Aprende a diseñar escaletas, guiones radiofónicos, redacción en ritmo auditivo, uso de mezcladora e interfaces de sonido y tipos de software para grabación. Todas las clases son en estudio profesional. Crea y comercializa tu propio programa de radio."
@@ -56,12 +58,14 @@ const Courses: React.FC = () => {
             imageUrl="/hero/hablarenpublico.jpg"
             date="Próximamente"
           /> */}
+
           <CourseCard
             title="Doblaje avanzado"
             description="Próximamente"
             imageUrl="/hero/bg1.jpg"
             date="Próximamente"
           />
+
           <CourseCard
             title="Manejo de camara para redes sociales"
             description="Próximamente"
@@ -69,7 +73,6 @@ const Courses: React.FC = () => {
             date="Próximamente"
           />
 
-          {/* Puedes agregar más tarjetas aquí según sea necesario */}
         </div>
       </div>
     </div>
