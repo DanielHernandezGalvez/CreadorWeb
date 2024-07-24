@@ -1,28 +1,4 @@
 [
-  
-  {
-    "numero": "Locutor 2",
-    "content": "Voz 2",
-    "name": "Eduardo Pérez",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
-      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
-      "documental": "/audios/02-eddy/Documental_Eddy.wav",
-      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
-      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
-      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
-      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/0201.jpeg",
-    "img2": "/gallery/0202.jpeg",
-    "img3": "/gallery/0203.jpeg",
-    "img4": "/gallery/0204.jpeg",
-    "img5": "/gallery/0205.jpeg"
-  },
- 
   {
     "numero": "Locutor 4",
     "content": "Voz 4",
@@ -269,28 +245,6 @@
     "img3": "/gallery/1603.jpeg",
     "img4": "/gallery/1604.jpeg",
     "img5": "/gallery/1605.jpeg"
-  },
-  {
-    "numero": "Locutor 17",
-    "content": "Voz 17",
-    "name": "Abraham Aceves",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/17-abraham/Institucional_Abraham.wav",
-      "dinamica": "/audios/17-abraham/Dinamica_Abraham.wav",
-      "documental": "/audios/17-abraham/Documental_Abraham.wav",
-      "emotiva": "/audios/17-abraham/Emotiva_Abraham.wav",
-      "informativa": "/audios/17-abraham/Informativa_Abraham.wav",
-      "seductora": "/audios/17-abraham/Seductora_Abraham.wav",
-      "actuada": "/audios/17-abraham/Actuada_Abraham.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/1703.jpeg",
-    "img2": "/gallery/1702.jpeg",
-    "img3": "/gallery/1703.jpeg",
-    "img4": "/gallery/1704.jpeg",
-    "img5": "/gallery/1705.jpeg"
   },
   {
     "numero": "Locutora 18",
