@@ -69,7 +69,7 @@ const Courses: React.FC = () => {
           <CourseCard
             title="Taller de doblaje de voz"
             description="Aprende doblaje de una manera profesional y divertida, sábados de 11 a 1 pm 7 sesiones"
-            imageUrl="/courses/doblaje.JPG"
+            imageUrl="/courses/doblaje.jpg"
             date="03/08/2024"
           />
           <CourseCard
