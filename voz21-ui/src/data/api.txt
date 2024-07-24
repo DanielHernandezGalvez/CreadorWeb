@@ -22,6 +22,29 @@
   },
 
    {
+    "numero": "Locutor 2",
+    "content": "Voz 2",
+    "name": "Eduardo Pérez",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
+      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
+      "documental": "/audios/02-eddy/Documental_Eddy.wav",
+      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
+      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
+      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
+      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/0201.jpeg",
+    "img2": "/gallery/0202.jpeg",
+    "img3": "/gallery/0203.jpeg",
+    "img4": "/gallery/0204.jpeg",
+    "img5": "/gallery/0205.jpeg"
+  },
+
+   {
     "numero": "Locutor 3",
     "content": "Voz 3",
     "name": "Santiago Sánchez",
@@ -67,28 +90,7 @@
     "img5": "/gallery/0905.jpeg"
   },
 
-   {
-    "numero": "Locutor 2",
-    "content": "Voz 2",
-    "name": "Eduardo Pérez",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/02-eddy/Institucional_Eddy.wav",
-      "dinamica": "/audios/02-eddy/Dinamica_Eddy.wav",
-      "documental": "/audios/02-eddy/Documental_Eddy.wav",
-      "emotiva": "/audios/02-eddy/Emotiva_Eddy.wav",
-      "informativa": "/audios/02-eddy/Informativa_Eddy.wav",
-      "seductora": "/audios/02-eddy/Seductora_Eddy.wav",
-      "actuada": "/audios/02-eddy/Actuada_Eddy.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/0201.jpeg",
-    "img2": "/gallery/0202.jpeg",
-    "img3": "/gallery/0203.jpeg",
-    "img4": "/gallery/0204.jpeg",
-    "img5": "/gallery/0205.jpeg"
-  },
+  
     {
     "numero": "Locutor 17",
     "content": "Voz 17",
