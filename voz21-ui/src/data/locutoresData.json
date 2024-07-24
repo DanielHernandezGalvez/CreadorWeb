@@ -1,26 +1,5 @@
 [
-  {
-    "numero": "Locutor 1",
-    "content": "Voz 1",
-    "name": "Abraham Pacheco",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/01-yisus/ABRAHAM (YIZUS) INSTITUCIONAL.wav",
-      "dinamica": "/audios/01-yisus/ABRAHAM DINAMICA FINAL.wav",
-      "documental": "/audios/01-yisus/ABRAHAM (YIZUS) DOCUMENTAL FINAL.wav",
-      "emotiva": "/audios/01-yisus/ABRAHAM (YIZUS) EMOTIVA FINAL.wav",
-      "informativa": "/audios/01-yisus/ABRAHAM (YIZUS) INFORMATIVA FINAL.wav",
-      "seductora": "/audios/01-yisus/ABRAHAM (YIZUS) SEDUCTORA FINAL.wav",
-      "actuada": "/audios/01-yisus/ABRAHAM (YIZUS) ACTUADA FINAL.wav",
-      "ingles": "/audios/01-yisus/ABRAHAM (YIZUS) INGLES FINAL.wav",
-      "alAire": ""
-    },
-    "img": "/gallery/0101.jpeg",
-    "img2": "/gallery/0102.jpeg",
-    "img3": "/gallery/0103.jpeg",
-    "img4": "/gallery/0104.jpeg",
-    "img5": "/gallery/0105.jpeg"
-  },
+  
   {
     "numero": "Locutor 2",
     "content": "Voz 2",
@@ -43,28 +22,7 @@
     "img4": "/gallery/0204.jpeg",
     "img5": "/gallery/0205.jpeg"
   },
-  {
-    "numero": "Locutor 3",
-    "content": "Voz 3",
-    "name": "Santiago Sánchez",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/03-santiago/Institucional_Santiago.wav",
-      "dinamica": "/audios/03-santiago/Santiago dinamica NEW.wav",
-      "documental": "/audios/03-santiago/Documental_Santiago.wav",
-      "emotiva": "/audios/03-santiago/Emotiva_Santiago.wav",
-      "informativa": "/audios/03-santiago/Informativa_Santiago.wav",
-      "seductora": "/audios/03-santiago/Seductora_Santiago.wav",
-      "actuada": "/audios/03-santiago/Actuada_Santiago.wav",
-      "ingles": "/audios/03-santiago/Ingles_Santiago.wav",
-      "alAire": ""
-    },
-    "img": "/gallery/0301.jpeg",
-    "img2": "/gallery/0302.jpeg",
-    "img3": "/gallery/0303.jpeg",
-    "img4": "/gallery/0304.jpeg",
-    "img5": "/gallery/0305.jpeg"
-  },
+ 
   {
     "numero": "Locutor 4",
     "content": "Voz 4",
@@ -177,28 +135,7 @@
     "img4": "/gallery/0804.jpeg",
     "img5": "/gallery/0805.jpeg"
   },
-  {
-    "numero": "Locutor 9",
-    "content": "Voz 9",
-    "name": "Jacob Bernal",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/09-jacob/Institucional_Jacob.wav",
-      "dinamica": "/audios/09-jacob/Dinamica_Jacob.wav",
-      "documental": "/audios/09-jacob/Documental_Jacob.wav",
-      "emotiva": "/audios/09-jacob/Emotiva_Jacob.wav",
-      "informativa": "/audios/09-jacob/Informativa_Jacob.wav",
-      "seductora": "/audios/09-jacob/Seductora_Jacob.wav",
-      "actuada": "/audios/09-jacob/Actuada_Jacob.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/0901.jpeg",
-    "img2": "/gallery/0902.jpeg",
-    "img3": "/gallery/0903.jpeg",
-    "img4": "/gallery/0904.jpeg",
-    "img5": "/gallery/0905.jpeg"
-  },
+ 
   {
     "numero": "Locutor 10",
     "content": "Voz 10",

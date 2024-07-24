@@ -10,26 +10,26 @@ const Courses: React.FC = () => {
           Cursos y Talleres
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap pt-10 pb-10">
-          {/* <CourseCard
-            title="Locución Comercial"
-            description="Aprende a monetizar tu voz en nuestro taller de locución comercial, impartido por Nora García, Locutora profesional con más de 20 años de experiencia en el horario sabatino de 9:00 a 11:00 horas."
-            imageUrl="/courses/locucion-comercial.jpg"
-            date="04/05/2024 de 09:00 a 11:00 Hrs."
+           <CourseCard
+            title="Producción y comercialización de rádio"
+            description="Costo 3000 pesos"
+            imageUrl="/courses/taller-radio.jpg"
+            // date="04/05/2024 de 09:00 a 11:00 Hrs."
             video=""
           />
           <CourseCard
-            title="Master Class Locución"
-            description="Aprende todo sobre locución y radio con las locutoras profesionales Nora García de 106.FM, 96.3FM, 100.3Fm 13 10 AM junto con Brenda Tapia de Amor93.1FM"
-            imageUrl="/courses/masterclass-locucion.jpg"
-            date="07/05/2024 de 18:30 a 21:00 Hrs."
+            title="Aprende a hablar en público"
+            description="Aprende a hablar en público con seguridad y éxito, sabados de 1 a 3 pm / 7 sesiones, inicia el 2 de agosto"
+            imageUrl="/courses/hablar-en-publico.jpg"
+            date="02/08/2024 de 13:00 a 15:00 Hrs."
             video="" 
-          />*/}
+          />
 
           <CourseCard
             title="Taller de Podcast"
             description="Hacer podcast es fácil, hacerlo bien requiere conocimiento. Conoce todos los elementos para generar contenidos creativos, interesantes y de calidad, utilizando tus mejores recursos técnicos y vocales. Inversión $3000 Cupo limitado"
-            imageUrl="/courses/taller-podcast.jpg"
-            date="04/06/2024 de 18:30 a 20:30 Hrs."
+            imageUrl="/courses/podcast.jpg"
+            date="20/08/2024 de 19:00 a 21:00 Hrs."
             video=""
           />
           
@@ -60,17 +60,24 @@ const Courses: React.FC = () => {
           /> */}
 
           <CourseCard
-            title="Doblaje avanzado"
-            description="Próximamente"
-            imageUrl="/hero/bg1.jpg"
-            date="Próximamente"
+            title="MasterClass Locución"
+            description="Aprende lucución de la mano de dos locutoras profesionales con más de 20 años de experiencia en el medio, jueves y viernes de 7 a 9 pm, costo de 3000 pesos"
+            imageUrl="/courses/masterclass-locucion.jpg"
+            date="01/08/2024 de 19:00 a 21:00 hrs."
           />
 
           <CourseCard
-            title="Manejo de camara para redes sociales"
-            description="Próximamente"
-            imageUrl="/hero/bg7.JPG"
-            date="Próximamente"
+            title="Taller de doblaje de voz"
+            description="Aprende doblaje de una manera profesional y divertida, sábados de 11 a 1 pm 7 sesiones"
+            imageUrl="/courses/doblaje.JPG"
+            date="03/08/2024"
+          />
+          <CourseCard
+            title="Locución profesional"
+            description="Aprende lucución de la mano de una locutora profesional con más de 20 años de experiencia en el medio, viernes de 7 a 9 pm, costo de 3000 pesos"
+            imageUrl="/courses/locucion-pro.png"
+            date="03/08/2024"
+            video="/videos/locucion-profesional.mp4"
           />
 
         </div>
