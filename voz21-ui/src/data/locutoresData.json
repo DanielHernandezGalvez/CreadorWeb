@@ -1,27 +1,5 @@
 [
   {
-    "numero": "Locutor 1",
-    "content": "Voz 1",
-    "name": "Abraham Pacheco",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/01-yisus/ABRAHAM (YIZUS) INSTITUCIONAL.wav",
-      "dinamica": "/audios/01-yisus/ABRAHAM DINAMICA FINAL.wav",
-      "documental": "/audios/01-yisus/ABRAHAM (YIZUS) DOCUMENTAL FINAL.wav",
-      "emotiva": "/audios/01-yisus/ABRAHAM (YIZUS) EMOTIVA FINAL.wav",
-      "informativa": "/audios/01-yisus/ABRAHAM (YIZUS) INFORMATIVA FINAL.wav",
-      "seductora": "/audios/01-yisus/ABRAHAM (YIZUS) SEDUCTORA FINAL.wav",
-      "actuada": "/audios/01-yisus/ABRAHAM (YIZUS) ACTUADA FINAL.wav",
-      "ingles": "/audios/01-yisus/ABRAHAM (YIZUS) INGLES FINAL.wav",
-      "alAire": ""
-    },
-    "img": "/gallery/0101.jpeg",
-    "img2": "/gallery/0102.jpeg",
-    "img3": "/gallery/0103.jpeg",
-    "img4": "/gallery/0104.jpeg",
-    "img5": "/gallery/0105.jpeg"
-  },
-  {
     "numero": "Locutor 2",
     "content": "Voz 2",
     "name": "Eduardo Pérez",
@@ -335,7 +313,7 @@
     "img4": "/gallery/1604.jpeg",
     "img5": "/gallery/1605.jpeg"
   },
- 
+
   {
     "numero": "Locutora 18",
     "content": "Voz 18",
