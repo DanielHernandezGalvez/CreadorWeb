@@ -360,28 +360,7 @@
     "img4": "/gallery/1904.jpeg",
     "img5": "/gallery/1905.jpeg"
   },
-  {
-    "numero": "Locutor 20",
-    "content": "Voz 20",
-    "name": "Juan Pablo Ridan",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/20-pablo/Institucional_JuanPablo.wav",
-      "dinamica": "/audios/20-pablo/Dinamica_JuanPablo.wav",
-      "documental": "/audios/20-pablo/Documental_JuanPablo.wav",
-      "emotiva": "/audios/20-pablo/Emotiva_JuanPablo.wav",
-      "informativa": "/audios/20-pablo/Informativa_JuanPablo.wav",
-      "seductora": "/audios/20-pablo/Seductora_JuanPablo.wav",
-      "actuada": "/audios/20-pablo/Actuada_JuanPablo.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/2001.jpeg",
-    "img2": "/gallery/2002.jpeg",
-    "img3": "/gallery/2003.jpeg",
-    "img4": "/gallery/2004.jpeg",
-    "img5": "/gallery/2005.jpeg"
-  },
+  
   {
     "numero": "Locutora 21",
     "content": "Voz 21",
