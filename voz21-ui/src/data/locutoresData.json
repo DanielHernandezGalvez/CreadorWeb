@@ -135,28 +135,6 @@
     "img4": "/gallery/0804.jpeg",
     "img5": "/gallery/0805.jpeg"
   },
-  {
-    "numero": "Locutor 9",
-    "content": "Voz 9",
-    "name": "Jacob Bernal",
-    "sexo": "hombre",
-    "voz": {
-      "institucional": "/audios/09-jacob/Institucional_Jacob.wav",
-      "dinamica": "/audios/09-jacob/Dinamica_Jacob.wav",
-      "documental": "/audios/09-jacob/Documental_Jacob.wav",
-      "emotiva": "/audios/09-jacob/Emotiva_Jacob.wav",
-      "informativa": "/audios/09-jacob/Informativa_Jacob.wav",
-      "seductora": "/audios/09-jacob/Seductora_Jacob.wav",
-      "actuada": "/audios/09-jacob/Actuada_Jacob.wav",
-      "ingles": "",
-      "alAire": ""
-    },
-    "img": "/gallery/0901.jpeg",
-    "img2": "/gallery/0902.jpeg",
-    "img3": "/gallery/0903.jpeg",
-    "img4": "/gallery/0904.jpeg",
-    "img5": "/gallery/0905.jpeg"
-  },
  
   {
     "numero": "Locutor 10",
