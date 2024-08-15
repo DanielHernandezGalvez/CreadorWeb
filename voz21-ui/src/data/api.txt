@@ -181,3 +181,25 @@
     "img4": "/gallery/0904.jpeg",
     "img5": "/gallery/0905.jpeg"
   },
+   {
+    "numero": "Locutor 3",
+    "content": "Voz 3",
+    "name": "Santiago Sánchez",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/03-santiago/Institucional_Santiago.wav",
+      "dinamica": "/audios/03-santiago/Santiago dinamica NEW.wav",
+      "documental": "/audios/03-santiago/Documental_Santiago.wav",
+      "emotiva": "/audios/03-santiago/Emotiva_Santiago.wav",
+      "informativa": "/audios/03-santiago/Informativa_Santiago.wav",
+      "seductora": "/audios/03-santiago/Seductora_Santiago.wav",
+      "actuada": "/audios/03-santiago/Actuada_Santiago.wav",
+      "ingles": "/audios/03-santiago/Ingles_Santiago.wav",
+      "alAire": ""
+    },
+    "img": "/gallery/0301.jpeg",
+    "img2": "/gallery/0302.jpeg",
+    "img3": "/gallery/0303.jpeg",
+    "img4": "/gallery/0304.jpeg",
+    "img5": "/gallery/0305.jpeg"
+  },
