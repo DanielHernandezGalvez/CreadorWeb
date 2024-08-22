@@ -20,7 +20,6 @@
     "img4": "/gallery/0104.jpeg",
     "img5": "/gallery/0105.jpeg"
   },
-
    {
     "numero": "Locutor 2",
     "content": "Voz 2",
@@ -43,7 +42,6 @@
     "img4": "/gallery/0204.jpeg",
     "img5": "/gallery/0205.jpeg"
   },
-
    {
     "numero": "Locutor 3",
     "content": "Voz 3",
@@ -66,7 +64,6 @@
     "img4": "/gallery/0304.jpeg",
     "img5": "/gallery/0305.jpeg"
   },
-
    {
     "numero": "Locutor 9",
     "content": "Voz 9",
@@ -89,9 +86,7 @@
     "img4": "/gallery/0904.jpeg",
     "img5": "/gallery/0905.jpeg"
   },
-
-  
-    {
+  {
     "numero": "Locutor 17",
     "content": "Voz 17",
     "name": "Abraham Aceves",
@@ -113,7 +108,6 @@
     "img4": "/gallery/1704.jpeg",
     "img5": "/gallery/1705.jpeg"
   },
-
   {
     "numero": "Locutor 20",
     "content": "Voz 20",
@@ -158,7 +152,6 @@
     "img4": "/gallery/0204.jpeg",
     "img5": "/gallery/0205.jpeg"
   },
-
    {
     "numero": "Locutor 9",
     "content": "Voz 9",
@@ -203,3 +196,4 @@
     "img4": "/gallery/0304.jpeg",
     "img5": "/gallery/0305.jpeg"
   },
+  
