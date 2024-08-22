@@ -14,6 +14,7 @@ const Courses: React.FC = () => {
             title="Producción y comercialización de rádio"
             description="Costo 3000 pesos"
             imageUrl="/courses/taller-radio.jpg"
+            // date="04/05/2024 de 09:00 a 11:00 Hrs."
             video=""
           />
           <CourseCard
