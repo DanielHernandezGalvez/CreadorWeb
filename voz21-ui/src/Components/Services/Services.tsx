@@ -1,9 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import "./services.css";
 import Link from "next/link";
 
 const Services = () => {
-  const [interval, setInterval] = useState(0);
   return (
     <>
       <div className="about pb-10">
