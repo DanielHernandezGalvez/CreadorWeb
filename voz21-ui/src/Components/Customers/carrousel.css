@@ -4,14 +4,14 @@
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px - 20px)); /* Ajusta el valor */
+    --webkit-transform: translateX(calc(-250px - 20px)); /* Ajusta el valor */
     transform: translateX(calc(-250px - 20px));
   }
 }
 
 @keyframes scroll {
   0% {
-    -webkit-transform: translateX(0);
+    --webkit-transform: translateX(0);
     transform: translateX(0);
   }
   100% {
