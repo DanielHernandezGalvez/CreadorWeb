@@ -1,5 +1,27 @@
 [
   {
+    "numero": "Locutora 2",
+    "content": "Voz 2",
+    "name": "Yvonne",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/ivone/Yvonne Institucional(musicalizado).wav",
+      "dinamica": "/audios/ivone/Yvonne Dinamica(musicalizado).wav",
+      "documental": "/audios/ivone/Yvonne Narrativa (musicalizado).wav",
+      "emotiva": "/audios/ivone/Yvonne Emotiva(musicalizado).wav",
+      "informativa": "/audios/ivone/Yvonne Informativa(musicalizado).wav",
+      "seductora": "/audios/ivone/Yvonne Seductora (musicalizado).wav",
+      "actuada": "/audios/ivone/Yvonne Actuada(Musicalizado).wav",
+      "ingles": "",
+      "alAire": ""
+    },
+    "img": "/gallery/Yv01.jpeg",
+    "img2": "/gallery/Yv02.jpeg",
+    "img3": "/gallery/Yv03.jpeg",
+    "img4": "/gallery/Yv04.jpeg",
+    "img5": "/gallery/Yv05.jpeg"
+  },
+  {
     "numero": "Locutor 4",
     "content": "Voz 4",
     "name": "Kevin Medina",
