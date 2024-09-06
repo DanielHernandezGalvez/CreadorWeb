@@ -160,6 +160,20 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             </div>
           )}
 
+          {italian && (
+            <div>
+              <h4 className="text-gray-600">Voz Al Aire</h4>
+              <audio
+                preload="none"
+                className="my-3 mx-auto flex justify-center items-center"
+                controls
+              >
+                <source src={alAire} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
+
           {jingle && (
             <div>
               <h4 className="text-gray-600">Jingle</h4>
