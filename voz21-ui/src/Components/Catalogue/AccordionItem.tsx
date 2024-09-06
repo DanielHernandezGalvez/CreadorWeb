@@ -15,7 +15,8 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   actuada,
   ingles,
   alAire,
-  jingle
+  jingle,
+  italian
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
