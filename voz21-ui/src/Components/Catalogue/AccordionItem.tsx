@@ -16,7 +16,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
   ingles,
   alAire,
   jingle,
-  italian
+  italiano
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -160,7 +160,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             </div>
           )}
 
-          {italian && (
+          {italiano && (
             <div>
               <h4 className="text-gray-600">Voz Al Aire</h4>
               <audio
@@ -168,7 +168,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
                 className="my-3 mx-auto flex justify-center items-center"
                 controls
               >
-                <source src={alAire} type="audio/mpeg" />
+                <source src={italiano} type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
             </div>

@@ -23,6 +23,8 @@ const Accordion: React.FC<AccordionProps> = ({ selectedOption }) => {
               return true;
             } else if (selectedOption === "English" && item.voz.ingles !== "") {
               return true; // Mostrar solo voces en inglés
+            } else if (selectedOption === "italiano" && item.voz.italiano !== "") {
+              return true; // Mostrar solo voces en inglés
             }
             return false;
           })
@@ -41,6 +43,7 @@ const Accordion: React.FC<AccordionProps> = ({ selectedOption }) => {
             ingles={item.voz.ingles}
             alAire={item.voz.alAire}
             jingle={item.voz.jingle}
+            italiano={item.voz.italiano}
           />
         </div>
       ))}

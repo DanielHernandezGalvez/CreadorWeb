@@ -11,5 +11,5 @@ export interface AccordionItemProps {
   ingles?: string;
   alAire?: string;
   jingle?: string;
-  italian?: string;
+  italiano?: string;
 }
