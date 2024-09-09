@@ -16,11 +16,11 @@
       "alAire": "",
       "italiano" : ""
     },
-    "img": "/gallery/Yv01.jpeg",
-    "img2": "/gallery/Yv02.jpeg",
-    "img3": "/gallery/Yv03.jpeg",
-    "img4": "/gallery/Yv04.jpeg",
-    "img5": "/gallery/Yv05.jpeg"
+    "img": "/gallery/Yv02.png",
+    "img2": "/gallery/Yv01.png",
+    "img3": "/gallery/Yv03.png",
+    "img4": "/gallery/Yv04.png",
+    "img5": "/gallery/Yv05.png"
   },
 
   {
@@ -39,8 +39,8 @@
       "ingles": "",
       "alAire": ""
     },
-    "img": "/gallery/0402.jpeg",
-    "img2": "/gallery/0404.jpeg",
+    "img": "/gallery/0404.jpeg",
+    "img2": "/gallery/0402.jpeg",
     "img3": "/gallery/0403.jpeg",
     "img4": "/gallery/0401.jpeg",
     "img5": "/gallery/0405.jpeg"
