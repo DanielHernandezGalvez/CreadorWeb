@@ -117,6 +117,7 @@ export default function Home() {
             <button className="my-1" onClick={() => toggleState(setDirectora)}>
               Nora García
             </button>
+            
           </div>
           {/* servicios */}
           {/* <div className={`md:hidden flex-col ${menuOpen ? "flex" : "hidden"}`}> */}

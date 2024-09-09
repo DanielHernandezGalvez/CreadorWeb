@@ -22,6 +22,29 @@
     "img4": "/gallery/Yv04.png",
     "img5": "/gallery/Yv05.png"
   },
+  {
+    "numero": "Locutora 3",
+    "content": "Voz 3",
+    "name": "Vanessa García",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/03-VANESA/Coco Institucional(Musicalizado).mp3",
+      "dinamica": "/audios/03-VANESA/Coco Dinamica(Musicalizado).mp3",
+      "documental": "/audios/03-VANESA/Coco Documental(Musicalizado).mp3",
+      "emotiva": "/audios/03-VANESA/Coco Emotiva(Musicalizado).mp3",
+      "informativa": "/audios/03-VANESA/Coco Informativa(Musicalizado).mp3",
+      "seductora": "/audios/03-VANESA/Coco Seductora(Musicalizado).mp3",
+      "actuada": "",
+      "ingles": "",
+      "alAire": "",
+      "jingle" : "/audios/03-VANESA/Coco Cantada(Musicalizado).mp3"
+    },
+    "img": "/gallery/VG01.png",
+    "img2": "/gallery/VG02.png",
+    "img3": "/gallery/VG03.png",
+    "img4": "/gallery/VG04.png",
+    "img5": "/gallery/VG05.png"
+  },
 
   {
     "numero": "Locutor 4",
