@@ -81,18 +81,18 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             </audio>
           </div>
 
-          {emotiva && ( 
-          <div>
-            <h4 className="text-gray-600">Voz de Emotiva</h4>
-            <audio
-              preload="none"
-              className="my-3 mx-auto flex justify-center items-center"
-              controls
-            >
-              <source src={emotiva} type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </div>
+          {emotiva && (
+            <div>
+              <h4 className="text-gray-600">Voz de Emotiva</h4>
+              <audio
+                preload="none"
+                className="my-3 mx-auto flex justify-center items-center"
+                controls
+              >
+                <source src={emotiva} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
           )}
 
           <div>
@@ -119,17 +119,17 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           </div>
 
           {actuada && (
-          <div>
-            <h4 className="text-gray-600">Voz Actuada</h4>
-            <audio
-              preload="none"
-              className="my-3 mx-auto flex justify-center items-center"
-              controls
-            >
-              <source src={actuada} type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-          </div>
+            <div>
+              <h4 className="text-gray-600">Voz Actuada</h4>
+              <audio
+                preload="none"
+                className="my-3 mx-auto flex justify-center items-center"
+                controls
+              >
+                <source src={actuada} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
           )}
 
           {ingles && (
@@ -160,19 +160,6 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             </div>
           )}
 
-          {italiano && (
-            <div>
-              <h4 className="text-gray-600">Voz Al Aire</h4>
-              <audio
-                preload="none"
-                className="my-3 mx-auto flex justify-center items-center"
-                controls
-              >
-                <source src={italiano} type="audio/mpeg" />
-                Your browser does not support the audio element.
-              </audio>
-            </div>
-          )}
 
           {jingle && (
             <div>
@@ -187,6 +174,21 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
               </audio>
             </div>
           )}
+
+          {italiano && (
+            <div>
+              <h4 className="text-gray-600">Voz en Italiano</h4>
+              <audio
+                preload="none"
+                className="my-3 mx-auto flex justify-center items-center"
+                controls
+              >
+                <source src={italiano} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
+
         </div>
       )}
     </div>

@@ -14,7 +14,7 @@
       "actuada": "/audios/ivone/Yvonne Actuada(Musicalizado).wav",
       "ingles": "",
       "alAire": "",
-      "italiano" : ""
+      "italiano": "/audios/ivone/Yvonne Italiano(musicalizado).wav"
     },
     "img": "/gallery/Yv02.png",
     "img2": "/gallery/Yv01.png",
@@ -27,6 +27,7 @@
     "content": "Voz 3",
     "name": "Vanessa García",
     "sexo": "mujer",
+    "jingle": true,
     "voz": {
       "institucional": "/audios/03-VANESA/Coco Institucional(Musicalizado).mp3",
       "dinamica": "/audios/03-VANESA/Coco Dinamica(Musicalizado).mp3",
@@ -37,6 +38,7 @@
       "actuada": "",
       "ingles": "",
       "alAire": "",
+      "italiano": "",
       "jingle" : "/audios/03-VANESA/Coco Cantada(Musicalizado).mp3"
     },
     "img": "/gallery/VG01.png",
@@ -60,6 +62,7 @@
       "seductora": "/audios/04-kevin/Seductora_Kevin.wav",
       "actuada": "",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/0404.jpeg",
@@ -82,6 +85,7 @@
       "seductora": "/audios/05-lalo/Lalo sensual NEW.wav",
       "actuada": "/audios/05-lalo/LALO ACTUADA FINAL.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/0501.jpeg",
@@ -104,6 +108,7 @@
       "seductora": "/audios/06-mariana/Mariana seductora NEW.wav",
       "actuada": "/audios/06-mariana/MARIANA ACTUADA FINAL.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/0601.jpeg",
@@ -126,6 +131,7 @@
       "seductora": "/audios/07-daniel/Seductora_Daniel.wav",
       "actuada": "/audios/07-daniel/Actuada_Daniel.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/0702.jpeg",
@@ -148,6 +154,7 @@
       "seductora": "/audios/08-delia/Seductora_Delia.wav",
       "actuada": "/audios/08-delia/Actuada_Delia.wav",
       "ingles": "/audios/08-delia/Delia Ingles NEW.wav",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/0802.jpeg",
@@ -170,6 +177,7 @@
       "seductora": "/audios/10-octavio/OCTAVIO SEDUCTORA FINAL.wav",
       "actuada": "/audios/10-octavio/OCTAVIO ACTUADA FINAL.wav",
       "ingles": "/audios/10-octavio/OCTAVIO INGLES FINAL.wav",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/1002.jpeg",
@@ -192,6 +200,7 @@
       "seductora": "/audios/11-juno/Seductora_Juno.wav",
       "actuada": "/audios/11-juno/Actuada_Juno.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/1101.jpeg",
@@ -214,6 +223,7 @@
       "seductora": "/audios/12-gigi/GERALDINE SEDUCTORA FINAL.wav",
       "actuada": "/audios/12-gigi/GERALDINE ACTUADA FINAL.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/1201.jpeg",
@@ -237,6 +247,7 @@
       "seductora": "/audios/14-vega/Seductora_Vega.wav",
       "actuada": "/audios/14-vega/Actuada_Vega.wav",
       "ingles": "/audios/14-vega/Ingles_Vega.wav",
+      "italiano": "",
       "alAire": "/audios/14-vega/AlAire_Vega.wav"
     },
     "img": "/gallery/1401.jpeg",
@@ -260,6 +271,7 @@
       "seductora": "/audios/15-brenda/Brenda Tapia seductora NEW.wav",
       "actuada": "/audios/15-brenda/Actuada_Brenda.wav",
       "ingles": "",
+      "italiano": "",
       "jingle": "/audios/15-brenda/Jingle_Brenda-Sin copyright.wav"
     },
     "img": "/gallery/1502.jpeg",
@@ -282,6 +294,7 @@
       "seductora": "/audios/16-nat/Seductora_Natyeli.wav",
       "actuada": "/audios/16-nat/Actuada_Natyeli.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/1601.jpeg",
@@ -306,6 +319,7 @@
       "actuada": "",
       "ingles": "",
       "alAire": "",
+      "italiano": "",
       "jingle": "/audios/18-kenia/Jingle_Kenia.wav"
     },
     "img": "/gallery/1803.jpeg",
@@ -328,6 +342,7 @@
       "seductora": "/audios/AlexDiablo/ALEX(DIABLO)SEDUCTORAFINAL.wav",
       "actuada": "/audios/AlexDiablo/ALEX(DIABLO)ACTUADAFINAL.wav",
       "ingles": "/audios/AlexDiablo/ALEX(DIABLO)INGLESFINAL.wav",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/1902.jpeg",
@@ -350,6 +365,7 @@
       "seductora": "/audios/21-nora/Seductora_Nora.wav",
       "actuada": "/audios/21-nora/Actuada_Nora.wav",
       "ingles": "",
+      "italiano": "",
       "alAire": ""
     },
     "img": "/gallery/2101.jpg",
