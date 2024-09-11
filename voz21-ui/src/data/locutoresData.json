@@ -163,6 +163,31 @@
     "img5": "/gallery/0805.jpeg"
   },
   {
+    "numero": "Locutora 9",
+    "content": "Voz 9",
+    "name": "Citlalli Gómez",
+    "sexo": "mujer",
+    "jingle": true,
+    "voz": {
+      "institucional": "/audios/09-citlali/Citlali Institucional (Musicalizado).mp3",
+      "dinamica": "/audios/09-citlali/Citlali Dinamica (Musicalizado).mp3",
+      "documental": "/audios/09-citlali/Citlali Documental (Musicalizado).mp3",
+      "emotiva": "/audios/09-citlali/Citlali Emotiva (Musicalizado).mp3",
+      "informativa": "/audios/09-citlali/Citlali Informativa (Musicalizado).mp3",
+      "seductora": "/audios/09-citlali/Citlali Seductora (Musicalizado).mp3",
+      "actuada": "/audios/09-citlali/Citlali Actuado (Musicalizado).mp3",
+      "ingles": "/audios/09-citlali/Citlali Ingles (Musicalizado).mp3",
+      "italiano": "",
+      "alAire": "",
+      "jingle": "/audios/09-citlali/Citlali Cantada (Musicalizado).mp3"
+    },
+    "img": "/gallery/CI01.png",
+    "img2": "/gallery/CI02.png",
+    "img3": "/gallery/CI03.png",
+    "img4": "/gallery/CI04.png",
+    "img5": "/gallery/CI01.png"
+  },
+  {
     "numero": "Locutor 10",
     "content": "Voz 10",
     "name": "Octavio Ríos",
