@@ -257,6 +257,29 @@
     "img5": "/gallery/1205.jpeg"
   },
   {
+    "numero": "Locutora 13",
+    "content": "Voz 13",
+    "name": "Vere",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/13-vere/VereInstitucional(Musicalizado).mp3",
+      "dinamica": "/audios/13-vere/VereDinamica(Musicalizado).mp3",
+      "documental": "/audios/13-vere/VereDocumental(Musicalizado).mp3",
+      "emotiva": "/audios/13-vere/VereEmotiva(Musicalizado).mp3",
+      "informativa": "/audios/13-vere/VereEmotiva(Musicalizado).mp3",
+      "seductora": "/audios/13-vere/VereSeductora(Musicalizado).mp3",
+      "actuada": "/audios/13-vere/",
+      "ingles": "",
+      "italiano": "",
+      "alAire": ""
+    },
+    "img": "/gallery/vere1.png",
+    "img2": "/gallery/vere2.png",
+    "img3": "/gallery/vere3.png",
+    "img4": "/gallery/vere4.png",
+    "img5": "/gallery/vere5.png"
+  },
+  {
     "numero": "Locutor 14",
     "content": "Voz 14",
     "name": "Juan Carlos de la Vega",
