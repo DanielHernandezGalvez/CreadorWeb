@@ -124,6 +124,7 @@ const Gallery: React.FC<GalleryProps> = ({ img }) => {
                       }
                     />
                   )}
+                  
                   {selectedLocutor.img3 && (
                     <Image
                       src={selectedLocutor.img3}
