@@ -1,28 +1,29 @@
 [
+
   {
     "numero": "Locutor 1",
     "content": "Voz 1",
-    "name": "Jorge Lezcano",
+    "name": "Douglas Gonzalez",
     "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/1-jorge/JorgeInstitucional(musicalizado).mp3",
-      "dinamica": "/audios/1-jorge/JorgeDinamica(musicalizado).mp3",
-      "documental": "/audios/1-jorge/JorgeDocumental(musicalizado).mp3",
-      "emotiva": "/audios/1-jorge/JorgeEmotiva(musicalizado).mp3",
-      "informativa": "/audios/1-jorge/JorgeInformativa(musicalizado).mp3",
-      "seductora": "/audios/1-jorge/JorgeSeductora(musicalizado).mp3",
-      "actuada": "/audios/1-jorge/JorgeActuada(musicalizado).mp3",
-      "ingles": "",
+      "institucional": "/audios/17-douglas/Douglas Institucional(musicalizado).mp3",
+      "dinamica": "/audios/17-douglas/Douglas Dinamica (Musicalizado).mp3",
+      "documental": "/audios/17-douglas/Douglas Documental(musicalizado).mp3",
+      "emotiva": "/audios/17-douglas/Douglas Emotiva(musicalizado).mp3",
+      "informativa": "/audios/17-douglas/Douglas Informativa(musicalizado).mp3",
+      "seductora": "/audios/17-douglas/Douglas Seductora(musicalizado).mp3",
+      "actuada": "/audios/17-douglas/Douglas Actuada(musicalizado).mp3",
+      "ingles": "/audios/17-douglas/Douglas Ingles(musicalizado).mp3",
       "italiano": "",
-      "alAire": "",
-      "jingle": "/audios/1-jorge/JorgeCantada(musicalizado).mp3"
+      "alAire": ""
     },
-    "img": "/gallery/jorge1.png",
-    "img2": "/gallery/jorge2.png",
-    "img3": "/gallery/jorge3.png",
-    "img4": "/gallery/jorge4.png",
-    "img5": "/gallery/jorge5.png"
+    "img": "/gallery/douglas1.png",
+    "img2": "/gallery/douglas2.png",
+    "img3": "/gallery/douglas3.png",
+    "img4": "/gallery/douglas4.png",
+    "img5": "/gallery/douglas5.png"
   },
+  
   {
     "numero": "Locutora 2",
     "content": "Voz 2",
@@ -373,29 +374,33 @@
     "img4": "/gallery/1604.jpeg",
     "img5": "/gallery/1605.jpeg"
   },
+
   {
     "numero": "Locutor 17",
     "content": "Voz 17",
-    "name": "Douglas Gonzalez",
+    "name": "Jorge Lezcano",
     "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/17-douglas/Douglas Institucional(musicalizado).mp3",
-      "dinamica": "/audios/17-douglas/Douglas Dinamica (Musicalizado).mp3",
-      "documental": "/audios/17-douglas/Douglas Documental(musicalizado).mp3",
-      "emotiva": "/audios/17-douglas/Douglas Emotiva(musicalizado).mp3",
-      "informativa": "/audios/17-douglas/Douglas Informativa(musicalizado).mp3",
-      "seductora": "/audios/17-douglas/Douglas Seductora(musicalizado).mp3",
-      "actuada": "/audios/17-douglas/Douglas Actuada(musicalizado).mp3",
-      "ingles": "/audios/17-douglas/Douglas Ingles(musicalizado).mp3",
+      "institucional": "/audios/1-jorge/JorgeInstitucional(musicalizado).mp3",
+      "dinamica": "/audios/1-jorge/JorgeDinamica(musicalizado).mp3",
+      "documental": "/audios/1-jorge/JorgeDocumental(musicalizado).mp3",
+      "emotiva": "/audios/1-jorge/JorgeEmotiva(musicalizado).mp3",
+      "informativa": "/audios/1-jorge/JorgeInformativa(musicalizado).mp3",
+      "seductora": "/audios/1-jorge/JorgeSeductora(musicalizado).mp3",
+      "actuada": "/audios/1-jorge/JorgeActuada(musicalizado).mp3",
+      "ingles": "",
       "italiano": "",
-      "alAire": ""
+      "alAire": "",
+      "jingle": "/audios/1-jorge/JorgeCantada(musicalizado).mp3"
     },
-    "img": "/gallery/douglas1.png",
-    "img2": "/gallery/douglas2.png",
-    "img3": "/gallery/douglas3.png",
-    "img4": "/gallery/douglas4.png",
-    "img5": "/gallery/douglas5.png"
+    "img": "/gallery/jorge1.png",
+    "img2": "/gallery/jorge2.png",
+    "img3": "/gallery/jorge3.png",
+    "img4": "/gallery/jorge4.png",
+    "img5": "/gallery/jorge5.png"
   },
+
+  
 
   {
     "numero": "Locutora 18",
