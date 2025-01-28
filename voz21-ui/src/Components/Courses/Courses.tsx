@@ -4,80 +4,60 @@ import CourseCard from "./CourseCard";
 
 const Courses: React.FC = () => {
   return (
-    <div id="cursos" className="bg-gray-200  p-8">
+    <div id="cursos" className="bg-gray-200 p-8">
       <div className="container mx-auto mt-8">
-        <h1 className="text-5xl text-gray-600 title font-bold  text-center my-10">
+        <h1 className="text-5xl text-gray-600 title font-bold text-center my-10">
           Cursos y Talleres
         </h1>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 lg:gap-20 flex-wrap pt-10 pb-10">
-           <CourseCard
-            title="Producción y comercialización de rádio"
-            description="Costo 3000 pesos"
-            imageUrl="/courses/taller-radio.jpg"
-            // date="04/05/2024 de 09:00 a 11:00 Hrs."
-            video=""
-          />
-          <CourseCard
-            title="Aprende a hablar en público"
-            description="Aprende a hablar en público con seguridad y éxito, sabados de 1 a 3 pm / 7 sesiones, inicia el 2 de agosto"
-            imageUrl="/courses/hablar-en-publico.jpg"
-            date="02/08/2024 de 13:00 a 15:00 Hrs."
-            video="" 
-          />
-
-          <CourseCard
-            title="Taller de Podcast"
-            description="Hacer podcast es fácil, hacerlo bien requiere conocimiento. Conoce todos los elementos para generar contenidos creativos, interesantes y de calidad, utilizando tus mejores recursos técnicos y vocales. Inversión $3000 Cupo limitado"
-            imageUrl="/courses/podcast.jpg"
-            date="20/08/2024 de 19:00 a 21:00 Hrs."
-            video=""
-          />
           
-          {/* <CourseCard
-            title="Taller Producción de Radio"
-            description="Aprende a diseñar escaletas, guiones radiofónicos, redacción en ritmo auditivo, uso de mezcladora e interfaces de sonido y tipos de software para grabación. Todas las clases son en estudio profesional. Crea y comercializa tu propio programa de radio."
-            imageUrl="/courses/produccion-radio.jpg"
-            date="Próximamente"
-          />
           <CourseCard
-            title="Taller de Locución Profesional"
-            description="Lleva tu potencial al siguiente nivel con el taller de locución profesional impartido por Nora García, locutora profesional con diversos programas radiofónicos exitosos en diversas frecuencias de FM. Viernes de 6 a 8 pm del 12/01/2024 al 23/02/2024."
-            imageUrl="/courses/locucion-profesional.jpg"
-            date="12/01/2024 de 18:00 a 20:00 Hrs."
+            title="Taller de locución comercial"
+            description="¿Quieres aprender a dominar la locución comercial con técnicas profesionales? Este taller es para ti. Impartido por la locutora profesional Nora García, con más de 15 años de experiencia en el medio. ¡Reserva tu lugar ahora y sé parte de esta experiencia única! Costo: $2500. Duración: 7 sesiones. Para más informes, contáctanos al 33 3557 7482. Col. Americana GDL"
+            imageUrl="/courses/taller-1.jpg"
+            video=""
           />
 
           <CourseCard
-            title="Taller de ventas y manejo de voz"
-            description="Aprende las mejores estrategias para vender. Conoce todas las herramientas para causar impacto con el buen uso y manejo de tu voz para obtener éxito en el mundo de las ventas. Iniciamos el 06/01/2024 de 9:00 a 11:00 Hrs."
-            imageUrl="/courses/ventas.jpg"
-            date="11/01/2024"
-          /> */}
-          {/* <CourseCard
-            title="Hablar en publico"
-            description="Próximamente"
-            imageUrl="/hero/hablarenpublico.jpg"
-            date="Próximamente"
-          /> */}
-
-          <CourseCard
-            title="MasterClass Locución"
-            description="Aprende lucución de la mano de dos locutoras profesionales con más de 20 años de experiencia en el medio, jueves y viernes de 7 a 9 pm, costo de 3000 pesos"
-            imageUrl="/courses/masterclass-locucion.jpg"
-            date="01/08/2024 de 19:00 a 21:00 hrs."
+            title="Taller de manejo de cámara"
+            description="Aprende a desenvolverte con seguridad mientras eres grabad@. Este taller está diseñado especialmente para que domines cómo proyectarte frente a cámara con confianza y naturalidad. Costo: $2500 7 sesiones de 2 horas cada una. Impartido por Nora García, locutora con más de 15 años de experiencia. Reserva tu lugar ahora. ¡No dejes pasar esta oportunidad de brillar frente a las cámaras! Para más informes, contáctanos: WhatsApp: 33 3557 7482"
+            imageUrl="/courses/taller-2.jpg"
+            video=""
           />
 
           <CourseCard
-            title="Taller de doblaje de voz"
-            description="Aprende doblaje de una manera profesional y divertida, sábados de 11 a 1 pm 7 sesiones"
-            imageUrl="/courses/doblaje.jpg"
-            date="03/08/2024"
+            title="Taller de actuación"
+            description="¡Conviértete en el protagonista! Si siempre soñaste con actuar y expresar tus emociones en el escenario, este Taller de Actuación es para ti. Aprende a desarrollar personajes, dominar tu voz, tu cuerpo, y ganar confianza mientras disfrutas de un ambiente dinámico. ¿Qué te espera? Técnicas básicas de actuación. Improvisación y creatividad. Expresión corporal y manejo de emociones. Dinámicas grupales para fortalecer el trabajo en equipo. ¿Para quién está diseñado? Este taller está diseñado para personas que busquen explorar su creatividad, mejorar su expresión escénica y disfrutar del arte de actuar, sin importar su experiencia previa. ¿Quién imparte? Nora García, maestra y experta en medios de comunicación. Siete sesiones increíbles que cambiarán tu perspectiva. Costo: $2,500. Ubicación: Col. Americana."
+            imageUrl="/courses/taller-3.jpg"
+            video=""
           />
+
           <CourseCard
-            title="Locución profesional"
-            description="Aprende lucución de la mano de una locutora profesional con más de 20 años de experiencia en el medio, viernes de 7 a 9 pm, costo de 3000 pesos"
-            imageUrl="/courses/locucion-pro.png"
-            date="03/08/2024"
-            video="/videos/locucion-profesional.mp4"
+            title="Taller de podcast"
+            description="¿Sueñas con crear tu propio podcast y compartir tus ideas con el mundo? ¡Este taller es para ti! En el Taller de Podcast aprenderás todo lo necesario para producir y lanzar tu proyecto. Aprenderás: •	Planificación y estructura de episodios. •	Uso de herramientas y software de grabación. •	Técnicas de edición y postproducción. •	Cómo promocionar y distribuir tu podcast. Detalles del taller: Duración: 7 sesiones. Precio: $2,500. Lugar: Col. Americana, Guadalajara. Imparte: Nora García, maestra y experta en medios de comunicación. ¡Reserva tu lugar y empieza a darle voz a tus ideas! Contacto: WhatsApp: 33 3557 7482"
+            imageUrl="/courses/teller-4.jpg"
+          />
+
+          <CourseCard
+            title="Taller de locución profesional"
+            description="¿Quieres aprender a dominar la locución de forma profesional? Este taller es para ti. Impartido por Nora García, con más de 15 años de experiencia en el medio. ¡Inscribe tu voz! Costo: $2500 Para más informes, contáctanos al 33 3557 7482."
+            imageUrl="/courses/taller-5.jpg"
+            video=""
+          />
+
+          <CourseCard
+            title="Taller de radionovela"
+            description="Aprende todo sobre cómo ser un presentador de radionovela y practica profesionalmente. -$2,500 pesos por 7 sesiones. -Realizado en cabina profesional. -Impartido por Nora García, locutora con más de 15 años de experiencia Informes al whatsapp 33 3557 7482. Síguenos en Instagram: @voz21_ Página: www.voz21estudio.com Col. Americana."
+            imageUrl="/courses/taller-6.jpg"
+            video=""
+          />
+
+          <CourseCard
+            title="Taller de radionovela"
+            description="Aprende todo sobre cómo hacer doblaje y practica profesionalmente. -$2,500 pesos por 7 sesiones. -Realizado en cabina profesional. -Impartido por Nora García, locutora con más de 15 años de experiencia. Para más informes manda un whatsapp a 33 3557 7482. Síguenos en Instagram: @voz21_ Página: www.voz21estudio.com Col. Americana."
+            imageUrl="/courses/taller-7.jpg"
+            video=""
           />
 
         </div>

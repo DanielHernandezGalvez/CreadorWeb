@@ -1,7 +1,7 @@
 export interface CoursesProps {
-  title: string;
-  description: string;
-  imageUrl: string;
+  title?: any;
+  description?: any;
+  imageUrl?: any;
   date?: string;
   link?: string
   plan?: string;

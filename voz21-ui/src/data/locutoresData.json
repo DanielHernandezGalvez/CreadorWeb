@@ -1,27 +1,27 @@
 [
 
   {
-    "numero": "Locutor 1",
+    "numero": "Locutora 1",
     "content": "Voz 1",
-    "name": "Douglas Gonzalez",
-    "sexo": "hombre",
+    "name": "Mariana Hernández",
+    "sexo": "mujer",
     "voz": {
-      "institucional": "/audios/17-douglas/Douglas Institucional(musicalizado).mp3",
-      "dinamica": "/audios/17-douglas/Douglas Dinamica (Musicalizado).mp3",
-      "documental": "/audios/17-douglas/Douglas Documental(musicalizado).mp3",
-      "emotiva": "/audios/17-douglas/Douglas Emotiva(musicalizado).mp3",
-      "informativa": "/audios/17-douglas/Douglas Informativa(musicalizado).mp3",
-      "seductora": "/audios/17-douglas/Douglas Seductora(musicalizado).mp3",
-      "actuada": "/audios/17-douglas/Douglas Actuada(musicalizado).mp3",
-      "ingles": "/audios/17-douglas/Douglas Ingles(musicalizado).mp3",
+      "institucional": "/audios/06-mariana/MARIANA INSTITUCIONAL FINAL.wav",
+      "dinamica": "/audios/06-mariana/Mariana dinamica NEW.wav",
+      "documental": "/audios/06-mariana/Mariana documental NEW.wav",
+      "emotiva": "/audios/06-mariana/Mariana emotiva NEW.wav",
+      "informativa": "/audios/06-mariana/MARIANA INFORMATIVA FINAL.wav",
+      "seductora": "/audios/06-mariana/Mariana seductora NEW.wav",
+      "actuada": "/audios/06-mariana/MARIANA ACTUADA FINAL.wav",
+      "ingles": "",
       "italiano": "",
       "alAire": ""
     },
-    "img": "/gallery/douglas1.png",
-    "img2": "/gallery/douglas2.png",
-    "img3": "/gallery/douglas3.png",
-    "img4": "/gallery/douglas4.png",
-    "img5": "/gallery/douglas5.png"
+    "img": "/gallery/0601.jpeg",
+    "img2": "/gallery/0602.jpeg",
+    "img3": "/gallery/0603.jpeg",
+    "img4": "/gallery/0604.jpeg",
+    "img5": "/gallery/0605.jpeg"
   },
   
   {
@@ -89,8 +89,8 @@
       "italiano": "",
       "alAire": ""
     },
-    "img": "/gallery/0404.jpeg",
-    "img2": "/gallery/0402.jpeg",
+    "img": "/gallery/0402.jpeg",
+    "img2": "/gallery/0404.jpeg",
     "img3": "/gallery/0403.jpeg",
     "img4": "/gallery/0401.jpeg",
     "img5": "/gallery/0405.jpeg"
@@ -119,28 +119,29 @@
     "img5": "/gallery/0505.jpeg"
   },
   {
-    "numero": "Locutora 6",
+    "numero": "Locutor 6",
     "content": "Voz 6",
-    "name": "Mariana Hernández",
-    "sexo": "mujer",
+    "name": "Douglas Gonzalez",
+    "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/06-mariana/MARIANA INSTITUCIONAL FINAL.wav",
-      "dinamica": "/audios/06-mariana/Mariana dinamica NEW.wav",
-      "documental": "/audios/06-mariana/Mariana documental NEW.wav",
-      "emotiva": "/audios/06-mariana/Mariana emotiva NEW.wav",
-      "informativa": "/audios/06-mariana/MARIANA INFORMATIVA FINAL.wav",
-      "seductora": "/audios/06-mariana/Mariana seductora NEW.wav",
-      "actuada": "/audios/06-mariana/MARIANA ACTUADA FINAL.wav",
-      "ingles": "",
+      "institucional": "/audios/17-douglas/Douglas Institucional(musicalizado).mp3",
+      "dinamica": "/audios/17-douglas/Douglas Dinamica (Musicalizado).mp3",
+      "documental": "/audios/17-douglas/Douglas Documental(musicalizado).mp3",
+      "emotiva": "/audios/17-douglas/Douglas Emotiva(musicalizado).mp3",
+      "informativa": "/audios/17-douglas/Douglas Informativa(musicalizado).mp3",
+      "seductora": "/audios/17-douglas/Douglas Seductora(musicalizado).mp3",
+      "actuada": "/audios/17-douglas/Douglas Actuada(musicalizado).mp3",
+      "ingles": "/audios/17-douglas/Douglas Ingles(musicalizado).mp3",
       "italiano": "",
       "alAire": ""
     },
-    "img": "/gallery/0601.jpeg",
-    "img2": "/gallery/0602.jpeg",
-    "img3": "/gallery/0603.jpeg",
-    "img4": "/gallery/0604.jpeg",
-    "img5": "/gallery/0605.jpeg"
+    "img": "/gallery/douglas1.png",
+    "img2": "/gallery/douglas2.png",
+    "img3": "/gallery/douglas3.png",
+    "img4": "/gallery/douglas4.png",
+    "img5": "/gallery/douglas5.png"
   },
+
   {
     "numero": "Locutor 7",
     "content": "Voz 7",
