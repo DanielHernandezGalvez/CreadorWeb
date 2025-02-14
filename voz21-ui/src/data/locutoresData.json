@@ -1,28 +1,29 @@
 [
 
   {
-    "numero": "Locutora 1",
+    "numero": "Locutor 1",
     "content": "Voz 1",
-    "name": "Mariana Hernández",
-    "sexo": "mujer",
+    "name": "Luis Fernando",
+    "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/06-mariana/MARIANA INSTITUCIONAL FINAL.wav",
-      "dinamica": "/audios/06-mariana/Mariana dinamica NEW.wav",
-      "documental": "/audios/06-mariana/Mariana documental NEW.wav",
-      "emotiva": "/audios/06-mariana/Mariana emotiva NEW.wav",
-      "informativa": "/audios/06-mariana/MARIANA INFORMATIVA FINAL.wav",
-      "seductora": "/audios/06-mariana/Mariana seductora NEW.wav",
-      "actuada": "/audios/06-mariana/MARIANA ACTUADA FINAL.wav",
+      "institucional": "/audios/01-luis-fernando/luis fernando catalogo voz institucional (musicalizado).mp3",
+      "dinamica": "/audios/01-luis-fernando/luis fernando catalogo voz dinamica (musicalizado).mp3",
+      "documental": "/audios/01-luis-fernando/luis fernando catologo voz documental (editado).mp3",
+      "emotiva": "/audios/01-luis-fernando/luis fernando catalogo voz emotiva (musicalizado).mp3",
+      "informativa": "/audios/01-luis-fernando/luis fernando catalogo voz informativa (musicalizado).mp3",
+      "seductora": "/audios/01-luis-fernando/luis fernando catalogo voz seductora (musicalizado).mp3",
+      "actuada": "/audios/01-luis-fernando/luis_fernando_[actuado.mp3",
       "ingles": "",
       "italiano": "",
       "alAire": ""
     },
-    "img": "/gallery/0601.jpeg",
-    "img2": "/gallery/0602.jpeg",
-    "img3": "/gallery/0603.jpeg",
-    "img4": "/gallery/0604.jpeg",
-    "img5": "/gallery/0605.jpeg"
+    "img": "/gallery/luisfernando1.jpeg",
+    "img2": "/gallery/luisfernando2.jpeg",
+    "img3": "/gallery/luisfernando3.jpeg",
+    "img4": "/gallery/luisfernando4.jpeg",
+    "img5": "/gallery/luisfernando5.jpeg"
   },
+ 
   
   {
     "numero": "Locutora 2",
@@ -135,11 +136,11 @@
       "italiano": "",
       "alAire": ""
     },
-    "img": "/gallery/douglas1.png",
-    "img2": "/gallery/douglas2.png",
-    "img3": "/gallery/douglas3.png",
-    "img4": "/gallery/douglas4.png",
-    "img5": "/gallery/douglas5.png"
+    "img": "/gallery/douglas1.jpeg",
+    "img2": "/gallery/douglas2.jpeg",
+    "img3": "/gallery/douglas3.jpeg",
+    "img4": "/gallery/douglas4.jpeg",
+    "img5": "/gallery/douglas5.jpeg"
   },
 
   {
@@ -379,29 +380,28 @@
   {
     "numero": "Locutor 17",
     "content": "Voz 17",
-    "name": "Jorge Lezcano",
+    "name": "Alex Lastra",
     "sexo": "hombre",
     "voz": {
-      "institucional": "/audios/1-jorge/JorgeInstitucional(musicalizado).mp3",
-      "dinamica": "/audios/1-jorge/JorgeDinamica(musicalizado).mp3",
-      "documental": "/audios/1-jorge/JorgeDocumental(musicalizado).mp3",
-      "emotiva": "/audios/1-jorge/JorgeEmotiva(musicalizado).mp3",
-      "informativa": "/audios/1-jorge/JorgeInformativa(musicalizado).mp3",
-      "seductora": "/audios/1-jorge/JorgeSeductora(musicalizado).mp3",
-      "actuada": "/audios/1-jorge/JorgeActuada(musicalizado).mp3",
+      "institucional": "/audios/17-alex-lastra/alex lastra catalogo voz institucional.mp3",
+      "dinamica": "/audios/17-alex-lastra/alex lastra catalogon voz dinamica .mp3",
+      "documental": "/audios/17-alex-lastra/alex lastra catalogo voz documental.mp3",
+      "emotiva": "/audios/17-alex-lastra/alex lastra catalog voz emotiva.mp3",
+      "informativa": "/audios/17-alex-lastra/alex lastra catalogo voz imformativa.mp3",
+      "seductora": "/audios/17-alex-lastra/alex lastra catalogo voz seductora.mp3",
+      "actuada": "",
       "ingles": "",
       "italiano": "",
       "alAire": "",
-      "jingle": "/audios/1-jorge/JorgeCantada(musicalizado).mp3"
+      "jingle": ""
     },
-    "img": "/gallery/jorge1.png",
-    "img2": "/gallery/jorge2.png",
-    "img3": "/gallery/jorge3.png",
-    "img4": "/gallery/jorge4.png",
-    "img5": "/gallery/jorge5.png"
+    "img": "/gallery/alex-lastra-01.jpeg",
+    "img2": "/gallery/alex-lastra-02.jpeg",
+    "img3": "/gallery/alex-lastra-03.jpeg",
+    "img4": "/gallery/alex-lastra-04.jpeg",
+    "img5": "/gallery/alex-lastra-05.jpeg"
   },
-
-  
+ 
 
   {
     "numero": "Locutora 18",
@@ -451,6 +451,31 @@
     "img4": "/gallery/1904.jpeg",
     "img5": "/gallery/1905.jpeg"
   },
+
+  {
+    "numero": "Locutora 20",
+    "content": "Voz 20",
+    "name": "Mariana Hernández",
+    "sexo": "mujer",
+    "voz": {
+      "institucional": "/audios/06-mariana/MARIANA INSTITUCIONAL FINAL.wav",
+      "dinamica": "/audios/06-mariana/Mariana dinamica NEW.wav",
+      "documental": "/audios/06-mariana/Mariana documental NEW.wav",
+      "emotiva": "/audios/06-mariana/Mariana emotiva NEW.wav",
+      "informativa": "/audios/06-mariana/MARIANA INFORMATIVA FINAL.wav",
+      "seductora": "/audios/06-mariana/Mariana seductora NEW.wav",
+      "actuada": "/audios/06-mariana/MARIANA ACTUADA FINAL.wav",
+      "ingles": "",
+      "italiano": "",
+      "alAire": ""
+    },
+    "img": "/gallery/0601.jpeg",
+    "img2": "/gallery/0602.jpeg",
+    "img3": "/gallery/0603.jpeg",
+    "img4": "/gallery/0604.jpeg",
+    "img5": "/gallery/0605.jpeg"
+  },
+
   {
     "numero": "Locutora 21",
     "content": "Voz 21",
@@ -473,5 +498,30 @@
     "img3": "/gallery/2103.jpg",
     "img4": "/gallery/2104.jpg",
     "img5": "/gallery/2105.jpg"
+  },
+  {
+    "numero": "Locutor 22",
+    "content": "Voz 22",
+    "name": "Jorge Lezcano",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/1-jorge/JorgeInstitucional(musicalizado).mp3",
+      "dinamica": "/audios/1-jorge/JorgeDinamica(musicalizado).mp3",
+      "documental": "/audios/1-jorge/JorgeDocumental(musicalizado).mp3",
+      "emotiva": "/audios/1-jorge/JorgeEmotiva(musicalizado).mp3",
+      "informativa": "/audios/1-jorge/JorgeInformativa(musicalizado).mp3",
+      "seductora": "/audios/1-jorge/JorgeSeductora(musicalizado).mp3",
+      "actuada": "/audios/1-jorge/JorgeActuada(musicalizado).mp3",
+      "ingles": "",
+      "italiano": "",
+      "alAire": "",
+      "jingle": "/audios/1-jorge/JorgeCantada(musicalizado).mp3"
+    },
+    "img": "/gallery/jorge1.png",
+    "img2": "/gallery/jorge2.png",
+    "img3": "/gallery/jorge3.png",
+    "img4": "/gallery/jorge4.png",
+    "img5": "/gallery/jorge5.png"
   }
+
 ]
