@@ -283,7 +283,8 @@
     "img4": "/gallery/1204.jpeg",
     "img5": "/gallery/1205.jpeg"
   },
-  {
+ 
+ {
     "numero": "Locutora 13",
     "content": "Voz 13",
     "name": "Berenice Vazquez",
@@ -306,30 +307,29 @@
     "img4": "/gallery/vere4.png",
     "img5": "/gallery/vere5.png"
   },
- 
   {
-    "numero": "Locutora 15",
-    "content": "Voz 15",
-    "name": "Brenda Tapia",
-    "sexo": "mujer",
+    "numero": "Locutor 14",
+    "content": "Voz 14",
+    "name": "Edgar",
+    "sexo": "hombre",
     "jingle": true,
     "voz": {
-      "institucional": "/audios/15-brenda/Institucional_Brenda.wav",
-      "dinamica": "/audios/15-brenda/Dinamica_Brenda.wav",
-      "documental": "/audios/15-brenda/Documental_Brenda.wav",
-      "emotiva": "/audios/15-brenda/Emotiva_Brenda.wav",
-      "informativa": "/audios/15-brenda/Informativa_Brenda.wav",
-      "seductora": "/audios/15-brenda/Brenda Tapia seductora NEW.wav",
-      "actuada": "/audios/15-brenda/Actuada_Brenda.wav",
+      "institucional": "/audios/14_edgar/edgar_institucional.mp3",
+      "dinamica": "/audios/14_edgar/edgar_dinamica_editado.mp3",
+      "documental": "/audios/14_edgar/edgar_documental_editado.mp3",
+      "emotiva": "/audios/14_edgar/edgar_emotiva_editado.mp3",
+      "informativa": "/audios/14_edgar/edgar_informativa.mp3",
+      "seductora": "/audios/14_edgar/edgar_seductora.mp3",
+      "actuada": "",
       "ingles": "",
       "italiano": "",
-      "jingle": "/audios/15-brenda/Jingle_Brenda-Sin copyright.wav"
+      "jingle": ""
     },
-    "img": "/gallery/1502.jpeg",
-    "img2": "/gallery/1504.jpeg",
-    "img3": "/gallery/1503.jpeg",
-    "img4": "/gallery/1501.jpeg",
-    "img5": "/gallery/1505.jpeg"
+    "img": "/gallery/14_edgar/Edgar 3.png",
+    "img2": "/gallery/14_edgar/Edgar 2.png",
+    "img3": "/gallery/14_edgar/Edgar 4.png",
+    "img4": "/gallery/14_edgar/Edgar 1.png",
+    "img5": "/gallery/14_edgar/Edgar 5.png"
   },
   {
     "numero": "Locutora 16",
@@ -380,6 +380,30 @@
     "img5": "/gallery/alex-lastra-05.jpeg"
   },
  
+ {
+    "numero": "Locutor 18",
+    "content": "Voz 18",
+    "name": "Luis",
+    "sexo": "hombre",
+    "voz": {
+      "institucional": "/audios/18_luis/luis_institucional.mp3",
+      "dinamica": "/audios/18_luis/luis_dinamica.mp3",
+      "documental": "/audios/18_luis/luis_documental.mp3",
+      "emotiva": "/audios/18_luis/luis_emotiva.mp3",
+      "informativa": "/audios/18_luis/luis_informativa.mp3",
+      "seductora": "/audios/18_luis/luis_seductora.mp3",
+      "actuada": "",
+      "ingles": "",
+      "italiano": "",
+      "alAire": "",
+      "jingle": ""
+    },
+    "img": "/gallery/18_luis/Luis 3.png",
+    "img2": "/gallery/18_luis/Luis 2.png",
+    "img3": "/gallery/18_luis/Luis 1.png",
+    "img4": "/gallery/18_luis/Luis 4.png",
+    "img5": "/gallery/18_luis/Luis 5.png"
+  },
 
   {
     "numero": "Locutor 19",
